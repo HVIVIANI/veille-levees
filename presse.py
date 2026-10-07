@@ -11,7 +11,6 @@ import html
 import re
 import unicodedata
 import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -48,10 +47,15 @@ def normaliser(texte):
     return "".join(c for c in sans_accents if not unicodedata.combining(c)).casefold()
 
 
-def contient_un_mot(texte, mots):
-    """Vrai si le texte contient un mot qui commence par l'un des mots donnés."""
+def contient_un_mot(texte, mots, debut_seulement=True):
+    """Vrai si le texte contient l'un des mots donnés.
+
+    Avec debut_seulement, "Lyon" reconnaît aussi "lyonnaise". Sans, il faut le mot
+    exact : "French" ne doit pas reconnaître "FrenchWeb".
+    """
     propre = normaliser(texte)
-    return any(re.search(r"\b" + re.escape(normaliser(mot)), propre) for mot in mots)
+    fin = "" if debut_seulement else r"\b"
+    return any(re.search(r"\b" + re.escape(normaliser(mot)) + fin, propre) for mot in mots)
 
 
 def trouver_montant(texte):
@@ -76,34 +80,44 @@ def telecharger(url):
         return reponse.read()
 
 
-def _texte(noeud, nom):
-    for enfant in noeud:
-        if enfant.tag.split("}")[-1] == nom and enfant.text:
-            return enfant.text.strip()
-    return ""
+BLOC_ARTICLE = re.compile(r"<item\b.*?</item>", re.DOTALL | re.IGNORECASE)
+SIGNATURE = re.compile(r"L.article .{0,300}? est apparu en premier sur .*$", re.DOTALL)
+
+
+def _champs(bloc, nom):
+    """Renvoie tous les contenus d'une balise dans un bloc, nettoyés."""
+    trouves = re.findall(rf"<{nom}\b[^>]*>(.*?)</{nom}>", bloc, re.DOTALL | re.IGNORECASE)
+    propres = (re.sub(r"^<!\[CDATA\[|\]\]>$", "", t.strip()) for t in trouves)
+    return [html.unescape(p).strip() for p in propres if p.strip()]
 
 
 def lire_flux(contenu, nom_source):
-    """Transforme le contenu d'un flux RSS en liste d'articles."""
-    racine = ET.fromstring(contenu)
+    """Transforme le contenu d'un flux RSS en liste d'articles.
+
+    Lecture volontairement tolérante : on repère chaque bloc <item> un par un,
+    donc un flux un peu abîmé reste lisible.
+    """
+    texte = contenu.decode("utf-8", errors="replace") if isinstance(contenu, bytes) else contenu
     articles = []
-    for item in racine.iter():
-        if item.tag.split("}")[-1] != "item":
+    for bloc in BLOC_ARTICLE.findall(texte):
+        titre, lien, jour = (_champs(bloc, nom)[:1] for nom in ("title", "link", "pubDate"))
+        if not titre or not lien:
             continue
         try:
-            date = parsedate_to_datetime(_texte(item, "pubDate")).astimezone(timezone.utc).date().isoformat()
-        except (TypeError, ValueError):
+            date = parsedate_to_datetime(jour[0]).astimezone(timezone.utc).date().isoformat()
+        except (IndexError, TypeError, ValueError):
             date = datetime.now(timezone.utc).date().isoformat()
-        resume = re.sub(r"<[^>]+>", " ", html.unescape(_texte(item, "description")))
+        resume = re.sub(r"<[^>]+>", " ", " ".join(_champs(bloc, "description")[:1]))
+        resume = SIGNATURE.sub("", re.sub(r"\s+", " ", resume)).strip()
         articles.append({
             "source": nom_source,
-            "titre": html.unescape(_texte(item, "title")),
-            "lien": _texte(item, "link"),
+            "titre": titre[0],
+            "lien": lien[0],
             "date": date,
-            "categories": [e.text.strip() for e in item if e.tag.split("}")[-1] == "category" and e.text],
-            "resume": re.sub(r"\s+", " ", resume).strip()[:400],
+            "categories": _champs(bloc, "category"),
+            "resume": resume[:400],
         })
-    return [a for a in articles if a["titre"] and a["lien"]]
+    return articles
 
 
 def analyser(article, portee, mots_zone, mots_pays):
@@ -127,19 +141,23 @@ def analyser(article, portee, mots_zone, mots_pays):
         "montant_eur_estime": estimation,
         "zone": contient_un_mot(tout, mots_zone),
         # Un site français parle surtout de la France ; un site européen doit citer le pays.
-        "pays_ok": portee == "france" or contient_un_mot(tout, mots_pays),
+        "pays_ok": portee == "france" or contient_un_mot(tout, mots_pays, debut_seulement=False),
     }
 
 
-def _cle(texte):
-    """Comme normaliser, en traitant "IA" et "AI" comme le même mot (Edison IA = Edison AI)."""
-    return re.sub(r"\bia\b", "ai", normaliser(texte))
+# Mots qu'un journal omet souvent : "Mistral AI" devient "Mistral" dans un titre.
+SUFFIXE = re.compile(r"\s+(ai|ia|labs?|technologies|technology|tech|studio|solutions|systems|group|groupe|software|health)$")
 
 
 def parle_de(article, nom_entreprise):
-    """Vrai si le titre de l'article cite l'entreprise."""
-    nom = _cle(nom_entreprise)
-    return len(nom) >= 4 and re.search(r"\b" + re.escape(nom) + r"\b", _cle(article["titre"])) is not None
+    """Vrai si le titre de l'article cite l'entreprise, sous son nom complet ou son nom court."""
+    titre = normaliser(article["titre"])
+    nom = normaliser(nom_entreprise)
+    court = SUFFIXE.sub("", nom)
+    candidats = [nom] if len(nom) >= 4 else []
+    if court != nom and len(court) >= 5:
+        candidats.append(court)
+    return any(re.search(r"\b" + re.escape(c) + r"\b", titre) for c in candidats)
 
 
 def ecart_en_jours(date_a, date_b):

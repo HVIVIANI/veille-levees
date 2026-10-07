@@ -70,7 +70,7 @@
     {
       "nom": "FrenchWeb",
       "url": "https://www.frenchweb.fr/feed",
-      "portee": "france"
+      "portee": "europe"
     },
     {
       "nom": "Maddyness",
@@ -80,11 +80,6 @@
     {
       "nom": "EU-Startups",
       "url": "https://www.eu-startups.com/feed/",
-      "portee": "europe"
-    },
-    {
-      "nom": "FinSMEs",
-      "url": "https://www.finsmes.com/feed",
       "portee": "europe"
     },
     {

@@ -120,6 +120,44 @@ class TestCroisement(unittest.TestCase):
         self.assertTrue(self.par_nom["Vocca"]["zone"])
 
 
+class TestCasReels(unittest.TestCase):
+    """Défauts constatés lors du premier lancement réel, le 7 octobre 2026."""
+
+    def test_un_flux_abime_reste_lisible(self):
+        propre = (ICI / "flux_europeen.xml").read_text(encoding="utf-8")
+        abime = propre + "\n<p>texte parasite après la fin du flux</p>"
+        self.assertEqual(len(presse.lire_flux(abime.encode("utf-8"), "X")), 4)
+
+    def test_une_reponse_qui_n_est_pas_un_flux_donne_zero_article(self):
+        self.assertEqual(presse.lire_flux(b"<html><body>Acces refuse</body></html>", "X"), [])
+
+    def test_nom_court_dans_le_titre(self):
+        self.assertTrue(presse.parle_de({"titre": "Avec 3 milliards d’euros, MISTRAL change de métier"}, "Mistral AI"))
+        self.assertFalse(presse.parle_de({"titre": "Joe Dupont rejoint la direction"}, "Joe AI"))  # nom court trop bref
+
+    def test_frenchweb_ne_compte_pas_comme_france(self):
+        article = {"source": "FrenchWeb", "titre": "HYIMPULSE lève plus de 50 millions d’euros pour l’orbite",
+                   "lien": "x", "date": "2026-09-02", "categories": ["SPACE"],
+                   "resume": "La société allemande prépare son lanceur."}
+        self.assertFalse(presse.analyser(article, "europe", ZONE, PAYS)["pays_ok"])
+        article["categories"] = ["FRANCE", "LES LEVEES DE FONDS"]
+        self.assertTrue(presse.analyser(article, "europe", ZONE, PAYS)["pays_ok"])
+
+    def test_la_signature_du_site_est_retiree(self):
+        flux = """<rss><channel><item><title>X lève 2 millions d’euros</title><link>https://a.test/x</link>
+          <pubDate>Wed, 30 Sep 2026 06:20:30 +0000</pubDate>
+          <description><![CDATA[<p>Une startup allemande.</p><p>L’article <a href="#">X lève</a> est apparu en premier sur <a>FRENCHWEB.FR : innovation, tech, network</a>.</p>]]></description>
+          </item></channel></rss>"""
+        self.assertEqual(presse.lire_flux(flux, "FrenchWeb")[0]["resume"], "Une startup allemande.")
+
+    def test_villes_nettoyees(self):
+        brute = json.loads(json.dumps(ECHANTILLON["data"][0]))
+        brute["company"]["city"] = "paris"
+        self.assertEqual(veille.simplifier(brute, {}, "2026-10-07")["ville"], "Paris")
+        brute["company"]["city"] = "Zurich "
+        self.assertEqual(veille.simplifier(brute, {}, "2026-10-07")["ville"], "Zurich")
+
+
 class TestPannes(unittest.TestCase):
     def test_un_flux_en_panne_n_arrete_pas_les_autres(self):
         def telecharger(url):

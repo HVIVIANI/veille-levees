@@ -62,7 +62,9 @@ def recuperer_levees(pays, depuis, montant_min, lire=lire_json):
 def simplifier(levee, corrections_villes, aujourd_hui):
     """Ne garde que les champs utiles d'une levée, avec des noms simples."""
     entreprise = levee["company"]
-    ville = entreprise.get("city") or ""
+    ville = (entreprise.get("city") or "").strip()
+    if ville.islower():  # "paris" écrit sans majuscule dans la base
+        ville = ville.title()
     return {
         "id": levee["id"],
         "date": levee["date"],
@@ -107,9 +109,12 @@ def collecter_presse(config, telecharger=presse.telecharger):
     zone = config.get("zone_prioritaire", {}).get("mots", [])
     for flux in config.get("flux_presse", []):
         try:
-            lus = presse.lire_flux(telecharger(flux["url"]), flux["nom"])
-        except Exception as erreur:  # réseau, site en panne, flux mal formé...
-            etats.append({"nom": flux["nom"], "etat": "erreur", "detail": f"{type(erreur).__name__}: {erreur}"[:160]})
+            contenu = telecharger(flux["url"])
+            lus = presse.lire_flux(contenu, flux["nom"])
+            if not lus:  # le site a répondu, mais pas avec un flux d'articles
+                raise ValueError("aucun article trouvé ; début de la réponse : " + repr(contenu[:80]))
+        except Exception as erreur:  # réseau, site en panne, réponse inattendue...
+            etats.append({"nom": flux["nom"], "etat": "erreur", "detail": f"{type(erreur).__name__}: {erreur}"[:220]})
             print(f"{flux['nom']} : illisible ({erreur})")
             continue
         gardes = [a for a in (presse.analyser(l, flux["portee"], zone, config.get("mots_pays", [])) for l in lus) if a]
