@@ -39,6 +39,35 @@ class TestVeille(unittest.TestCase):
         self.assertEqual(par_nom["Vocca"]["vue_le"], "2026-10-06")
         self.assertEqual(par_nom["Archeon"]["vue_le"], "2026-10-07")
 
+    def test_une_panne_passagere_est_retentee(self):
+        import io, urllib.error
+        from unittest import mock
+        appels = []
+
+        def faux_urlopen(demande, timeout):
+            appels.append(1)
+            if len(appels) < 3:
+                raise urllib.error.HTTPError(demande.full_url, 503, "occupé", None, None)
+            return io.BytesIO(b'{"data": []}')
+
+        with mock.patch("urllib.request.urlopen", faux_urlopen), mock.patch("builtins.print"):
+            self.assertEqual(veille.lire_json("https://exemple.test", pause=0), {"data": []})
+        self.assertEqual(len(appels), 3)
+
+    def test_une_demande_refusee_arrete_tout_de_suite(self):
+        import urllib.error
+        from unittest import mock
+        appels = []
+
+        def faux_urlopen(demande, timeout):
+            appels.append(1)
+            raise urllib.error.HTTPError(demande.full_url, 400, "mauvaise demande", None, None)
+
+        with mock.patch("urllib.request.urlopen", faux_urlopen):
+            with self.assertRaises(SystemExit):
+                veille.lire_json("https://exemple.test", pause=0)
+        self.assertEqual(len(appels), 1)
+
     def test_recuperer_levees_suit_les_pages(self):
         demandes = []
 

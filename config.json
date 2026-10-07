@@ -4,7 +4,7 @@
     "Switzerland"
   ],
   "montant_min_eur": 1000000,
-  "jours_en_arriere": 7,
+  "jours_en_arriere": 30,
   "corrections_villes": {
     "Pari": "Paris",
     "Besancon": "Besançon"
@@ -14,5 +14,126 @@
     "Software",
     "Cloud",
     "Cybersecurity"
+  ],
+  "corrections_entreprises": {
+    "Hackuity": {
+      "ville": "Lyon"
+    }
+  },
+  "zone_prioritaire": {
+    "nom": "Lyon et Auvergne-Rhône-Alpes",
+    "mots": [
+      "Lyon",
+      "Villeurbanne",
+      "Écully",
+      "Auvergne-Rhône-Alpes",
+      "Grenobl",
+      "Isère",
+      "Saint-Étienne",
+      "stéphanois",
+      "Annecy",
+      "Clermont-Ferrand",
+      "Chambéry",
+      "Savoie"
+    ]
+  },
+  "mots_pays": [
+    "France",
+    "French",
+    "français",
+    "Paris",
+    "Lyon",
+    "Marseille",
+    "Toulouse",
+    "Bordeaux",
+    "Nantes",
+    "Lille",
+    "Grenobl",
+    "Montpellier",
+    "Rennes",
+    "Strasbourg",
+    "Suisse",
+    "Switzerland",
+    "Swiss",
+    "Zurich",
+    "Zürich",
+    "Genève",
+    "Geneva",
+    "Lausanne",
+    "Basel",
+    "Bâle",
+    "Zoug",
+    "Zug",
+    "Bern"
+  ],
+  "flux_presse": [
+    {
+      "nom": "FrenchWeb",
+      "url": "https://www.frenchweb.fr/feed",
+      "portee": "france"
+    },
+    {
+      "nom": "Maddyness",
+      "url": "https://www.maddyness.com/feed/",
+      "portee": "france"
+    },
+    {
+      "nom": "EU-Startups",
+      "url": "https://www.eu-startups.com/feed/",
+      "portee": "europe"
+    },
+    {
+      "nom": "Sifted",
+      "url": "https://sifted.eu/feed",
+      "portee": "europe"
+    }
+  ],
+  "mots_etranger": [
+    "allemand",
+    "Allemagne",
+    "Berlin",
+    "Munich",
+    "espagnol",
+    "Espagne",
+    "Madrid",
+    "Barcelone",
+    "luxembourg",
+    "britannique",
+    "Royaume-Uni",
+    "Londres",
+    "italien",
+    "Italie",
+    "Milan",
+    "néerlandais",
+    "Pays-Bas",
+    "Amsterdam",
+    "belge",
+    "Belgique",
+    "Bruxelles",
+    "suédois",
+    "Suède",
+    "Stockholm",
+    "danois",
+    "Danemark",
+    "finlandais",
+    "Finlande",
+    "norvégien",
+    "Norvège",
+    "portugais",
+    "Portugal",
+    "autrichien",
+    "Autriche",
+    "polonais",
+    "Pologne",
+    "américain",
+    "États-Unis",
+    "israélien",
+    "Israël",
+    "chinois",
+    "Chine",
+    "japonais",
+    "Japon",
+    "indien",
+    "Inde"
   ]
 }
