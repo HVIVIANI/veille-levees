@@ -56,6 +56,7 @@
     border-radius: 99rem; padding: 0.2rem 0.75rem;
   }
   .puce.prioritaire { background: var(--surligneur); }
+  #filtre-secteurs { display: contents; }
   .puce[aria-pressed="true"] { border-color: var(--encre); font-weight: 600; }
   .puce .nombre { color: var(--ardoise); margin-left: 0.3rem; }
   .puce.prioritaire .nombre { color: inherit; opacity: 0.7; }
@@ -89,6 +90,22 @@
   a { color: var(--action); text-underline-offset: 0.15em; }
   .liens a.principal { font-weight: 600; }
 
+  .badge.zone, .puce.zone { background: var(--encre); color: var(--papier); }
+  .puce.zone .nombre { color: inherit; opacity: 0.7; }
+  .puce.zone[aria-pressed="true"] { outline: 2px solid var(--encre); outline-offset: 2px; }
+  .articles { margin: 0.25rem 0 0; font-size: 0.85rem; color: var(--ardoise); }
+  .presse-seule { margin-top: 3.5rem; }
+  .presse-seule > h2 { font-size: 1.4rem; font-weight: 800; margin: 0 0 0.3rem; }
+  .presse-seule > p { color: var(--ardoise); margin: 0 0 0.75rem; max-width: 42rem; }
+  .article {
+    display: grid; grid-template-columns: 6.5rem minmax(0, 1fr) auto; gap: 0.15rem 1.25rem;
+    align-items: baseline; padding: 0.7rem 0; border-top: 1px solid var(--trait);
+  }
+  .article .montant { font-size: 1.2rem; }
+  .article .titre { margin: 0; }
+  .article .titre .badge { margin-left: 0.4rem; font-size: 0.85rem; }
+  .article .meta { font-size: 0.9rem; color: var(--ardoise); white-space: nowrap; }
+
   .message { border: 1.5px solid var(--trait); border-radius: 0.5rem; padding: 1.25rem; margin-top: 2rem; max-width: 42rem; }
   .message button { font: inherit; cursor: pointer; margin-top: 0.75rem; padding: 0.35rem 0.9rem; border-radius: 0.4rem; border: 1.5px solid var(--encre); background: transparent; color: inherit; }
   footer { margin-top: 4rem; font-size: 0.85rem; color: var(--ardoise); max-width: 42rem; }
@@ -98,6 +115,9 @@
     .levee { grid-template-columns: 5.2rem minmax(0, 1fr); }
     .montant { font-size: 1.2rem; }
     .details, .liens { grid-column: 2; }
+    .article { grid-template-columns: 5.2rem minmax(0, 1fr); }
+    .article .montant { font-size: 0.95rem; white-space: normal; }
+    .article .meta { grid-column: 2; }
     .liens { flex-direction: row; flex-wrap: wrap; gap: 0.2rem 1rem; text-align: left; margin-top: 0.3rem; }
     .liens a { white-space: nowrap; }
   }
@@ -126,13 +146,18 @@
         <input type="search" id="filtre-texte" placeholder="Entreprise, ville, investisseur">
       </label>
     </div>
-    <div class="puces" id="filtre-secteurs" role="group" aria-label="Secteurs"></div>
+    <div class="puces" role="group" aria-label="Zone et secteurs">
+      <button type="button" class="puce zone" id="filtre-zone" aria-pressed="false" hidden>Ma zone</button>
+      <span class="puces" id="filtre-secteurs"></span>
+    </div>
   </section>
 
   <div id="liste"></div>
+  <div id="presse"></div>
 
   <footer>
     <p>Données : <a href="https://funding.tech.eu">Tech.eu Funding Explorer</a>, sous licence CC BY 4.0. Les montants sont convertis en euros au taux de la BCE du jour de l'annonce.</p>
+    <p id="sources"></p>
   </footer>
 </main>
 
@@ -150,7 +175,7 @@ const NOMS_STADES = {
 };
 const NOMS_PAYS = { "France": "France", "Switzerland": "Suisse" };
 
-const etat = { levees: [], prioritaires: [], secteurs: new Set(), pays: "", montant: 0, texte: "", dernierPassage: null };
+const etat = { levees: [], prioritaires: [], secteurs: new Set(), pays: "", montant: 0, texte: "", dernierPassage: null, zone: false, presseSeule: [] };
 const $ = (id) => document.getElementById(id);
 
 function element(balise, classe, texte) {
@@ -177,6 +202,7 @@ const pluriel = (n, mot) => n + " " + mot + (n > 1 ? "s" : "");
 function filtrees() {
   const texte = etat.texte.trim().toLowerCase();
   return etat.levees.filter((l) =>
+    (!etat.zone || l.zone) &&
     (!etat.pays || l.pays === etat.pays) &&
     (l.montant_eur || 0) >= etat.montant &&
     (etat.secteurs.size === 0 || l.secteurs.some((s) => etat.secteurs.has(s))) &&
@@ -199,7 +225,7 @@ function dessinerSecteurs() {
     puce.addEventListener("click", () => {
       etat.secteurs.has(nom) ? etat.secteurs.delete(nom) : etat.secteurs.add(nom);
       dessinerSecteurs();
-      dessinerListe();
+      dessiner();
     });
     zone.append(puce);
   }
@@ -216,9 +242,20 @@ function ligne(levee) {
   if (etat.dernierPassage && levee.vue_le === etat.dernierPassage) nom.append(element("span", "nouveau", "nouveau"));
   identite.append(nom);
   if (levee.investisseurs.length) identite.append(element("p", "investisseurs", levee.investisseurs.join(", ")));
+  if (levee.presse && levee.presse.length) {
+    const articles = element("p", "articles", "Dans la presse : ");
+    levee.presse.forEach((a, i) => {
+      if (i) articles.append(", ");
+      const lien = element("a", "", a.source);
+      lien.href = a.lien; lien.title = a.titre; lien.target = "_blank"; lien.rel = "noopener";
+      articles.append(lien);
+    });
+    identite.append(articles);
+  }
   article.append(identite);
 
   const details = element("div", "details");
+  if (levee.zone) details.append(element("span", "badge zone", "Ma zone"));
   for (const s of levee.secteurs) {
     details.append(element("span", "badge" + (etat.prioritaires.includes(s) ? " prioritaire" : ""), secteur(s)));
   }
@@ -242,27 +279,13 @@ function dessinerListe() {
   const liste = $("liste");
   liste.replaceChildren();
   const visibles = filtrees();
-  if (visibles.length === 0) {
-    const vide = element("div", "message");
-    vide.append(element("p", "", "Aucune levée ne correspond à ces filtres. Retire un filtre pour élargir la recherche."));
-    const bouton = element("button", "", "Tout afficher");
-    bouton.type = "button";
-    bouton.addEventListener("click", () => {
-      etat.secteurs.clear(); etat.pays = ""; etat.montant = 0; etat.texte = "";
-      $("filtre-pays").value = ""; $("filtre-montant").value = "0"; $("filtre-texte").value = "";
-      dessinerSecteurs(); dessinerListe();
-    });
-    vide.append(bouton);
-    liste.append(vide);
-    return;
-  }
   const parJour = new Map();
   for (const l of visibles) {
     if (!parJour.has(l.date)) parJour.set(l.date, []);
     parJour.get(l.date).push(l);
   }
   for (const [jour, levees] of parJour) {
-    levees.sort((a, b) => (estPrioritaire(b) - estPrioritaire(a)) || (b.montant_eur || 0) - (a.montant_eur || 0));
+    levees.sort((a, b) => (Boolean(b.zone) - Boolean(a.zone)) || (estPrioritaire(b) - estPrioritaire(a)) || (b.montant_eur || 0) - (a.montant_eur || 0));
     const section = element("section", "jour");
     const titre = element("h2", "", jourEnClair(jour));
     titre.append(element("span", "", pluriel(levees.length, "levée")));
@@ -270,6 +293,60 @@ function dessinerListe() {
     levees.forEach((l) => section.append(ligne(l)));
     liste.append(section);
   }
+  return visibles.length;
+}
+
+// Articles de presse qui annoncent une levée absente de Tech.eu.
+function dessinerPresse() {
+  const zone = $("presse");
+  zone.replaceChildren();
+  if (etat.secteurs.size || etat.pays) return 0;  // un article n'a ni secteur ni pays fiable
+  const texte = etat.texte.trim().toLowerCase();
+  const visibles = etat.presseSeule
+    .filter((a) => (!etat.zone || a.zone) &&
+      (a.montant_eur_estime == null || a.montant_eur_estime >= etat.montant) &&
+      (!texte || a.titre.toLowerCase().includes(texte)))
+    .sort((a, b) => (Boolean(b.zone) - Boolean(a.zone)) || b.date.localeCompare(a.date));
+  if (!visibles.length) return 0;
+  const section = element("section", "presse-seule");
+  section.append(element("h2", "", "Vues dans la presse seulement"));
+  section.append(element("p", "", "Ces articles annoncent une levée que la base Tech.eu n'a pas, ou pas encore. À vérifier à la main : ni le secteur ni le pays ne sont garantis."));
+  for (const a of visibles) {
+    const ligneArticle = element("article", "article");
+    // Montant lu dans le titre. S'il n'est pas en euros, c'est une conversion approximative.
+    const enEuros = /euro|€/i.test(a.montant_texte || "");
+    ligneArticle.append(element("div", "montant", a.montant_eur_estime ? (enEuros ? "" : "≈ ") + montant(a.montant_eur_estime) : "n.c."));
+    const titre = element("p", "titre");
+    const lien = element("a", "", a.titre);
+    lien.href = a.lien; lien.target = "_blank"; lien.rel = "noopener";
+    titre.append(lien);
+    if (a.zone) titre.append(element("span", "badge zone", "Ma zone"));
+    ligneArticle.append(titre);
+    const jour = new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
+    ligneArticle.append(element("div", "meta", a.source + ", " + jour));
+    section.append(ligneArticle);
+  }
+  zone.append(section);
+  return visibles.length;
+}
+
+function toutAfficher() {
+  etat.secteurs.clear(); etat.pays = ""; etat.montant = 0; etat.texte = ""; etat.zone = false;
+  $("filtre-pays").value = ""; $("filtre-montant").value = "0"; $("filtre-texte").value = "";
+  $("filtre-zone").setAttribute("aria-pressed", "false");
+  dessinerSecteurs();
+  dessiner();
+}
+
+function dessiner() {
+  if (dessinerListe() + dessinerPresse() > 0) return;
+  const vide = element("div", "message");
+  vide.append(element("p", "", "Aucune levée ne correspond à ces filtres. Retire un filtre pour élargir la recherche."));
+  const bouton = element("button", "", "Tout afficher");
+  bouton.type = "button";
+  bouton.addEventListener("click", toutAfficher);
+  vide.append(bouton);
+  $("liste").append(vide);
 }
 
 async function demarrer() {
@@ -279,7 +356,10 @@ async function demarrer() {
       fetch("config.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
     ]);
     etat.levees = donnees.levees;
+    etat.presseSeule = donnees.presse_seule || [];
     etat.prioritaires = config.secteurs_prioritaires || [];
+    const nomZone = (config.zone_prioritaire || {}).nom || "";
+    const dansLaZone = etat.levees.filter((l) => l.zone).length + etat.presseSeule.filter((a) => a.zone).length;
     const seuil = config.montant_min_eur ? " d'au moins " + montant(config.montant_min_eur) : "";
     const passages = [...new Set(etat.levees.map((l) => l.vue_le))].sort();
     etat.dernierPassage = passages.length > 1 ? passages[passages.length - 1] : null;
@@ -293,15 +373,35 @@ async function demarrer() {
         ", depuis le " + new Date(dates[0] + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) +
         ". Mise à jour le " + majLe.toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) +
         " à " + majLe.toLocaleTimeString("fr-FR", { hour: "numeric", minute: "2-digit" }).replace(":", " h ") +
-        ". Les secteurs surlignés sont tes priorités.";
+        "." + (etat.presseSeule.length ? " " + pluriel(etat.presseSeule.length, "autre") + " vue" + (etat.presseSeule.length > 1 ? "s" : "") + " dans la presse seulement." : "") +
+        (nomZone ? " Dans ta zone (" + nomZone + ") : " + dansLaZone + "." : "") +
+        " Les secteurs surlignés sont tes priorités.";
+
+    if (dansLaZone) {
+      const bouton = $("filtre-zone");
+      bouton.hidden = false;
+      bouton.append(element("span", "nombre", dansLaZone));
+      bouton.addEventListener("click", () => {
+        etat.zone = !etat.zone;
+        bouton.setAttribute("aria-pressed", etat.zone);
+        dessiner();
+      });
+    }
+    const sources = donnees.sources || [];
+    if (sources.length) {
+      const enPanne = sources.filter((x) => x.etat !== "ok").map((x) => x.nom);
+      $("sources").textContent = "Sources lues à la dernière mise à jour : " +
+        sources.filter((x) => x.etat === "ok").map((x) => x.nom).join(", ") + "." +
+        (enPanne.length ? " En panne : " + enPanne.join(", ") + "." : "");
+    }
 
     for (const p of listePays) $("filtre-pays").append(new Option(pays(p), p));
-    $("filtre-pays").addEventListener("change", (e) => { etat.pays = e.target.value; dessinerListe(); });
-    $("filtre-montant").addEventListener("change", (e) => { etat.montant = Number(e.target.value); dessinerListe(); });
-    $("filtre-texte").addEventListener("input", (e) => { etat.texte = e.target.value; dessinerListe(); });
-    if (etat.levees.length) $("filtres").hidden = false;
+    $("filtre-pays").addEventListener("change", (e) => { etat.pays = e.target.value; dessiner(); });
+    $("filtre-montant").addEventListener("change", (e) => { etat.montant = Number(e.target.value); dessiner(); });
+    $("filtre-texte").addEventListener("input", (e) => { etat.texte = e.target.value; dessiner(); });
+    if (etat.levees.length || etat.presseSeule.length) $("filtres").hidden = false;
     dessinerSecteurs();
-    if (etat.levees.length) dessinerListe();
+    if (etat.levees.length || etat.presseSeule.length) dessiner();
   } catch (erreur) {
     $("resume").textContent = "Impossible de charger les données (data/levees.json). Recharge la page. Si le problème reste, vérifie dans l'onglet Actions du projet que le dernier lancement a réussi.";
   }

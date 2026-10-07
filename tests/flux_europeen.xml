@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Titres réels relevés le 6 octobre 2026 dans les flux EU-Startups, FinSMEs et Sifted. -->
+<rss version="2.0">
+<channel>
+  <title>Flux européen</title>
+  <item>
+    <title>Edonia raises €15 million for their meat-alternative</title>
+    <link>https://exemple.test/edonia</link>
+    <pubDate>Tue, 06 Oct 2026 14:47:28 +0000</pubDate>
+    <category>Funding</category>
+    <category>France-Startups</category>
+    <description>Paris-based foodtech Edonia has raised €15 million.</description>
+  </item>
+  <item>
+    <title>WhiteLab Genomics Raises $26M in Series B Funding</title>
+    <link>https://exemple.test/whitelab</link>
+    <pubDate>Tue, 06 Oct 2026 13:04:43 +0000</pubDate>
+    <category>France</category>
+    <description>WhiteLab Genomics, a Paris, France-based company, raised $26M.</description>
+  </item>
+  <item>
+    <title>Polygrade Raises $6.3M in Funding</title>
+    <link>https://exemple.test/polygrade</link>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <category>Germany</category>
+    <description>Polygrade, a Munich, Germany-based company, raised $6.3M.</description>
+  </item>
+  <item>
+    <title>Swiss-US company Namespace closes USD 42 Series B round</title>
+    <link>https://exemple.test/namespace</link>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+    <category>Funding</category>
+    <description>Zurich-founded Namespace has raised $42 million.</description>
+  </item>
+</channel>
+</rss>

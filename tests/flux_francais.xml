@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Extrait du flux FrenchWeb du 2 octobre 2026 (titres, dates et catégories réels),
+     plus un article "Hackuity" rédigé pour tester le repérage de la zone lyonnaise. -->
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>FRENCHWEB.FR</title>
+  <item>
+    <title>CMA Media, ODIGO, SQLI : les nominations de la semaine dans la tech et les médias</title>
+    <link>https://www.frenchweb.fr/nominations/463774</link>
+    <pubDate>Fri, 02 Oct 2026 05:30:17 +0000</pubDate>
+    <category><![CDATA[POWER SHIFTS]]></category>
+    <description><![CDATA[<p>Cette semaine, les mouvements se concentrent au sommet des organisations.</p>]]></description>
+  </item>
+  <item>
+    <title>ELEVENLABS valorisée 19,4 milliards d’euros : la bataille des agents vocaux entre dans les entreprises</title>
+    <link>https://www.frenchweb.fr/elevenlabs/463756</link>
+    <pubDate>Thu, 01 Oct 2026 07:50:02 +0000</pubDate>
+    <category><![CDATA[AI SHIFT]]></category>
+    <description><![CDATA[<p>Valorisée environ 19,4 milliards d’euros à l’occasion d’une opération de liquidité.</p>]]></description>
+  </item>
+  <item>
+    <title>Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires</title>
+    <link>https://www.frenchweb.fr/lupin-dental/463722</link>
+    <pubDate>Thu, 01 Oct 2026 04:16:55 +0000</pubDate>
+    <category><![CDATA[FRANCE]]></category>
+    <category><![CDATA[LES LEVEES DE FONDS]]></category>
+    <category><![CDATA[MEDTECH]]></category>
+    <category><![CDATA[Montpellier]]></category>
+    <description><![CDATA[<p>La société montpelliéraine entre sur un marché encore émergent.</p>]]></description>
+  </item>
+  <item>
+    <title>EDISON IA lève 1 million d&#8217;euros pour faire passer les PME de l’IA test à l’IA rentable</title>
+    <link>https://www.frenchweb.fr/edison-ia/463728</link>
+    <pubDate>Wed, 30 Sep 2026 06:20:30 +0000</pubDate>
+    <category><![CDATA[AI SHIFT]]></category>
+    <description><![CDATA[<p>À Nantes, Edison IA propose aux PME et ETI un modèle fondé sur l’intégration d’agents.</p>]]></description>
+  </item>
+  <item>
+    <title>Avec 30 millions d’euros, BIOLEVATE veut faire de l’IA un outil de conformité pour les laboratoires</title>
+    <link>https://www.frenchweb.fr/biolevate/463589</link>
+    <pubDate>Tue, 22 Sep 2026 09:58:29 +0000</pubDate>
+    <category><![CDATA[BIOTECH]]></category>
+    <category><![CDATA[FRANCE]]></category>
+    <category><![CDATA[LES LEVEES DE FONDS]]></category>
+    <description><![CDATA[<p>Biolevate annonce une série A de 30 millions d’euros.</p>]]></description>
+  </item>
+  <item>
+    <title>HighLife, Biolevate, Wealthcome : près de 189 millions d’euros levés dans la French Tech cette semaine</title>
+    <link>https://www.frenchweb.fr/recap/463698</link>
+    <pubDate>Fri, 25 Sep 2026 14:36:29 +0000</pubDate>
+    <category><![CDATA[LES LEVEES DE FONDS]]></category>
+    <description><![CDATA[<p>Du 19 au 25 septembre, 14 opérations françaises totalisent près de 189 M€.</p>]]></description>
+  </item>
+  <item>
+    <title>Hackuity lève 19 millions de dollars pour hiérarchiser les failles de sécurité</title>
+    <link>https://exemple.test/hackuity</link>
+    <pubDate>Wed, 16 Sep 2026 06:00:00 +0000</pubDate>
+    <category><![CDATA[CYBERSECURITE]]></category>
+    <description><![CDATA[<p>La startup lyonnaise boucle une série B menée par Forgepoint Capital International.</p>]]></description>
+  </item>
+  <item>
+    <title>Sopht lève 7,5 millions d’euros pour piloter l’efficience IT</title>
+    <link>https://exemple.test/sopht</link>
+    <pubDate>Tue, 15 Sep 2026 06:00:00 +0000</pubDate>
+    <description><![CDATA[<p>La jeune pousse basée à Lyon accélère son expansion internationale.</p>]]></description>
+  </item>
+  <item>
+    <title>PetiteBoite lève 300 000 euros auprès de business angels</title>
+    <link>https://exemple.test/petiteboite</link>
+    <pubDate>Tue, 15 Sep 2026 06:00:00 +0000</pubDate>
+    <category><![CDATA[LES LEVEES DE FONDS]]></category>
+    <description><![CDATA[<p>Un tour de 0,3 million d’euros.</p>]]></description>
+  </item>
+</channel>
+</rss>
