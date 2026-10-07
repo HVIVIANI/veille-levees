@@ -10,6 +10,7 @@ Deux familles de sources :
 """
 
 import json
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -27,22 +28,30 @@ JOURS_DE_MEMOIRE_PRESSE = 45
 ECART_MAX_ARTICLE_LEVEE = 14
 
 
-def lire_json(url):
+def lire_json(url, essais=3, pause=10):
     """Envoie une demande à l'API et renvoie sa réponse.
 
-    Si l'API refuse (code 400, 429...) ou est injoignable, le script s'arrête
-    avec un message clair au lieu de continuer avec zéro résultat.
+    Une panne passagère (réseau, serveur occupé) est retentée quelques fois.
+    Si l'API refuse la demande elle-même (code 400), ou reste injoignable, le
+    script s'arrête avec un message clair au lieu de continuer avec zéro résultat.
     """
     demande = urllib.request.Request(
         url, headers={"User-Agent": "veille-levees (github.com/HVIVIANI/veille-levees)"}
     )
-    try:
-        with urllib.request.urlopen(demande, timeout=30) as reponse:
-            return json.load(reponse)
-    except urllib.error.HTTPError as erreur:
-        raise SystemExit(f"L'API a refusé la demande (code {erreur.code}) : {url}")
-    except urllib.error.URLError as erreur:
-        raise SystemExit(f"API injoignable ({erreur.reason}) : {url}")
+    for essai in range(1, essais + 1):
+        try:
+            with urllib.request.urlopen(demande, timeout=30) as reponse:
+                return json.load(reponse)
+        except urllib.error.HTTPError as erreur:
+            if erreur.code not in (429, 500, 502, 503, 504) or essai == essais:
+                raise SystemExit(f"L'API a refusé la demande (code {erreur.code}) : {url}")
+            motif = f"code {erreur.code}"
+        except (urllib.error.URLError, TimeoutError) as erreur:
+            if essai == essais:
+                raise SystemExit(f"API injoignable ({erreur}) : {url}")
+            motif = str(erreur)
+        print(f"Tech.eu ne répond pas ({motif}), nouvel essai dans {pause} s")
+        time.sleep(pause)
 
 
 def recuperer_levees(pays, depuis, montant_min, lire=lire_json):
