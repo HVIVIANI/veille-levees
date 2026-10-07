@@ -1,0 +1,31 @@
+# Dit à GitHub Actions comment lancer la veille.
+# Pour l'instant : uniquement à la main, depuis l'onglet "Actions" du repo.
+name: Veille des levées
+
+on:
+  workflow_dispatch:
+
+# Autorise ce lancement à enregistrer le résultat dans le repo.
+permissions:
+  contents: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code du repo
+        uses: actions/checkout@v4
+
+      - name: Vérifier le script (tests)
+        run: python3 -m unittest discover tests
+
+      - name: Interroger l'API et écrire data/levees.json
+        run: python3 veille.py
+
+      - name: Enregistrer le résultat dans le repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/levees.json
+          git diff --cached --quiet || git commit -m "Mise à jour des levées"
+          git push
