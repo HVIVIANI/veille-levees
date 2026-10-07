@@ -5,9 +5,13 @@ name: Veille des levées
 on:
   workflow_dispatch:
   schedule:
-    # Tous les jours à 4 h 47 en temps universel : 6 h 47 à Paris en été, 5 h 47 en hiver.
+    # Objectif : une mise à jour vers 8 h 50, heure de Paris, toute l'année.
+    # GitHub compte en temps universel et ignore le changement d'heure, d'où deux lignes :
+    # la première tombe à 8 h 50 en été, la seconde à 8 h 50 en hiver.
+    # L'autre passage du jour (7 h 50 en hiver, 9 h 50 en été) ne fait que rafraîchir la page.
     # Les 5 champs se lisent : minute, heure, jour du mois, mois, jour de la semaine.
-    - cron: "47 4 * * *"
+    - cron: "50 6 * * *"
+    - cron: "50 7 * * *"
 
 # Autorise ce lancement à enregistrer le résultat dans le repo.
 permissions:
