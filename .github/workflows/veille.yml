@@ -1,9 +1,13 @@
 # Dit à GitHub Actions comment lancer la veille.
-# Pour l'instant : uniquement à la main, depuis l'onglet "Actions" du repo.
+# Deux déclencheurs : chaque matin tout seul, et à la main depuis l'onglet "Actions".
 name: Veille des levées
 
 on:
   workflow_dispatch:
+  schedule:
+    # Tous les jours à 4 h 47 en temps universel : 6 h 47 à Paris en été, 5 h 47 en hiver.
+    # Les 5 champs se lisent : minute, heure, jour du mois, mois, jour de la semaine.
+    - cron: "47 4 * * *"
 
 # Autorise ce lancement à enregistrer le résultat dans le repo.
 permissions:
