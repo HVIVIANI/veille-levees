@@ -1,0 +1,372 @@
+{
+  "mis_a_jour": "2026-10-07T14:31:15+00:00",
+  "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
+  "levees": [
+    {
+      "id": "577C71C3-3FFF-4783-91B4-B08B57C1A5E8",
+      "date": "2026-10-06",
+      "entreprise": "Wiremind",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 35000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Seaya Andromeda",
+        "IronWave",
+        "Bpifrance Investissement"
+      ],
+      "source": "pressreleasehub.pa.media",
+      "confiance": "low",
+      "lien": "https://funding.tech.eu/deals/577C71C3-3FFF-4783-91B4-B08B57C1A5E8",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "F52BB590-9CC7-47B1-AF0F-75E181B89B24",
+      "date": "2026-10-06",
+      "entreprise": "Whitelab Genomics",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 23200000,
+      "stade": "Series B",
+      "investisseurs": [
+        "AVP",
+        "Omnes Capital",
+        "Yaday Health",
+        "Debiopharm Innovation Fund",
+        "Blast Club"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/F52BB590-9CC7-47B1-AF0F-75E181B89B24",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "905FBA62-9D58-48AD-9C07-78747B4CF17F",
+      "date": "2026-10-06",
+      "entreprise": "Vocca",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 17747804,
+      "stade": "Other",
+      "investisseurs": [
+        "Firstminute Capital",
+        "Speedinvest",
+        "Heal Capital",
+        "Norrsken"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/905FBA62-9D58-48AD-9C07-78747B4CF17F",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "6C4467E9-993A-4618-8C39-686B108B5121",
+      "date": "2026-10-06",
+      "entreprise": "Vates",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Cloud"
+      ],
+      "montant_eur": 30000000,
+      "stade": "Other",
+      "investisseurs": [
+        "IRIS’ Growth fund",
+        "Bpifrance"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/6C4467E9-993A-4618-8C39-686B108B5121",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "2A37C073-40EC-445E-8DEC-A9BF501B5E05",
+      "date": "2026-10-06",
+      "entreprise": "Spiko",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 79865117,
+      "stade": "Series B",
+      "investisseurs": [
+        "New Enterprise Associates (NEA)",
+        "Axel Weber",
+        "White Star Capital",
+        "Index Ventures",
+        "SpeedInvest"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/2A37C073-40EC-445E-8DEC-A9BF501B5E05",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
+      "date": "2026-10-06",
+      "entreprise": "Edonia",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Foodtech"
+      ],
+      "montant_eur": 12000000,
+      "stade": "Other",
+      "investisseurs": [
+        "the European Union's EIT Food",
+        "Bpifrance",
+        "Swen Blue Ocean 2",
+        "Asterion Ventures"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "3F6E88B6-8D4B-4625-9765-C5C1AF1C82FC",
+      "date": "2026-10-06",
+      "entreprise": "Cleavr",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 8000000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Varsity Capital",
+        "Kerala Ventures",
+        "Better Angle",
+        "Financière Saint James",
+        "Portfolio Ventures",
+        "Kima Ventures"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/3F6E88B6-8D4B-4625-9765-C5C1AF1C82FC",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "64703AE8-9807-49E0-AB85-DB07FB924FE8",
+      "date": "2026-10-06",
+      "entreprise": "Archeon",
+      "pays": "France",
+      "ville": "Besançon",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 7986512,
+      "stade": "Series A",
+      "investisseurs": [
+        "Majycc Innovation Santé",
+        "Eiffel Investment Group",
+        "Karot Capital",
+        "UI Investissement",
+        "Newfund"
+      ],
+      "source": "finsmes.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/64703AE8-9807-49E0-AB85-DB07FB924FE8",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "0E1F23DF-397C-43DC-AE1A-8902C6696E9B",
+      "date": "2026-10-05",
+      "entreprise": "SensorX Solutions",
+      "pays": "Switzerland",
+      "ville": "Obwalden",
+      "secteurs": [
+        "Cleantech"
+      ],
+      "montant_eur": 1610998,
+      "stade": "Seed",
+      "investisseurs": [
+        "founding team",
+        "Swiss Technology Fund"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/0E1F23DF-397C-43DC-AE1A-8902C6696E9B",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "79F65E4C-0EFF-420C-B3BE-61592B335A51",
+      "date": "2026-10-05",
+      "entreprise": "Namespace",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 37486612,
+      "stade": "Series B",
+      "investisseurs": [
+        "Olivier Pomel",
+        "Burst Capital",
+        "NEA",
+        "Essence VC",
+        "Scale Venture Partners",
+        "20VC"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/79F65E4C-0EFF-420C-B3BE-61592B335A51",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "C6659B7A-8A3D-4EF4-B0AD-1C8F5821D835",
+      "date": "2026-10-05",
+      "entreprise": "Fleuret AI",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Cybersecurity"
+      ],
+      "montant_eur": 4000000,
+      "stade": "Pre-Seed",
+      "investisseurs": [
+        "Better Angle",
+        "Wind",
+        "Raise Ventures",
+        "Auriga Cyber Ventures"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/C6659B7A-8A3D-4EF4-B0AD-1C8F5821D835",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "65FD5852-B0B0-42F3-BCE0-2472FC6D589A",
+      "date": "2026-10-01",
+      "entreprise": "Voltaback",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 2800000,
+      "stade": "Other",
+      "investisseurs": [
+        "Maxime Brousse",
+        "Aurélien de Meaux",
+        "Serena"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/65FD5852-B0B0-42F3-BCE0-2472FC6D589A",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "20833559-0097-4340-B3EC-CDB8F09A576C",
+      "date": "2026-10-01",
+      "entreprise": "Joe AI",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 2000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Plug and Play Ventures",
+        "Benjamin Chemla",
+        "Xplore",
+        "Marc Menasé"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/20833559-0097-4340-B3EC-CDB8F09A576C",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "92FE698A-64AA-463A-A4F9-14F9CB9F66B8",
+      "date": "2026-10-01",
+      "entreprise": "FOOD FOUNDERS Studio",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "Foodtech"
+      ],
+      "montant_eur": 4000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Family Offices"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/92FE698A-64AA-463A-A4F9-14F9CB9F66B8",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "22B4E8DE-D331-44F0-8814-0095C26527E6",
+      "date": "2026-09-30",
+      "entreprise": "Inbolt",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 11000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Shift4Good",
+        "Ora Global",
+        "BNP Paribas Développement",
+        "Bridges Climate Transition Partners"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/22B4E8DE-D331-44F0-8814-0095C26527E6",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "C8FD8AB4-D617-4ADB-B32D-7B7F2B784754",
+      "date": "2026-09-30",
+      "entreprise": "EDISON AI",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 1000000,
+      "stade": "Other",
+      "investisseurs": [
+        "CIC Ouest",
+        "Go Capital",
+        "Bpifrance"
+      ],
+      "source": "frenchweb.fr",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/C8FD8AB4-D617-4ADB-B32D-7B7F2B784754",
+      "vue_le": "2026-10-07"
+    },
+    {
+      "id": "08A741F0-C0B2-436A-B9BB-C487E0428CA0",
+      "date": "2026-09-30",
+      "entreprise": "Bee People",
+      "pays": "Switzerland",
+      "ville": "St. Moritz",
+      "secteurs": [
+        "Wellness & Beauty"
+      ],
+      "montant_eur": 1371597,
+      "stade": "Seed",
+      "investisseurs": [],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/08A741F0-C0B2-436A-B9BB-C487E0428CA0",
+      "vue_le": "2026-10-07"
+    }
+  ]
+}
