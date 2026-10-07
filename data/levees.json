@@ -1,6 +1,37 @@
 {
-  "mis_a_jour": "2026-10-07T14:31:15+00:00",
+  "mis_a_jour": "2026-10-07T15:29:39+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
+  "sources": [
+    {
+      "nom": "Tech.eu",
+      "etat": "ok",
+      "levees": 48
+    },
+    {
+      "nom": "FrenchWeb",
+      "etat": "ok",
+      "articles_lus": 100,
+      "articles_levees": 21
+    },
+    {
+      "nom": "Maddyness",
+      "etat": "ok",
+      "articles_lus": 10,
+      "articles_levees": 3
+    },
+    {
+      "nom": "EU-Startups",
+      "etat": "ok",
+      "articles_lus": 10,
+      "articles_levees": 8
+    },
+    {
+      "nom": "Sifted",
+      "etat": "ok",
+      "articles_lus": 24,
+      "articles_levees": 4
+    }
+  ],
   "levees": [
     {
       "id": "577C71C3-3FFF-4783-91B4-B08B57C1A5E8",
@@ -21,7 +52,15 @@
       "source": "pressreleasehub.pa.media",
       "confiance": "low",
       "lien": "https://funding.tech.eu/deals/577C71C3-3FFF-4783-91B4-B08B57C1A5E8",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "Maddyness",
+          "titre": "12 ans après sa création, Wiremind boucle un premier tour de table de 35 millions d’euros",
+          "lien": "https://www.maddyness.com/2026/10/06/12-ans-apres-sa-creation-wiremind-boucle-un-premier-tour-de-table-de-35-millions-deuros/"
+        }
+      ],
+      "zone": false
     },
     {
       "id": "F52BB590-9CC7-47B1-AF0F-75E181B89B24",
@@ -44,7 +83,9 @@
       "source": "eu-startups.com",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/F52BB590-9CC7-47B1-AF0F-75E181B89B24",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "905FBA62-9D58-48AD-9C07-78747B4CF17F",
@@ -66,7 +107,15 @@
       "source": "maddyness.com",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/905FBA62-9D58-48AD-9C07-78747B4CF17F",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "Sifted",
+          "titre": "Voice AI startup Vocca raises $20m to automate patient phone calls",
+          "lien": "https://sifted.eu/articles/vocca-voice-ai-healthtech-series-a/"
+        }
+      ],
+      "zone": false
     },
     {
       "id": "6C4467E9-993A-4618-8C39-686B108B5121",
@@ -86,7 +135,9 @@
       "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/6C4467E9-993A-4618-8C39-686B108B5121",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "2A37C073-40EC-445E-8DEC-A9BF501B5E05",
@@ -109,7 +160,15 @@
       "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/2A37C073-40EC-445E-8DEC-A9BF501B5E05",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "Sifted",
+          "titre": "Spiko raises $90m in Series B backed by Index Ventures and Speedinvest",
+          "lien": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/"
+        }
+      ],
+      "zone": false
     },
     {
       "id": "B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
@@ -131,7 +190,20 @@
       "source": "maddyness.com",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Up to 27 times lower carbon footprint than beef – Edonia raises €15 million for their meat-alternative",
+          "lien": "https://www.eu-startups.com/2026/10/up-to-27-times-lower-carbon-footprint-than-beef-edonia-raises-e15-million-for-their-meat-alternative/"
+        },
+        {
+          "source": "Maddyness",
+          "titre": "Edonia lève 15 millions d’euros pour industrialiser son alternative à la viande à base de microalgues",
+          "lien": "https://www.maddyness.com/2026/10/06/edonia-leve-12-millions-deuros-pour-industrialiser-son-alternative-a-la-viande-a-base-de-microalgues/"
+        }
+      ],
+      "zone": false
     },
     {
       "id": "3F6E88B6-8D4B-4625-9765-C5C1AF1C82FC",
@@ -155,7 +227,20 @@
       "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/3F6E88B6-8D4B-4625-9765-C5C1AF1C82FC",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "CLEAVR lève 8 millions d’euros pour automatiser l’encaissement des factures",
+          "lien": "https://www.frenchweb.fr/cleavr-leve-8-millions-deuros-pour-automatiser-lencaissement-des-factures/463793"
+        },
+        {
+          "source": "Maddyness",
+          "titre": "Cleavr lève 8 millions d’euros pour venir à bout des retards de paiement",
+          "lien": "https://www.maddyness.com/2026/10/06/cleavr-leve-8-millions-deuros-pour-venir-a-bout-des-retards-de-paiement/"
+        }
+      ],
+      "zone": false
     },
     {
       "id": "64703AE8-9807-49E0-AB85-DB07FB924FE8",
@@ -178,7 +263,9 @@
       "source": "finsmes.com",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/64703AE8-9807-49E0-AB85-DB07FB924FE8",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "0E1F23DF-397C-43DC-AE1A-8902C6696E9B",
@@ -198,7 +285,9 @@
       "source": "startupticker.ch",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/0E1F23DF-397C-43DC-AE1A-8902C6696E9B",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "79F65E4C-0EFF-420C-B3BE-61592B335A51",
@@ -222,7 +311,9 @@
       "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/79F65E4C-0EFF-420C-B3BE-61592B335A51",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "C6659B7A-8A3D-4EF4-B0AD-1C8F5821D835",
@@ -244,7 +335,9 @@
       "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/C6659B7A-8A3D-4EF4-B0AD-1C8F5821D835",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "65FD5852-B0B0-42F3-BCE0-2472FC6D589A",
@@ -265,7 +358,9 @@
       "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/65FD5852-B0B0-42F3-BCE0-2472FC6D589A",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "20833559-0097-4340-B3EC-CDB8F09A576C",
@@ -287,7 +382,9 @@
       "source": "maddyness.com",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/20833559-0097-4340-B3EC-CDB8F09A576C",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "92FE698A-64AA-463A-A4F9-14F9CB9F66B8",
@@ -306,7 +403,9 @@
       "source": "startupticker.ch",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/92FE698A-64AA-463A-A4F9-14F9CB9F66B8",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "22B4E8DE-D331-44F0-8814-0095C26527E6",
@@ -328,7 +427,9 @@
       "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/22B4E8DE-D331-44F0-8814-0095C26527E6",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
     },
     {
       "id": "C8FD8AB4-D617-4ADB-B32D-7B7F2B784754",
@@ -349,7 +450,15 @@
       "source": "frenchweb.fr",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/C8FD8AB4-D617-4ADB-B32D-7B7F2B784754",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "EDISON IA lève 1 million d’euros pour faire passer les PME de l’IA test à l’IA rentable",
+          "lien": "https://www.frenchweb.fr/edison-ia-leve-1-me-pour-faire-passer-les-pme-de-lia-test-a-lia-rentable/463728"
+        }
+      ],
+      "zone": false
     },
     {
       "id": "08A741F0-C0B2-436A-B9BB-C487E0428CA0",
@@ -366,7 +475,1241 @@
       "source": "startupticker.ch",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/08A741F0-C0B2-436A-B9BB-C487E0428CA0",
-      "vue_le": "2026-10-07"
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "C52BC36A-214C-45D4-8579-32D898508BD5",
+      "date": "2026-09-29",
+      "entreprise": "Rayon",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 10000000,
+      "stade": "Series A",
+      "investisseurs": [
+        "Northzone",
+        "Partech",
+        "Foundamental",
+        "Seedcamp"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/C52BC36A-214C-45D4-8579-32D898508BD5",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "29D26B19-83CF-4D62-9879-79B80DAE8529",
+      "date": "2026-09-29",
+      "entreprise": "Marble",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 6500000,
+      "stade": "Series A",
+      "investisseurs": [
+        "Passion Capital",
+        "Hexa",
+        "42Capital",
+        "ADNEXUS",
+        "SmartFin"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/29D26B19-83CF-4D62-9879-79B80DAE8529",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "MARBLE lève 6,5 millions d’euros pour rendre la conformité financière programmable",
+          "lien": "https://www.frenchweb.fr/marble-leve-65-millions-deuros-pour-rendre-la-conformite-financiere-programmable/463724"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "878DF480-A194-4BEB-88AA-D7A17BD4F276",
+      "date": "2026-09-29",
+      "entreprise": "Graneet",
+      "pays": "France",
+      "ville": "",
+      "secteurs": [
+        "Proptech"
+      ],
+      "montant_eur": 7000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Axeleo Capital",
+        "Point Nine",
+        "RAISE Sherpas",
+        "Fundamental Labs",
+        "Nicolas Dessaigne",
+        "Jean-Christophe Taunay-Bucalo"
+      ],
+      "source": "frenchweb.fr",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/878DF480-A194-4BEB-88AA-D7A17BD4F276",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "GRANEET lève 7 millions d’euros pour faire de la facture électronique le point d’entrée de l’ERP de chantier",
+          "lien": "https://www.frenchweb.fr/graneet-leve-7-millions-deuros-pour-faire-de-la-facture-electronique-le-point-dentree-de-lerp-de-chantier/463674"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "E27CD29A-019A-44F1-BA12-7A3C5F7286CD",
+      "date": "2026-09-28",
+      "entreprise": "One Biosciences",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 3300000,
+      "stade": "Grant",
+      "investisseurs": [
+        "Bpifrance"
+      ],
+      "source": "finsmes.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/E27CD29A-019A-44F1-BA12-7A3C5F7286CD",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "86F5ABC5-DF09-49D7-9BAB-ACD4075660D4",
+      "date": "2026-09-24",
+      "entreprise": "Wealthcome",
+      "pays": "France",
+      "ville": "Bordeaux",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 15000000,
+      "stade": "Series B",
+      "investisseurs": [
+        "BlackFin Capital Partners",
+        "Breega"
+      ],
+      "source": "frenchweb.fr",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/86F5ABC5-DF09-49D7-9BAB-ACD4075660D4",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "WEALTHCOME lève 15 millions d’euros pour défier Harvest et accélérer auprès des grands comptes",
+          "lien": "https://www.frenchweb.fr/wealthcome-leve-15-millions-deuros-pour-defier-harvest-et-accelerer-aupres-des-grands-comptes/463648"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "3DD57E6B-2D94-44F9-87E2-3A6C17500C3A",
+      "date": "2026-09-22",
+      "entreprise": "Zeliq",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 7000000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Ora Global",
+        "The Moon Venture",
+        "Julien Jean",
+        "Cleo Ventures",
+        "Sylvestre Blavet"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/3DD57E6B-2D94-44F9-87E2-3A6C17500C3A",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "BD35C1D3-6393-4154-9038-15C2764E4684",
+      "date": "2026-09-22",
+      "entreprise": "Relaisante",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 6000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Ternel",
+        "AFI Ventures",
+        "Elaia",
+        "Aquiti"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/BD35C1D3-6393-4154-9038-15C2764E4684",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "074AEBA8-0FA7-4866-8510-315B2B840AD8",
+      "date": "2026-09-22",
+      "entreprise": "Primo",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 6978976,
+      "stade": "Other",
+      "investisseurs": [
+        "Global Founders Capital",
+        "Arthur Waller",
+        "Headline",
+        "Romain Niccoli"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/074AEBA8-0FA7-4866-8510-315B2B840AD8",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "PRIMO lève près de 7 millions d’euros pour faire gérer votre IT par ses agents IA",
+          "lien": "https://www.frenchweb.fr/primo-leve-pres-de-7-millions-deuros-pour-faire-gerer-votre-it-par-ses-agents-ia/463585"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "6CF5F186-6B46-495A-B4F7-1E25C5459788",
+      "date": "2026-09-22",
+      "entreprise": "Lightspring",
+      "pays": "France",
+      "ville": "Besançon",
+      "secteurs": [
+        "Deeptech"
+      ],
+      "montant_eur": 3100000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Ovni Capital",
+        "Plug and Play Ventures",
+        "Atlantic.vc",
+        "Concept Ventures",
+        "iXcore"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/6CF5F186-6B46-495A-B4F7-1E25C5459788",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "LIGHTSPRING lève 3,1 millions d’euros pour s’attaquer au maillon faible des puces photoniques",
+          "lien": "https://www.frenchweb.fr/lightspring-leve-31-millions-deuros-pour-sattaquer-au-maillon-faible-des-puces-photoniques/463607"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "C8B7B768-342E-4CC2-9061-948FF2546700",
+      "date": "2026-09-22",
+      "entreprise": "HighLife",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 80000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Supernova Invest",
+        "Sofinnova Partners",
+        "Mérieux Equity Partners",
+        "Andera Partners"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/C8B7B768-342E-4CC2-9061-948FF2546700",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "B20CDA58-4DF7-49D7-B671-21D572FB946B",
+      "date": "2026-09-22",
+      "entreprise": "Biolevate",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 30000000,
+      "stade": "Series A",
+      "investisseurs": [
+        "STATION F",
+        "RAISE France",
+        "Orange Ventures",
+        "MSD Global Health Innovation Fund (MGHIF)",
+        "EQT Ventures"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B20CDA58-4DF7-49D7-B671-21D572FB946B",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "Avec 30 millions d’euros, BIOLEVATE veut faire de l’IA un outil de conformité pour les laboratoires",
+          "lien": "https://www.frenchweb.fr/avec-30-millions-deuros-biolevate-veut-faire-de-lia-un-outil-de-conformite-pour-les-laboratoires/463589"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "E066C68A-6368-412C-B2DD-F3ACA78FB2F1",
+      "date": "2026-09-21",
+      "entreprise": "KHEOPS",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "E-commerce"
+      ],
+      "montant_eur": 15000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Odyssée Venture",
+        "Elaia",
+        "ISAI"
+      ],
+      "source": "frenchweb.fr",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/E066C68A-6368-412C-B2DD-F3ACA78FB2F1",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "KHEOPS lève 12 millions d’euros pour passer du workflow à l’intelligence de l’assortiment",
+          "lien": "https://www.frenchweb.fr/kheops-leve-15-millions-deuros-pour-passer-du-workflow-a-lintelligence-de-lassortiment/463552"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "0A2A6CAB-26DE-44AC-8A93-0FA4E9848927",
+      "date": "2026-09-16",
+      "entreprise": "Opio",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 4000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Frst",
+        "Seedcamp",
+        "Global Founders Capital"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/0A2A6CAB-26DE-44AC-8A93-0FA4E9848927",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "93BE325A-45E6-4A1D-906E-6B03F0CCBFC1",
+      "date": "2026-09-16",
+      "entreprise": "Hackuity",
+      "pays": "France",
+      "ville": "Lyon",
+      "secteurs": [
+        "Cybersecurity"
+      ],
+      "montant_eur": 16468753,
+      "stade": "Other",
+      "investisseurs": [
+        "Bpifrance",
+        "Bright Pixel",
+        "Seventure Partners",
+        "Forgepoint Capital International"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/93BE325A-45E6-4A1D-906E-6B03F0CCBFC1",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": true
+    },
+    {
+      "id": "B2DFE5DF-0875-4D30-A3D8-61A11F560048",
+      "date": "2026-09-16",
+      "entreprise": "ETFbook",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 11268094,
+      "stade": "Other",
+      "investisseurs": [
+        "Expedition Growth Capital",
+        "Blackfin Capital Partners"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B2DFE5DF-0875-4D30-A3D8-61A11F560048",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "62EC2914-8FF4-482E-826E-99398C6676C8",
+      "date": "2026-09-16",
+      "entreprise": "Delos",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 10000000,
+      "stade": "Series A",
+      "investisseurs": [
+        "Founders Future",
+        "Bpifrance",
+        "C4 Ventures"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/62EC2914-8FF4-482E-826E-99398C6676C8",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "3D9A7846-4565-4621-BA42-4D5692892BC0",
+      "date": "2026-09-14",
+      "entreprise": "Kaiko",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 49346377,
+      "stade": "Series B",
+      "investisseurs": [
+        "Nasdaq Ventures",
+        "Revaia",
+        "Anthemis",
+        "Royal Bank of Canada",
+        "DRW Venture Capital",
+        "S&P Global",
+        "Bpifrance",
+        "Broadridge",
+        "Susquehanna Private Equity Investments",
+        "Canton Foundation",
+        "Stellar Ventures",
+        "BNP Paribas",
+        "Point Nine",
+        "Coinbase Ventures"
+      ],
+      "source": "finsmes.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/3D9A7846-4565-4621-BA42-4D5692892BC0",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "9F0FF399-4361-442A-BBDA-530E362CCD00",
+      "date": "2026-09-14",
+      "entreprise": "Ferm Labs",
+      "pays": "Switzerland",
+      "ville": "Zug",
+      "secteurs": [
+        "Agritech"
+      ],
+      "montant_eur": 3000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Fund F",
+        "CDP Venture Capital",
+        "Redstone",
+        "Loacker"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/9F0FF399-4361-442A-BBDA-530E362CCD00",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "440E3456-D48E-4B32-9FB4-4701DD3AA841",
+      "date": "2026-09-14",
+      "entreprise": "Aeon",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 3800000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Araya Ventures",
+        "Kadmos Capital",
+        "N&V Capital",
+        "Concentric",
+        "GoHub Ventures",
+        "Bigwave Capital",
+        "CalmStorm Ventures"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/440E3456-D48E-4B32-9FB4-4701DD3AA841",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "7BCE71AC-5939-49E0-82EC-3B953A2017CA",
+      "date": "2026-09-10",
+      "entreprise": "Ed.ai",
+      "pays": "France",
+      "ville": "Lyon",
+      "secteurs": [
+        "Edtech"
+      ],
+      "montant_eur": 5000000,
+      "stade": "Other",
+      "investisseurs": [
+        "La Poste Ventures",
+        "Bpifrance",
+        "50 Partners"
+      ],
+      "source": "frenchweb.fr",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/7BCE71AC-5939-49E0-82EC-3B953A2017CA",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "Ed.ai lève 5 millions d’euros pour aider les professeurs à faire progresser chaque élève",
+          "lien": "https://www.frenchweb.fr/ed-ai-leve-5-millions-deuros-pour-transformer-chaque-copie-en-plan-de-remediation/463368"
+        }
+      ],
+      "zone": true
+    },
+    {
+      "id": "791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226",
+      "date": "2026-09-10",
+      "entreprise": "Arlequin AI",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 28000000,
+      "stade": "Series A",
+      "investisseurs": [
+        "Bpifrance’s Defence Innovation Fund",
+        "Redalpine",
+        "Vsquared Ventures",
+        "OTB Ventures",
+        "10x Founders"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "ARLEQUIN AI lève 28 millions d’euros pour construire une alternative européenne à Palantir",
+          "lien": "https://www.frenchweb.fr/arlequin-ai-leve-28-millions-deuros-pour-construire-une-alternative-europeenne-a-palantir/463365"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "8CCB9767-CAEC-4E79-BA74-659072B21914",
+      "date": "2026-09-09",
+      "entreprise": "Implicity",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 35000000,
+      "stade": "Growth/Late",
+      "investisseurs": [
+        "Five Arrows",
+        "IRIS"
+      ],
+      "source": "techfundingnews.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/8CCB9767-CAEC-4E79-BA74-659072B21914",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "IMPLICITY lève 35 millions d’euros pour passer du tri des alertes à la cardiologie prédictive",
+          "lien": "https://www.frenchweb.fr/implicity-leve-35-millions-deuros-pour-passer-du-tri-des-alertes-a-la-cardiologie-predictive/463361"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "14EA2FC3-2492-4118-997D-872C4FFC2F2B",
+      "date": "2026-09-09",
+      "entreprise": "Actionable",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 8582218,
+      "stade": "Other",
+      "investisseurs": [
+        "Hi Inov",
+        "Axeleo Capital"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/14EA2FC3-2492-4118-997D-872C4FFC2F2B",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "ACTIONABLE lève 8,5 millions d’euros pour transformer la donnée client en décisions opérationnelles",
+          "lien": "https://www.frenchweb.fr/actionable-leve-85-millions-deuros-pour-transformer-la-donnee-client-en-decisions-operationnelles/463520"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "A896B475-FB37-49F1-8EC9-B14CE76AE1A6",
+      "date": "2026-09-08",
+      "entreprise": "smarli",
+      "pays": "Switzerland",
+      "ville": "St. Gallen",
+      "secteurs": [
+        "Hardware"
+      ],
+      "montant_eur": 2122016,
+      "stade": "Other",
+      "investisseurs": [
+        "new investors"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/A896B475-FB37-49F1-8EC9-B14CE76AE1A6",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "3980A831-FCA3-4824-B850-3E0D77E49888",
+      "date": "2026-09-08",
+      "entreprise": "Tellia",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Agritech"
+      ],
+      "montant_eur": 4300000,
+      "stade": "Pre-Seed",
+      "investisseurs": [
+        "Revent",
+        "Grey Silo Ventures",
+        "Jeriko",
+        "Fund F"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/3980A831-FCA3-4824-B850-3E0D77E49888",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "163B481A-8EE0-4870-A675-9955D0411EB8",
+      "date": "2026-09-08",
+      "entreprise": "Outline",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 3000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Newschool VC",
+        "100IN",
+        "Founders Future"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/163B481A-8EE0-4870-A675-9955D0411EB8",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "1484B760-3934-4BD1-9521-330325D4B373",
+      "date": "2026-09-08",
+      "entreprise": "Olenbee",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 7000000,
+      "stade": "Series A",
+      "investisseurs": [],
+      "source": "eustartups.news",
+      "confiance": "low",
+      "lien": "https://funding.tech.eu/deals/1484B760-3934-4BD1-9521-330325D4B373",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "B2577001-7D87-4B7F-AB31-FF4FE7C48E1A",
+      "date": "2026-09-08",
+      "entreprise": "Mistral AI",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 3000000000,
+      "stade": "Series D+",
+      "investisseurs": [
+        "DST Global",
+        "PSG Equity",
+        "Phoenix Court's Solar fund",
+        "Headline",
+        "Index Ventures",
+        "Eurazeo",
+        "Carmignac",
+        "NVIDIA",
+        "Belfius",
+        "EQT",
+        "Samsung Electronics",
+        "Grand Duchy of Luxembourg",
+        "Salesforce Ventures",
+        "ASML",
+        "a16z"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B2577001-7D87-4B7F-AB31-FF4FE7C48E1A",
+      "vue_le": "2026-10-07",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "Avec 3 milliards d’euros, MISTRAL change de métier",
+          "lien": "https://www.frenchweb.fr/avec-3-milliards-deuros-mistral-change-de-metier/463318"
+        }
+      ],
+      "zone": false
+    },
+    {
+      "id": "49CA56E5-DF66-49E9-A78F-6654CC9F2A03",
+      "date": "2026-09-08",
+      "entreprise": "Fusionality",
+      "pays": "Switzerland",
+      "ville": "Lausanne",
+      "secteurs": [
+        "Energy"
+      ],
+      "montant_eur": 3183024,
+      "stade": "Pre-Seed",
+      "investisseurs": [
+        "Founderful",
+        "Playfair Capital"
+      ],
+      "source": "techfundingnews.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/49CA56E5-DF66-49E9-A78F-6654CC9F2A03",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "2A7E952C-B841-431C-B6FD-B34A50A3331F",
+      "date": "2026-09-07",
+      "entreprise": "Sarbacane",
+      "pays": "France",
+      "ville": "Hem",
+      "secteurs": [
+        "Marketing"
+      ],
+      "montant_eur": 106000000,
+      "stade": "Debt",
+      "investisseurs": [],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/2A7E952C-B841-431C-B6FD-B34A50A3331F",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    },
+    {
+      "id": "3E9B7642-28F1-49F1-952A-EEBDD1F4BDB0",
+      "date": "2026-09-07",
+      "entreprise": "Jaipur Robotics",
+      "pays": "Switzerland",
+      "ville": "Manno",
+      "secteurs": [
+        "Cleantech"
+      ],
+      "montant_eur": 4300000,
+      "stade": "Seed",
+      "investisseurs": [
+        "EquityPitcher Ventures",
+        "High-Tech Gründerfonds (HTGF)"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/3E9B7642-28F1-49F1-952A-EEBDD1F4BDB0",
+      "vue_le": "2026-10-07",
+      "presse": [],
+      "zone": false
+    }
+  ],
+  "presse_seule": [
+    {
+      "date": "2026-10-07",
+      "titre": "French startup VoltR secures €22 million to scale lithium battery remanufacturing in Europe",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/french-startup-voltr-secures-e22-million-to-scale-lithium-battery-remanufacturing-in-europe/",
+      "montant_texte": "€22 million",
+      "montant_eur_estime": 22000000,
+      "zone": false
+    },
+    {
+      "date": "2026-10-07",
+      "titre": "France’s Rivercell emerges from stealth with €22 million for AI-powered drug discovery infrastructure",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
+      "montant_texte": "€22 million",
+      "montant_eur_estime": 22000000,
+      "zone": false
+    },
+    {
+      "date": "2026-10-07",
+      "titre": "France- and Italy-based Netsec raises over €8.93 million to scale its AI-native solution for cybersecurity and IT",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/",
+      "montant_texte": "€8.93 million",
+      "montant_eur_estime": 8930000,
+      "zone": false
+    },
+    {
+      "date": "2026-10-01",
+      "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/robotiser-le-geste-irreversible-lupin-dental-leve-15-millions-deuros-pour-ses-robots-dentaires/463722",
+      "montant_texte": "15 millions d’euros",
+      "montant_eur_estime": 15000000,
+      "zone": false
+    },
+    {
+      "date": "2026-09-08",
+      "titre": "THE EXPLORATION COMPANY annonce une levée de 387 millions d’euros pour Nyx et Storm",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327",
+      "montant_texte": "387 millions d’euros",
+      "montant_eur_estime": 387000000,
+      "zone": false
+    },
+    {
+      "date": "2026-08-29",
+      "titre": "PASQAL au Nasdaq : le quantique français cherche le capital de son industrialisation",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/pasqal-au-nasdaq-le-quantique-francais-cherche-le-capital-de-son-industrialisation/463104",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "zone": false
+    }
+  ],
+  "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "UK-based InsurTech Konsileo raises €5.9 million to expand its team and integrate AI",
+      "lien": "https://www.eu-startups.com/2026/10/uk-based-insurtech-konsileo-raises-e5-9-million-to-expand-its-team-and-integrate-ai/",
+      "date": "2026-10-07",
+      "montant_texte": "€5.9 million",
+      "montant_eur_estime": 5900000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Owkin alum raises $25m seed to build world model for human cells",
+      "lien": "https://sifted.eu/articles/rivercell-world-model-drug-discovery-seed-round/",
+      "date": "2026-10-07",
+      "montant_texte": "$25m",
+      "montant_eur_estime": 22250000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Neural chips for Parkinson’s and epilepsy draw €4.4 million for London startup MintNeuro",
+      "lien": "https://www.eu-startups.com/2026/10/neural-chips-for-parkinsons-and-epilepsy-draw-e4-4-million-for-london-startup-mintneuro/",
+      "date": "2026-10-07",
+      "montant_texte": "€4.4 million",
+      "montant_eur_estime": 4400000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London’s Cori Clinical raises €3.8 million to accelerate clinical trials and reduce delays",
+      "lien": "https://www.eu-startups.com/2026/10/londons-cori-clinical-raises-e3-55-million-to-accelerate-clinical-trials-and-reduce-delays/",
+      "date": "2026-10-07",
+      "montant_texte": "€3.8 million",
+      "montant_eur_estime": 3800000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "French startup VoltR secures €22 million to scale lithium battery remanufacturing in Europe",
+      "lien": "https://www.eu-startups.com/2026/10/french-startup-voltr-secures-e22-million-to-scale-lithium-battery-remanufacturing-in-europe/",
+      "date": "2026-10-07",
+      "montant_texte": "€22 million",
+      "montant_eur_estime": 22000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "France’s Rivercell emerges from stealth with €22 million for AI-powered drug discovery infrastructure",
+      "lien": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
+      "date": "2026-10-07",
+      "montant_texte": "€22 million",
+      "montant_eur_estime": 22000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "France- and Italy-based Netsec raises over €8.93 million to scale its AI-native solution for cybersecurity and IT",
+      "lien": "https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/",
+      "date": "2026-10-07",
+      "montant_texte": "€8.93 million",
+      "montant_eur_estime": 8930000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "CLEAVR lève 8 millions d’euros pour automatiser l’encaissement des factures",
+      "lien": "https://www.frenchweb.fr/cleavr-leve-8-millions-deuros-pour-automatiser-lencaissement-des-factures/463793",
+      "date": "2026-10-07",
+      "montant_texte": "8 millions d’euros",
+      "montant_eur_estime": 8000000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Voice AI startup Vocca raises $20m to automate patient phone calls",
+      "lien": "https://sifted.eu/articles/vocca-voice-ai-healthtech-series-a/",
+      "date": "2026-10-06",
+      "montant_texte": "$20m",
+      "montant_eur_estime": 17800000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Up to 27 times lower carbon footprint than beef – Edonia raises €15 million for their meat-alternative",
+      "lien": "https://www.eu-startups.com/2026/10/up-to-27-times-lower-carbon-footprint-than-beef-edonia-raises-e15-million-for-their-meat-alternative/",
+      "date": "2026-10-06",
+      "montant_texte": "€15 million",
+      "montant_eur_estime": 15000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Spiko raises $90m in Series B backed by Index Ventures and Speedinvest",
+      "lien": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/",
+      "date": "2026-10-06",
+      "montant_texte": "$90m",
+      "montant_eur_estime": 80100000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Hadrian raises $40m as AI cyberattacks accelerate",
+      "lien": "https://sifted.eu/articles/hadrian-ai-funding-round-cyber-security/",
+      "date": "2026-10-06",
+      "montant_texte": "$40m",
+      "montant_eur_estime": 35600000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "Edonia lève 15 millions d’euros pour industrialiser son alternative à la viande à base de microalgues",
+      "lien": "https://www.maddyness.com/2026/10/06/edonia-leve-12-millions-deuros-pour-industrialiser-son-alternative-a-la-viande-a-base-de-microalgues/",
+      "date": "2026-10-06",
+      "montant_texte": "15 millions d’euros",
+      "montant_eur_estime": 15000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "Maddyness",
+      "titre": "Cleavr lève 8 millions d’euros pour venir à bout des retards de paiement",
+      "lien": "https://www.maddyness.com/2026/10/06/cleavr-leve-8-millions-deuros-pour-venir-a-bout-des-retards-de-paiement/",
+      "date": "2026-10-06",
+      "montant_texte": "8 millions d’euros",
+      "montant_eur_estime": 8000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "British Business Bank backs multi-fund VC Fuel Ventures with €11 million investment",
+      "lien": "https://www.eu-startups.com/2026/10/british-business-bank-backs-multi-fund-vc-fuel-ventures-with-e11-million-investment/",
+      "date": "2026-10-06",
+      "montant_texte": "€11 million",
+      "montant_eur_estime": 11000000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "12 ans après sa création, Wiremind boucle un premier tour de table de 35 millions d’euros",
+      "lien": "https://www.maddyness.com/2026/10/06/12-ans-apres-sa-creation-wiremind-boucle-un-premier-tour-de-table-de-35-millions-deuros/",
+      "date": "2026-10-06",
+      "montant_texte": "35 millions d’euros",
+      "montant_eur_estime": 35000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
+      "lien": "https://www.frenchweb.fr/robotiser-le-geste-irreversible-lupin-dental-leve-15-millions-deuros-pour-ses-robots-dentaires/463722",
+      "date": "2026-10-01",
+      "montant_texte": "15 millions d’euros",
+      "montant_eur_estime": 15000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "MARBLE lève 6,5 millions d’euros pour rendre la conformité financière programmable",
+      "lien": "https://www.frenchweb.fr/marble-leve-65-millions-deuros-pour-rendre-la-conformite-financiere-programmable/463724",
+      "date": "2026-09-30",
+      "montant_texte": "6,5 millions d’euros",
+      "montant_eur_estime": 6500000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "EDISON IA lève 1 million d’euros pour faire passer les PME de l’IA test à l’IA rentable",
+      "lien": "https://www.frenchweb.fr/edison-ia-leve-1-me-pour-faire-passer-les-pme-de-lia-test-a-lia-rentable/463728",
+      "date": "2026-09-30",
+      "montant_texte": "1 million d’euros",
+      "montant_eur_estime": 1000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "ANote Music lève 2 millions d’euros pour ouvrir les royalties musicales aux investisseurs européens",
+      "lien": "https://www.frenchweb.fr/anote-music-leve-2-millions-deuros-pour-ouvrir-les-royalties-musicales-aux-investisseurs-europeens/463732",
+      "date": "2026-09-30",
+      "montant_texte": "2 millions d’euros",
+      "montant_eur_estime": 2000000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "GRANEET lève 7 millions d’euros pour faire de la facture électronique le point d’entrée de l’ERP de chantier",
+      "lien": "https://www.frenchweb.fr/graneet-leve-7-millions-deuros-pour-faire-de-la-facture-electronique-le-point-dentree-de-lerp-de-chantier/463674",
+      "date": "2026-09-28",
+      "montant_texte": "7 millions d’euros",
+      "montant_eur_estime": 7000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "WEALTHCOME lève 15 millions d’euros pour défier Harvest et accélérer auprès des grands comptes",
+      "lien": "https://www.frenchweb.fr/wealthcome-leve-15-millions-deuros-pour-defier-harvest-et-accelerer-aupres-des-grands-comptes/463648",
+      "date": "2026-09-24",
+      "montant_texte": "15 millions d’euros",
+      "montant_eur_estime": 15000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "LIGHTSPRING lève 3,1 millions d’euros pour s’attaquer au maillon faible des puces photoniques",
+      "lien": "https://www.frenchweb.fr/lightspring-leve-31-millions-deuros-pour-sattaquer-au-maillon-faible-des-puces-photoniques/463607",
+      "date": "2026-09-23",
+      "montant_texte": "3,1 millions d’euros",
+      "montant_eur_estime": 3100000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "PRIMO lève près de 7 millions d’euros pour faire gérer votre IT par ses agents IA",
+      "lien": "https://www.frenchweb.fr/primo-leve-pres-de-7-millions-deuros-pour-faire-gerer-votre-it-par-ses-agents-ia/463585",
+      "date": "2026-09-22",
+      "montant_texte": "7 millions d’euros",
+      "montant_eur_estime": 7000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Avec 30 millions d’euros, BIOLEVATE veut faire de l’IA un outil de conformité pour les laboratoires",
+      "lien": "https://www.frenchweb.fr/avec-30-millions-deuros-biolevate-veut-faire-de-lia-un-outil-de-conformite-pour-les-laboratoires/463589",
+      "date": "2026-09-22",
+      "montant_texte": "30 millions d’euros",
+      "montant_eur_estime": 30000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "KHEOPS lève 12 millions d’euros pour passer du workflow à l’intelligence de l’assortiment",
+      "lien": "https://www.frenchweb.fr/kheops-leve-15-millions-deuros-pour-passer-du-workflow-a-lintelligence-de-lassortiment/463552",
+      "date": "2026-09-21",
+      "montant_texte": "12 millions d’euros",
+      "montant_eur_estime": 12000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "IMPLICITY lève 35 millions d’euros pour passer du tri des alertes à la cardiologie prédictive",
+      "lien": "https://www.frenchweb.fr/implicity-leve-35-millions-deuros-pour-passer-du-tri-des-alertes-a-la-cardiologie-predictive/463361",
+      "date": "2026-09-10",
+      "montant_texte": "35 millions d’euros",
+      "montant_eur_estime": 35000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Ed.ai lève 5 millions d’euros pour aider les professeurs à faire progresser chaque élève",
+      "lien": "https://www.frenchweb.fr/ed-ai-leve-5-millions-deuros-pour-transformer-chaque-copie-en-plan-de-remediation/463368",
+      "date": "2026-09-10",
+      "montant_texte": "5 millions d’euros",
+      "montant_eur_estime": 5000000,
+      "zone": true,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "ARLEQUIN AI lève 28 millions d’euros pour construire une alternative européenne à Palantir",
+      "lien": "https://www.frenchweb.fr/arlequin-ai-leve-28-millions-deuros-pour-construire-une-alternative-europeenne-a-palantir/463365",
+      "date": "2026-09-10",
+      "montant_texte": "28 millions d’euros",
+      "montant_eur_estime": 28000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "ACTIONABLE lève 8,5 millions d’euros pour transformer la donnée client en décisions opérationnelles",
+      "lien": "https://www.frenchweb.fr/actionable-leve-85-millions-deuros-pour-transformer-la-donnee-client-en-decisions-operationnelles/463520",
+      "date": "2026-09-09",
+      "montant_texte": "8,5 millions d’euros",
+      "montant_eur_estime": 8500000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "THE EXPLORATION COMPANY annonce une levée de 387 millions d’euros pour Nyx et Storm",
+      "lien": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327",
+      "date": "2026-09-08",
+      "montant_texte": "387 millions d’euros",
+      "montant_eur_estime": 387000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Avec 3 milliards d’euros, MISTRAL change de métier",
+      "lien": "https://www.frenchweb.fr/avec-3-milliards-deuros-mistral-change-de-metier/463318",
+      "date": "2026-09-08",
+      "montant_texte": "3 milliards d’euros",
+      "montant_eur_estime": 3000000000,
+      "zone": false,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "INLEAP PHOTONICS porte son financement à 20 millions d’euros pour passer du laser industriel à la défense anti-drones",
+      "lien": "https://www.frenchweb.fr/inleap-photonics-porte-son-financement-a-20-millions-deuros-pour-passer-du-laser-industriel-a-la-defense-anti-drones/463189",
+      "date": "2026-09-02",
+      "montant_texte": "20 millions d’euros",
+      "montant_eur_estime": 20000000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "HYIMPULSE lève plus de 50 millions d’euros pour trouver une autre voie vers l’orbite",
+      "lien": "https://www.frenchweb.fr/hyimpulse-leve-plus-de-50-millions-deuros-pour-trouver-une-autre-voie-vers-lorbite/463193",
+      "date": "2026-09-02",
+      "montant_texte": "50 millions d’euros",
+      "montant_eur_estime": 50000000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Avec 488 millions d’euros de financement, PLD Space doit maintenant passer de la fusée à l’industrie",
+      "lien": "https://www.frenchweb.fr/avec-488-millions-deuros-de-financement-pld-space-doit-maintenant-passer-de-la-fusee-a-lindustrie/463174",
+      "date": "2026-09-01",
+      "montant_texte": "488 millions d’euros",
+      "montant_eur_estime": 488000000,
+      "zone": false,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "PASQAL au Nasdaq : le quantique français cherche le capital de son industrialisation",
+      "lien": "https://www.frenchweb.fr/pasqal-au-nasdaq-le-quantique-francais-cherche-le-capital-de-son-industrialisation/463104",
+      "date": "2026-08-29",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "zone": false,
+      "pays_ok": true
     }
   ]
 }
