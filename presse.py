@@ -4,7 +4,7 @@ Un flux RSS est une liste d'articles (titre, lien, date, catégories) qu'un
 site publie pour être lue par des programmes. Ce fichier sait :
   1. lire un flux et en sortir les articles ;
   2. reconnaître ceux qui parlent d'une levée de fonds ;
-  3. y trouver un montant, et dire si l'article concerne ta zone.
+  3. y trouver un montant, et vérifier que l'article concerne le bon pays.
 """
 
 import html
@@ -131,7 +131,7 @@ def _bon_pays(texte, portee, mots_pays, mots_etranger):
     return portee == "france" and not contient_un_mot(texte, mots_etranger)
 
 
-def analyser(article, portee, mots_zone, mots_pays, mots_etranger=()):
+def analyser(article, portee, mots_pays, mots_etranger=()):
     """Dit si un article annonce une levée. Renvoie l'article enrichi, ou None."""
     titre = article["titre"]
     if RECAPITULATIF.search(titre):
@@ -150,7 +150,6 @@ def analyser(article, portee, mots_zone, mots_pays, mots_etranger=()):
         "date": article["date"],
         "montant_texte": texte_montant,
         "montant_eur_estime": estimation,
-        "zone": contient_un_mot(tout, mots_zone),
         "pays_ok": _bon_pays(tout, portee, mots_pays, mots_etranger),
     }
 

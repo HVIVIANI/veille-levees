@@ -115,7 +115,6 @@ def collecter_presse(config, telecharger=presse.telecharger):
     Un flux en panne n'arrête pas tout : on note l'erreur et on passe au suivant.
     """
     articles, etats = [], []
-    zone = config.get("zone_prioritaire", {}).get("mots", [])
     for flux in config.get("flux_presse", []):
         try:
             contenu = telecharger(flux["url"])
@@ -126,7 +125,7 @@ def collecter_presse(config, telecharger=presse.telecharger):
             etats.append({"nom": flux["nom"], "etat": "erreur", "detail": f"{type(erreur).__name__}: {erreur}"[:220]})
             print(f"{flux['nom']} : illisible ({erreur})")
             continue
-        gardes = [a for a in (presse.analyser(l, flux["portee"], zone, config.get("mots_pays", []), config.get("mots_etranger", [])) for l in lus) if a]
+        gardes = [a for a in (presse.analyser(l, flux["portee"], config.get("mots_pays", []), config.get("mots_etranger", [])) for l in lus) if a]
         articles += gardes
         etats.append({"nom": flux["nom"], "etat": "ok", "articles_lus": len(lus), "articles_levees": len(gardes)})
         print(f"{flux['nom']} : {len(lus)} articles lus, {len(gardes)} annoncent une levée")
@@ -147,9 +146,7 @@ def croiser(levees, articles, config):
 
     - Un article qui cite une entreprise de la liste est attaché à sa levée.
     - Les autres forment la liste "vue dans la presse seulement".
-    - Une levée est dans ta zone si sa ville y est, ou si un de ses articles en parle.
     """
-    mots_zone = config.get("zone_prioritaire", {}).get("mots", [])
     corrections = config.get("corrections_entreprises", {})
     seuil = config["montant_min_eur"]
     attaches = set()
@@ -160,9 +157,8 @@ def croiser(levees, articles, config):
                  and presse.ecart_en_jours(a["date"], levee["date"]) <= ECART_MAX_ARTICLE_LEVEE]
         attaches.update(a["lien"] for a in siens)
         levee["presse"] = [{"source": a["source"], "titre": a["titre"], "lien": a["lien"]} for a in siens]
-        levee["zone"] = presse.contient_un_mot(levee["ville"], mots_zone) or any(a["zone"] for a in siens)
     return [
-        {cle: a[cle] for cle in ("date", "titre", "source", "lien", "montant_texte", "montant_eur_estime", "zone")}
+        {cle: a[cle] for cle in ("date", "titre", "source", "lien", "montant_texte", "montant_eur_estime")}
         for a in articles
         if a["lien"] not in attaches and a["pays_ok"]
         and (a["montant_eur_estime"] is None or a["montant_eur_estime"] >= seuil)
@@ -197,8 +193,7 @@ def main():
     SORTIE.parent.mkdir(exist_ok=True)
     SORTIE.write_text(json.dumps(resultat, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{ajoutees} nouvelles levées, {len(levees)} au total ; "
-          f"{len(presse_seule)} articles sans équivalent chez Tech.eu ; "
-          f"{sum(1 for l in levees if l['zone'])} levées dans ta zone")
+          f"{len(presse_seule)} articles sans équivalent chez Tech.eu")
 
 
 if __name__ == "__main__":

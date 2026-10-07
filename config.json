@@ -20,23 +20,6 @@
       "ville": "Lyon"
     }
   },
-  "zone_prioritaire": {
-    "nom": "Lyon et Auvergne-Rhône-Alpes",
-    "mots": [
-      "Lyon",
-      "Villeurbanne",
-      "Écully",
-      "Auvergne-Rhône-Alpes",
-      "Grenobl",
-      "Isère",
-      "Saint-Étienne",
-      "stéphanois",
-      "Annecy",
-      "Clermont-Ferrand",
-      "Chambéry",
-      "Savoie"
-    ]
-  },
   "mots_pays": [
     "France",
     "French",

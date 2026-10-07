@@ -14,7 +14,6 @@ import presse
 import veille
 
 CONFIG = json.loads((ICI.parent / "config.json").read_text(encoding="utf-8"))
-ZONE = CONFIG["zone_prioritaire"]["mots"]
 PAYS = CONFIG["mots_pays"]
 ETRANGER = CONFIG["mots_etranger"]
 ECHANTILLON = json.loads((ICI / "echantillon_techeu.json").read_text(encoding="utf-8"))
@@ -22,7 +21,7 @@ ECHANTILLON = json.loads((ICI / "echantillon_techeu.json").read_text(encoding="u
 
 def articles(fichier, source, portee):
     lus = presse.lire_flux((ICI / fichier).read_bytes(), source)
-    return lus, [a for a in (presse.analyser(l, portee, ZONE, PAYS) for l in lus) if a]
+    return lus, [a for a in (presse.analyser(l, portee, PAYS) for l in lus) if a]
 
 
 class TestMontants(unittest.TestCase):
@@ -59,11 +58,6 @@ class TestFluxFrancais(unittest.TestCase):
         self.assertNotIn("ELEVENLABS", titres)   # une valorisation, pas une levée
         self.assertNotIn("cette semaine", titres)  # récapitulatif écarté
 
-    def test_repere_la_zone(self):
-        self.assertTrue(self.par_titre["Hackuity"]["zone"])   # "lyonnaise" dans le résumé
-        self.assertTrue(self.par_titre["Sopht"]["zone"])      # "Lyon" dans le résumé
-        self.assertFalse(self.par_titre["Robotiser"]["zone"])  # Montpellier
-
     def test_dates_et_montants(self):
         self.assertEqual(self.par_titre["Sopht"]["date"], "2026-09-15")
         self.assertEqual(self.par_titre["Sopht"]["montant_eur_estime"], 7_500_000)
@@ -94,10 +88,8 @@ class TestCroisement(unittest.TestCase):
         self.assertEqual(len(self.par_nom["Whitelab Genomics"]["presse"]), 1)  # malgré la casse différente
         self.assertEqual(self.par_nom["Vocca"]["presse"], [])
 
-    def test_un_article_peut_corriger_la_zone(self):
-        # Tech.eu range Hackuity à Paris, l'article dit "lyonnaise" : la levée passe dans ta zone.
-        self.assertTrue(self.par_nom["Hackuity"]["zone"])
-        self.assertFalse(self.par_nom["Vocca"]["zone"])
+    def test_article_attache_a_une_levee_plus_ancienne(self):
+        self.assertEqual([p["source"] for p in self.par_nom["Hackuity"]["presse"]], ["FrenchWeb"])
 
     def test_presse_seule(self):
         titres = " | ".join(a["titre"] for a in self.presse_seule)
@@ -107,7 +99,6 @@ class TestCroisement(unittest.TestCase):
         self.assertNotIn("Edonia", titres)
         self.assertNotIn("Polygrade", titres)    # hors France et Suisse
         self.assertNotIn("PetiteBoite", titres)  # sous le seuil de 1 M€
-        self.assertTrue(next(a for a in self.presse_seule if "Sopht" in a["titre"])["zone"])
 
     def test_ia_et_ai_sont_le_meme_nom(self):
         article = {"titre": "EDISON IA lève 1 million d’euros pour les PME"}
@@ -118,7 +109,6 @@ class TestCroisement(unittest.TestCase):
         config = dict(CONFIG, corrections_entreprises={"Vocca": {"ville": "Lyon"}})
         veille.croiser(self.levees, [], config)
         self.assertEqual(self.par_nom["Vocca"]["ville"], "Lyon")
-        self.assertTrue(self.par_nom["Vocca"]["zone"])
 
 
 class TestCasReels(unittest.TestCase):
@@ -141,15 +131,15 @@ class TestCasReels(unittest.TestCase):
                    "lien": "x", "date": "2026-09-02", "categories": ["SPACE"],
                    "resume": "La société allemande prépare son lanceur."}
         # Site européen : le pays doit être cité, et "FrenchWeb" ne vaut pas "French".
-        self.assertFalse(presse.analyser(article, "europe", ZONE, PAYS, ETRANGER)["pays_ok"])
+        self.assertFalse(presse.analyser(article, "europe", PAYS, ETRANGER)["pays_ok"])
         # Site français : écarté parce qu'il dit "allemande" sans citer la France.
-        self.assertFalse(presse.analyser(article, "france", ZONE, PAYS, ETRANGER)["pays_ok"])
+        self.assertFalse(presse.analyser(article, "france", PAYS, ETRANGER)["pays_ok"])
         # Franco-allemande : gardée.
         article["resume"] = "La société franco-allemande, basée à Munich et Paris, prépare son lanceur."
-        self.assertTrue(presse.analyser(article, "france", ZONE, PAYS, ETRANGER)["pays_ok"])
+        self.assertTrue(presse.analyser(article, "france", PAYS, ETRANGER)["pays_ok"])
         # Site français, aucun pays cité (cas CLEAVR) : gardée.
         article["resume"] = "La startup automatise l’encaissement des factures."
-        self.assertTrue(presse.analyser(article, "france", ZONE, PAYS, ETRANGER)["pays_ok"])
+        self.assertTrue(presse.analyser(article, "france", PAYS, ETRANGER)["pays_ok"])
 
     def test_la_signature_du_site_est_retiree(self):
         flux = """<rss><channel><item><title>X lève 2 millions d’euros</title><link>https://a.test/x</link>
