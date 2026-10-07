@@ -120,7 +120,18 @@ def lire_flux(contenu, nom_source):
     return articles
 
 
-def analyser(article, portee, mots_zone, mots_pays):
+def _bon_pays(texte, portee, mots_pays, mots_etranger):
+    """Un site européen doit citer la France ou la Suisse.
+
+    Un site français parle surtout de la France : on garde l'article, sauf s'il
+    cite un autre pays sans citer le nôtre ("la société allemande...").
+    """
+    if contient_un_mot(texte, mots_pays, debut_seulement=False):
+        return True
+    return portee == "france" and not contient_un_mot(texte, mots_etranger)
+
+
+def analyser(article, portee, mots_zone, mots_pays, mots_etranger=()):
     """Dit si un article annonce une levée. Renvoie l'article enrichi, ou None."""
     titre = article["titre"]
     if RECAPITULATIF.search(titre):
@@ -140,8 +151,7 @@ def analyser(article, portee, mots_zone, mots_pays):
         "montant_texte": texte_montant,
         "montant_eur_estime": estimation,
         "zone": contient_un_mot(tout, mots_zone),
-        # Un site français parle surtout de la France ; un site européen doit citer le pays.
-        "pays_ok": portee == "france" or contient_un_mot(tout, mots_pays, debut_seulement=False),
+        "pays_ok": _bon_pays(tout, portee, mots_pays, mots_etranger),
     }
 
 

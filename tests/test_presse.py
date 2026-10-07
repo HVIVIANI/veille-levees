@@ -16,6 +16,7 @@ import veille
 CONFIG = json.loads((ICI.parent / "config.json").read_text(encoding="utf-8"))
 ZONE = CONFIG["zone_prioritaire"]["mots"]
 PAYS = CONFIG["mots_pays"]
+ETRANGER = CONFIG["mots_etranger"]
 ECHANTILLON = json.loads((ICI / "echantillon_techeu.json").read_text(encoding="utf-8"))
 
 
@@ -135,13 +136,20 @@ class TestCasReels(unittest.TestCase):
         self.assertTrue(presse.parle_de({"titre": "Avec 3 milliards d’euros, MISTRAL change de métier"}, "Mistral AI"))
         self.assertFalse(presse.parle_de({"titre": "Joe Dupont rejoint la direction"}, "Joe AI"))  # nom court trop bref
 
-    def test_frenchweb_ne_compte_pas_comme_france(self):
+    def test_presse_francaise_et_boites_etrangeres(self):
         article = {"source": "FrenchWeb", "titre": "HYIMPULSE lève plus de 50 millions d’euros pour l’orbite",
                    "lien": "x", "date": "2026-09-02", "categories": ["SPACE"],
                    "resume": "La société allemande prépare son lanceur."}
-        self.assertFalse(presse.analyser(article, "europe", ZONE, PAYS)["pays_ok"])
-        article["categories"] = ["FRANCE", "LES LEVEES DE FONDS"]
-        self.assertTrue(presse.analyser(article, "europe", ZONE, PAYS)["pays_ok"])
+        # Site européen : le pays doit être cité, et "FrenchWeb" ne vaut pas "French".
+        self.assertFalse(presse.analyser(article, "europe", ZONE, PAYS, ETRANGER)["pays_ok"])
+        # Site français : écarté parce qu'il dit "allemande" sans citer la France.
+        self.assertFalse(presse.analyser(article, "france", ZONE, PAYS, ETRANGER)["pays_ok"])
+        # Franco-allemande : gardée.
+        article["resume"] = "La société franco-allemande, basée à Munich et Paris, prépare son lanceur."
+        self.assertTrue(presse.analyser(article, "france", ZONE, PAYS, ETRANGER)["pays_ok"])
+        # Site français, aucun pays cité (cas CLEAVR) : gardée.
+        article["resume"] = "La startup automatise l’encaissement des factures."
+        self.assertTrue(presse.analyser(article, "france", ZONE, PAYS, ETRANGER)["pays_ok"])
 
     def test_la_signature_du_site_est_retiree(self):
         flux = """<rss><channel><item><title>X lève 2 millions d’euros</title><link>https://a.test/x</link>

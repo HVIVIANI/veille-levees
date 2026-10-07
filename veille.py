@@ -117,7 +117,7 @@ def collecter_presse(config, telecharger=presse.telecharger):
             etats.append({"nom": flux["nom"], "etat": "erreur", "detail": f"{type(erreur).__name__}: {erreur}"[:220]})
             print(f"{flux['nom']} : illisible ({erreur})")
             continue
-        gardes = [a for a in (presse.analyser(l, flux["portee"], zone, config.get("mots_pays", [])) for l in lus) if a]
+        gardes = [a for a in (presse.analyser(l, flux["portee"], zone, config.get("mots_pays", []), config.get("mots_etranger", [])) for l in lus) if a]
         articles += gardes
         etats.append({"nom": flux["nom"], "etat": "ok", "articles_lus": len(lus), "articles_levees": len(gardes)})
         print(f"{flux['nom']} : {len(lus)} articles lus, {len(gardes)} annoncent une levée")

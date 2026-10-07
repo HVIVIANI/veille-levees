@@ -70,7 +70,7 @@
     {
       "nom": "FrenchWeb",
       "url": "https://www.frenchweb.fr/feed",
-      "portee": "europe"
+      "portee": "france"
     },
     {
       "nom": "Maddyness",
@@ -87,5 +87,53 @@
       "url": "https://sifted.eu/feed",
       "portee": "europe"
     }
+  ],
+  "mots_etranger": [
+    "allemand",
+    "Allemagne",
+    "Berlin",
+    "Munich",
+    "espagnol",
+    "Espagne",
+    "Madrid",
+    "Barcelone",
+    "luxembourg",
+    "britannique",
+    "Royaume-Uni",
+    "Londres",
+    "italien",
+    "Italie",
+    "Milan",
+    "néerlandais",
+    "Pays-Bas",
+    "Amsterdam",
+    "belge",
+    "Belgique",
+    "Bruxelles",
+    "suédois",
+    "Suède",
+    "Stockholm",
+    "danois",
+    "Danemark",
+    "finlandais",
+    "Finlande",
+    "norvégien",
+    "Norvège",
+    "portugais",
+    "Portugal",
+    "autrichien",
+    "Autriche",
+    "polonais",
+    "Pologne",
+    "américain",
+    "États-Unis",
+    "israélien",
+    "Israël",
+    "chinois",
+    "Chine",
+    "japonais",
+    "Japon",
+    "indien",
+    "Inde"
   ]
 }
