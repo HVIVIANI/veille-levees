@@ -1,9 +1,18 @@
 {
-  "pays": ["France", "Switzerland"],
+  "pays": [
+    "France",
+    "Switzerland"
+  ],
   "montant_min_eur": 1000000,
   "jours_en_arriere": 7,
   "corrections_villes": {
     "Pari": "Paris",
     "Besancon": "Besançon"
-  }
+  },
+  "secteurs_prioritaires": [
+    "AI",
+    "Software",
+    "Cloud",
+    "Cybersecurity"
+  ]
 }

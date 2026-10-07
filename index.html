@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veille des levées</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --papier: #F2F5F7;
+    --encre: #14213D;
+    --ardoise: #56617A;
+    --trait: #D5DCE4;
+    --surligneur: #FFE45C;
+    --action: #1B46C9;
+    --fond-puce: #E4E9EF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --papier: #111A2B;
+      --encre: #E9EEF6;
+      --ardoise: #9AA7BD;
+      --trait: #2A364C;
+      --surligneur: #7A6400;
+      --action: #9DB6FF;
+      --fond-puce: #1D2940;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--papier);
+    color: var(--encre);
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+  main { max-width: 60rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+  h1 { font-size: 2.6rem; font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 0.6rem; }
+  .resume { margin: 0 0 2rem; color: var(--ardoise); max-width: 42rem; }
+
+  .filtres { display: grid; gap: 0.9rem; margin-bottom: 2.5rem; }
+  .ligne-filtres { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; align-items: center; }
+  .ligne-filtres label { color: var(--ardoise); font-size: 0.9rem; display: flex; gap: 0.4rem; align-items: center; }
+  select, input[type="search"] {
+    font: inherit; color: inherit; background: transparent;
+    border: 1.5px solid var(--trait); border-radius: 0.4rem; padding: 0.3rem 0.5rem;
+  }
+  input[type="search"] { width: 14rem; max-width: 100%; }
+  .puces { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .puce {
+    font: inherit; font-size: 0.9rem; color: inherit; cursor: pointer;
+    background: var(--fond-puce); border: 1.5px solid transparent;
+    border-radius: 99rem; padding: 0.2rem 0.75rem;
+  }
+  .puce.prioritaire { background: var(--surligneur); }
+  .puce[aria-pressed="true"] { border-color: var(--encre); font-weight: 600; }
+  .puce .nombre { color: var(--ardoise); margin-left: 0.3rem; }
+  .puce.prioritaire .nombre { color: inherit; opacity: 0.7; }
+  :focus-visible { outline: 3px solid var(--action); outline-offset: 2px; }
+
+  .jour { margin-top: 2.25rem; }
+  .jour h2 {
+    font-size: 1.15rem; font-weight: 600; margin: 0 0 0.25rem;
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  .jour h2 span { font-size: 0.9rem; font-weight: 400; color: var(--ardoise); }
+  .levee {
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1.5fr) minmax(0, 1fr) auto;
+    gap: 0.15rem 1.25rem;
+    align-items: baseline;
+    padding: 0.9rem 0;
+    border-top: 1px solid var(--trait);
+  }
+  .montant { font-size: 1.5rem; font-weight: 800; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+  .nom { font-size: 1.2rem; font-weight: 600; margin: 0; }
+  .levee.prioritaire .nom span { background: linear-gradient(transparent 52%, var(--surligneur) 52%); padding: 0 0.15rem; }
+  .nouveau { font-size: 0.8rem; font-weight: 600; color: var(--action); margin-left: 0.5rem; }
+  .investisseurs { margin: 0.15rem 0 0; font-size: 0.9rem; color: var(--ardoise); }
+  .details { font-size: 0.9rem; }
+  .details .lieu { color: var(--ardoise); margin: 0.2rem 0 0; }
+  .details .stade { white-space: nowrap; }
+  .badge { display: inline-block; background: var(--fond-puce); border-radius: 99rem; padding: 0.05rem 0.6rem; margin: 0 0.25rem 0.2rem 0; }
+  .badge.prioritaire { background: var(--surligneur); }
+  .liens { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.9rem; text-align: right; }
+  a { color: var(--action); text-underline-offset: 0.15em; }
+  .liens a.principal { font-weight: 600; }
+
+  .message { border: 1.5px solid var(--trait); border-radius: 0.5rem; padding: 1.25rem; margin-top: 2rem; max-width: 42rem; }
+  .message button { font: inherit; cursor: pointer; margin-top: 0.75rem; padding: 0.35rem 0.9rem; border-radius: 0.4rem; border: 1.5px solid var(--encre); background: transparent; color: inherit; }
+  footer { margin-top: 4rem; font-size: 0.85rem; color: var(--ardoise); max-width: 42rem; }
+
+  @media (max-width: 44rem) {
+    h1 { font-size: 2rem; }
+    .levee { grid-template-columns: 5.2rem minmax(0, 1fr); }
+    .montant { font-size: 1.2rem; }
+    .details, .liens { grid-column: 2; }
+    .liens { flex-direction: row; flex-wrap: wrap; gap: 0.2rem 1rem; text-align: left; margin-top: 0.3rem; }
+    .liens a { white-space: nowrap; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Veille des levées</h1>
+  <p class="resume" id="resume">Chargement des données…</p>
+
+  <section class="filtres" id="filtres" hidden aria-label="Filtres">
+    <div class="ligne-filtres">
+      <label>Pays
+        <select id="filtre-pays"><option value="">Tous</option></select>
+      </label>
+      <label>Montant minimum
+        <select id="filtre-montant">
+          <option value="0">Tous</option>
+          <option value="2000000">2 M€</option>
+          <option value="5000000">5 M€</option>
+          <option value="10000000">10 M€</option>
+          <option value="20000000">20 M€</option>
+        </select>
+      </label>
+      <label>Recherche
+        <input type="search" id="filtre-texte" placeholder="Entreprise, ville, investisseur">
+      </label>
+    </div>
+    <div class="puces" id="filtre-secteurs" role="group" aria-label="Secteurs"></div>
+  </section>
+
+  <div id="liste"></div>
+
+  <footer>
+    <p>Données : <a href="https://funding.tech.eu">Tech.eu Funding Explorer</a>, sous licence CC BY 4.0. Les montants sont convertis en euros au taux de la BCE du jour de l'annonce.</p>
+  </footer>
+</main>
+
+<script>
+const NOMS_SECTEURS = {
+  "AI": "IA", "Software": "Logiciel", "Healthtech": "Santé", "Cybersecurity": "Cybersécurité",
+  "Wellness & Beauty": "Bien-être et beauté", "Transportation": "Transport", "Energy": "Énergie",
+  "Biotech": "Biotech", "Deeptech": "Deeptech", "Robotics": "Robotique", "Education": "Éducation",
+  "Real Estate": "Immobilier", "Retail": "Commerce", "Gaming": "Jeu vidéo", "Space": "Spatial",
+  "Analytics": "Données et analyse", "Recruitment": "Recrutement", "Logistics": "Logistique"
+};
+const NOMS_STADES = {
+  "Pre-Seed": "Pré-amorçage", "Seed": "Amorçage", "Series A": "Série A", "Series B": "Série B",
+  "Series C": "Série C", "Series D": "Série D", "Series E": "Série E", "Other": ""
+};
+const NOMS_PAYS = { "France": "France", "Switzerland": "Suisse" };
+
+const etat = { levees: [], prioritaires: [], secteurs: new Set(), pays: "", montant: 0, texte: "", dernierPassage: null };
+const $ = (id) => document.getElementById(id);
+
+function element(balise, classe, texte) {
+  const e = document.createElement(balise);
+  if (classe) e.className = classe;
+  if (texte !== undefined) e.textContent = texte;
+  return e;
+}
+const secteur = (s) => NOMS_SECTEURS[s] || s;
+const pays = (p) => NOMS_PAYS[p] || p;
+const estPrioritaire = (levee) => levee.secteurs.some((s) => etat.prioritaires.includes(s));
+
+function montant(euros) {
+  if (!euros) return "n.c.";
+  const millions = euros / 1e6;
+  return millions.toLocaleString("fr-FR", { maximumFractionDigits: millions < 100 ? 1 : 0 }) + " M€";
+}
+function jourEnClair(iso) {
+  const texte = new Date(iso + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+  return (texte.charAt(0).toUpperCase() + texte.slice(1)).replace(" 1 ", " 1er ");
+}
+const pluriel = (n, mot) => n + " " + mot + (n > 1 ? "s" : "");
+
+function filtrees() {
+  const texte = etat.texte.trim().toLowerCase();
+  return etat.levees.filter((l) =>
+    (!etat.pays || l.pays === etat.pays) &&
+    (l.montant_eur || 0) >= etat.montant &&
+    (etat.secteurs.size === 0 || l.secteurs.some((s) => etat.secteurs.has(s))) &&
+    (!texte || [l.entreprise, l.ville, ...l.investisseurs].join(" ").toLowerCase().includes(texte))
+  );
+}
+
+function dessinerSecteurs() {
+  const zone = $("filtre-secteurs");
+  zone.replaceChildren();
+  const compte = {};
+  etat.levees.forEach((l) => l.secteurs.forEach((s) => { compte[s] = (compte[s] || 0) + 1; }));
+  const noms = Object.keys(compte).sort((a, b) =>
+    (etat.prioritaires.includes(b) - etat.prioritaires.includes(a)) || compte[b] - compte[a] || secteur(a).localeCompare(secteur(b), "fr"));
+  for (const nom of noms) {
+    const puce = element("button", "puce" + (etat.prioritaires.includes(nom) ? " prioritaire" : ""), secteur(nom));
+    puce.type = "button";
+    puce.setAttribute("aria-pressed", etat.secteurs.has(nom));
+    puce.append(element("span", "nombre", compte[nom]));
+    puce.addEventListener("click", () => {
+      etat.secteurs.has(nom) ? etat.secteurs.delete(nom) : etat.secteurs.add(nom);
+      dessinerSecteurs();
+      dessinerListe();
+    });
+    zone.append(puce);
+  }
+}
+
+function ligne(levee) {
+  const prioritaire = estPrioritaire(levee);
+  const article = element("article", "levee" + (prioritaire ? " prioritaire" : ""));
+  article.append(element("div", "montant", montant(levee.montant_eur)));
+
+  const identite = element("div");
+  const nom = element("h3", "nom");
+  nom.append(element("span", "", levee.entreprise));
+  if (etat.dernierPassage && levee.vue_le === etat.dernierPassage) nom.append(element("span", "nouveau", "nouveau"));
+  identite.append(nom);
+  if (levee.investisseurs.length) identite.append(element("p", "investisseurs", levee.investisseurs.join(", ")));
+  article.append(identite);
+
+  const details = element("div", "details");
+  for (const s of levee.secteurs) {
+    details.append(element("span", "badge" + (etat.prioritaires.includes(s) ? " prioritaire" : ""), secteur(s)));
+  }
+  const lieu = [levee.ville, pays(levee.pays)].filter(Boolean).join(", ");
+  const stade = NOMS_STADES[levee.stade] ?? levee.stade;
+  if (stade) details.append(element("span", "stade", stade));
+  details.append(element("p", "lieu", lieu));
+  article.append(details);
+
+  const liens = element("div", "liens");
+  const linkedin = element("a", "principal", "Chercher sur LinkedIn");
+  linkedin.href = "https://www.linkedin.com/search/results/companies/?keywords=" + encodeURIComponent(levee.entreprise);
+  const source = element("a", "", "Voir la fiche Tech.eu");
+  source.href = levee.lien;
+  for (const a of [linkedin, source]) { a.target = "_blank"; a.rel = "noopener"; liens.append(a); }
+  article.append(liens);
+  return article;
+}
+
+function dessinerListe() {
+  const liste = $("liste");
+  liste.replaceChildren();
+  const visibles = filtrees();
+  if (visibles.length === 0) {
+    const vide = element("div", "message");
+    vide.append(element("p", "", "Aucune levée ne correspond à ces filtres. Retire un filtre pour élargir la recherche."));
+    const bouton = element("button", "", "Tout afficher");
+    bouton.type = "button";
+    bouton.addEventListener("click", () => {
+      etat.secteurs.clear(); etat.pays = ""; etat.montant = 0; etat.texte = "";
+      $("filtre-pays").value = ""; $("filtre-montant").value = "0"; $("filtre-texte").value = "";
+      dessinerSecteurs(); dessinerListe();
+    });
+    vide.append(bouton);
+    liste.append(vide);
+    return;
+  }
+  const parJour = new Map();
+  for (const l of visibles) {
+    if (!parJour.has(l.date)) parJour.set(l.date, []);
+    parJour.get(l.date).push(l);
+  }
+  for (const [jour, levees] of parJour) {
+    levees.sort((a, b) => (estPrioritaire(b) - estPrioritaire(a)) || (b.montant_eur || 0) - (a.montant_eur || 0));
+    const section = element("section", "jour");
+    const titre = element("h2", "", jourEnClair(jour));
+    titre.append(element("span", "", pluriel(levees.length, "levée")));
+    section.append(titre);
+    levees.forEach((l) => section.append(ligne(l)));
+    liste.append(section);
+  }
+}
+
+async function demarrer() {
+  try {
+    const [donnees, config] = await Promise.all([
+      fetch("data/levees.json", { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch("config.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    ]);
+    etat.levees = donnees.levees;
+    etat.prioritaires = config.secteurs_prioritaires || [];
+    const seuil = config.montant_min_eur ? " d'au moins " + montant(config.montant_min_eur) : "";
+    const passages = [...new Set(etat.levees.map((l) => l.vue_le))].sort();
+    etat.dernierPassage = passages.length > 1 ? passages[passages.length - 1] : null;
+
+    const majLe = new Date(donnees.mis_a_jour);
+    const dates = etat.levees.map((l) => l.date).sort();
+    const listePays = [...new Set(etat.levees.map((l) => l.pays))].sort();
+    $("resume").textContent = etat.levees.length === 0
+      ? "Aucune levée enregistrée pour l'instant. Lance la veille depuis l'onglet Actions du projet."
+      : pluriel(etat.levees.length, "levée") + seuil + ", " + listePays.map((p) => "en " + pays(p)).join(" et ") +
+        ", depuis le " + new Date(dates[0] + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) +
+        ". Mise à jour le " + majLe.toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) +
+        " à " + majLe.toLocaleTimeString("fr-FR", { hour: "numeric", minute: "2-digit" }).replace(":", " h ") +
+        ". Les secteurs surlignés sont tes priorités.";
+
+    for (const p of listePays) $("filtre-pays").append(new Option(pays(p), p));
+    $("filtre-pays").addEventListener("change", (e) => { etat.pays = e.target.value; dessinerListe(); });
+    $("filtre-montant").addEventListener("change", (e) => { etat.montant = Number(e.target.value); dessinerListe(); });
+    $("filtre-texte").addEventListener("input", (e) => { etat.texte = e.target.value; dessinerListe(); });
+    if (etat.levees.length) $("filtres").hidden = false;
+    dessinerSecteurs();
+    if (etat.levees.length) dessinerListe();
+  } catch (erreur) {
+    $("resume").textContent = "Impossible de charger les données (data/levees.json). Recharge la page. Si le problème reste, vérifie dans l'onglet Actions du projet que le dernier lancement a réussi.";
+  }
+}
+demarrer();
+</script>
+</body>
+</html>
