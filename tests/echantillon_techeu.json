@@ -1,0 +1,198 @@
+{
+  "data": [
+    {
+      "id": "F52BB590-9CC7-47B1-AF0F-75E181B89B24",
+      "url": "/deals/F52BB590-9CC7-47B1-AF0F-75E181B89B24",
+      "date": "2026-10-06",
+      "stage": "Series B",
+      "rawRoundType": "series b",
+      "amountEur": 23200000,
+      "amountEurStored": null,
+      "amountNative": 23200000,
+      "currency": "EUR",
+      "fx": {
+        "rate": 1,
+        "asOf": null,
+        "source": "ECB"
+      },
+      "company": {
+        "id": "54292EDE-190B-421C-85A8-D3E3EE293E7E",
+        "name": "Whitelab Genomics",
+        "country": "France",
+        "city": "Paris",
+        "founded": null,
+        "sectors": [
+          "Healthtech"
+        ]
+      },
+      "investors": [
+        "AVP",
+        "Omnes Capital",
+        "Yaday Health",
+        "Debiopharm Innovation Fund",
+        "Blast Club"
+      ],
+      "source": {
+        "domain": "eu-startups.com",
+        "tier": "established"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
+      "url": "/deals/B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
+      "date": "2026-10-06",
+      "stage": "Other",
+      "rawRoundType": "funding round",
+      "amountEur": 12000000,
+      "amountEurStored": null,
+      "amountNative": 12000000,
+      "currency": "EUR",
+      "fx": {
+        "rate": 1,
+        "asOf": null,
+        "source": "ECB"
+      },
+      "company": {
+        "id": "105DB116-0483-4EA2-8505-F5B6886DE0AF",
+        "name": "Edonia",
+        "country": "France",
+        "city": "Paris",
+        "founded": null,
+        "sectors": [
+          "Foodtech"
+        ]
+      },
+      "investors": [
+        "the European Union's EIT Food",
+        "Bpifrance",
+        "Swen Blue Ocean 2",
+        "Asterion Ventures"
+      ],
+      "source": {
+        "domain": "maddyness.com",
+        "tier": "established"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "905FBA62-9D58-48AD-9C07-78747B4CF17F",
+      "url": "/deals/905FBA62-9D58-48AD-9C07-78747B4CF17F",
+      "date": "2026-10-06",
+      "stage": "Other",
+      "rawRoundType": "funding round",
+      "amountEur": 17747804,
+      "amountEurStored": null,
+      "amountNative": 20000000,
+      "currency": "USD",
+      "fx": {
+        "rate": 1.1269,
+        "asOf": "2026-10-06",
+        "source": "ECB"
+      },
+      "company": {
+        "id": "B4EF4197-2300-472F-86E2-FA63A2FAB20F",
+        "name": "Vocca",
+        "country": "France",
+        "city": "Paris",
+        "founded": null,
+        "sectors": [
+          "Software"
+        ]
+      },
+      "investors": [
+        "Firstminute Capital",
+        "Speedinvest",
+        "Heal Capital",
+        "Norrsken"
+      ],
+      "source": {
+        "domain": "maddyness.com",
+        "tier": "established"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "6C4467E9-993A-4618-8C39-686B108B5121",
+      "url": "/deals/6C4467E9-993A-4618-8C39-686B108B5121",
+      "date": "2026-10-06",
+      "stage": "Other",
+      "rawRoundType": "funding round",
+      "amountEur": 30000000,
+      "amountEurStored": null,
+      "amountNative": 30000000,
+      "currency": "EUR",
+      "fx": {
+        "rate": 1,
+        "asOf": null,
+        "source": "ECB"
+      },
+      "company": {
+        "id": "876164A5-7724-4ED6-9204-D30C1B8F1BB4",
+        "name": "Vates",
+        "country": "France",
+        "city": "Paris",
+        "founded": null,
+        "sectors": [
+          "Cloud"
+        ]
+      },
+      "investors": [
+        "IRIS’ Growth fund",
+        "Bpifrance"
+      ],
+      "source": {
+        "domain": "tech.eu",
+        "tier": "own"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "64703AE8-9807-49E0-AB85-DB07FB924FE8",
+      "url": "/deals/64703AE8-9807-49E0-AB85-DB07FB924FE8",
+      "date": "2026-10-06",
+      "stage": "Series A",
+      "rawRoundType": "series a",
+      "amountEur": 7986512,
+      "amountEurStored": null,
+      "amountNative": 9000000,
+      "currency": "USD",
+      "fx": {
+        "rate": 1.1269,
+        "asOf": "2026-10-06",
+        "source": "ECB"
+      },
+      "company": {
+        "id": "9E334121-94B9-47B7-B242-6D3F7B2EB5A9",
+        "name": "Archeon",
+        "country": "France",
+        "city": "Besancon",
+        "founded": null,
+        "sectors": [
+          "Healthtech"
+        ]
+      },
+      "investors": [
+        "Majycc Innovation Santé",
+        "Eiffel Investment Group",
+        "Karot Capital",
+        "UI Investissement",
+        "Newfund"
+      ],
+      "source": {
+        "domain": "finsmes.com",
+        "tier": "established"
+      },
+      "confidence": "high"
+    }
+  ],
+  "nextCursor": "2026-10-06__64703AE8-9807-49E0-AB85-DB07FB924FE8",
+  "count": 5,
+  "appliedFilters": {
+    "country": "France",
+    "minAmountEur": 1000000,
+    "from": "2026-10-01"
+  },
+  "source": "Tech.eu Funding Explorer",
+  "methodology": "https://funding.tech.eu/methodology"
+}
