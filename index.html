@@ -56,7 +56,6 @@
     border-radius: 99rem; padding: 0.2rem 0.75rem;
   }
   .puce.prioritaire { background: var(--surligneur); }
-  #filtre-secteurs { display: contents; }
   .puce[aria-pressed="true"] { border-color: var(--encre); font-weight: 600; }
   .puce .nombre { color: var(--ardoise); margin-left: 0.3rem; }
   .puce.prioritaire .nombre { color: inherit; opacity: 0.7; }
@@ -90,9 +89,6 @@
   a { color: var(--action); text-underline-offset: 0.15em; }
   .liens a.principal { font-weight: 600; }
 
-  .badge.zone, .puce.zone { background: var(--encre); color: var(--papier); }
-  .puce.zone .nombre { color: inherit; opacity: 0.7; }
-  .puce.zone[aria-pressed="true"] { outline: 2px solid var(--encre); outline-offset: 2px; }
   .articles { margin: 0.25rem 0 0; font-size: 0.85rem; color: var(--ardoise); }
   .presse-seule { margin-top: 3.5rem; }
   .presse-seule > h2 { font-size: 1.4rem; font-weight: 800; margin: 0 0 0.3rem; }
@@ -103,7 +99,6 @@
   }
   .article .montant { font-size: 1.2rem; }
   .article .titre { margin: 0; }
-  .article .titre .badge { margin-left: 0.4rem; font-size: 0.85rem; }
   .article .meta { font-size: 0.9rem; color: var(--ardoise); white-space: nowrap; }
 
   .message { border: 1.5px solid var(--trait); border-radius: 0.5rem; padding: 1.25rem; margin-top: 2rem; max-width: 42rem; }
@@ -146,10 +141,7 @@
         <input type="search" id="filtre-texte" placeholder="Entreprise, ville, investisseur">
       </label>
     </div>
-    <div class="puces" role="group" aria-label="Zone et secteurs">
-      <button type="button" class="puce zone" id="filtre-zone" aria-pressed="false" hidden>Ma zone</button>
-      <span class="puces" id="filtre-secteurs"></span>
-    </div>
+    <div class="puces" id="filtre-secteurs" role="group" aria-label="Secteurs"></div>
   </section>
 
   <div id="liste"></div>
@@ -175,7 +167,7 @@ const NOMS_STADES = {
 };
 const NOMS_PAYS = { "France": "France", "Switzerland": "Suisse" };
 
-const etat = { levees: [], prioritaires: [], secteurs: new Set(), pays: "", montant: 0, texte: "", dernierPassage: null, zone: false, presseSeule: [] };
+const etat = { levees: [], prioritaires: [], secteurs: new Set(), pays: "", montant: 0, texte: "", dernierPassage: null, presseSeule: [] };
 const $ = (id) => document.getElementById(id);
 
 function element(balise, classe, texte) {
@@ -202,7 +194,6 @@ const pluriel = (n, mot) => n + " " + mot + (n > 1 ? "s" : "");
 function filtrees() {
   const texte = etat.texte.trim().toLowerCase();
   return etat.levees.filter((l) =>
-    (!etat.zone || l.zone) &&
     (!etat.pays || l.pays === etat.pays) &&
     (l.montant_eur || 0) >= etat.montant &&
     (etat.secteurs.size === 0 || l.secteurs.some((s) => etat.secteurs.has(s))) &&
@@ -255,7 +246,6 @@ function ligne(levee) {
   article.append(identite);
 
   const details = element("div", "details");
-  if (levee.zone) details.append(element("span", "badge zone", "Ma zone"));
   for (const s of levee.secteurs) {
     details.append(element("span", "badge" + (etat.prioritaires.includes(s) ? " prioritaire" : ""), secteur(s)));
   }
@@ -285,7 +275,7 @@ function dessinerListe() {
     parJour.get(l.date).push(l);
   }
   for (const [jour, levees] of parJour) {
-    levees.sort((a, b) => (Boolean(b.zone) - Boolean(a.zone)) || (estPrioritaire(b) - estPrioritaire(a)) || (b.montant_eur || 0) - (a.montant_eur || 0));
+    levees.sort((a, b) => (estPrioritaire(b) - estPrioritaire(a)) || (b.montant_eur || 0) - (a.montant_eur || 0));
     const section = element("section", "jour");
     const titre = element("h2", "", jourEnClair(jour));
     titre.append(element("span", "", pluriel(levees.length, "levée")));
@@ -303,10 +293,9 @@ function dessinerPresse() {
   if (etat.secteurs.size || etat.pays) return 0;  // un article n'a ni secteur ni pays fiable
   const texte = etat.texte.trim().toLowerCase();
   const visibles = etat.presseSeule
-    .filter((a) => (!etat.zone || a.zone) &&
-      (a.montant_eur_estime == null || a.montant_eur_estime >= etat.montant) &&
+    .filter((a) => (a.montant_eur_estime == null || a.montant_eur_estime >= etat.montant) &&
       (!texte || a.titre.toLowerCase().includes(texte)))
-    .sort((a, b) => (Boolean(b.zone) - Boolean(a.zone)) || b.date.localeCompare(a.date));
+    .sort((a, b) => b.date.localeCompare(a.date));
   if (!visibles.length) return 0;
   const section = element("section", "presse-seule");
   section.append(element("h2", "", "Vues dans la presse seulement"));
@@ -320,7 +309,6 @@ function dessinerPresse() {
     const lien = element("a", "", a.titre);
     lien.href = a.lien; lien.target = "_blank"; lien.rel = "noopener";
     titre.append(lien);
-    if (a.zone) titre.append(element("span", "badge zone", "Ma zone"));
     ligneArticle.append(titre);
     const jour = new Date(a.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
     ligneArticle.append(element("div", "meta", a.source + ", " + jour));
@@ -331,9 +319,8 @@ function dessinerPresse() {
 }
 
 function toutAfficher() {
-  etat.secteurs.clear(); etat.pays = ""; etat.montant = 0; etat.texte = ""; etat.zone = false;
+  etat.secteurs.clear(); etat.pays = ""; etat.montant = 0; etat.texte = "";
   $("filtre-pays").value = ""; $("filtre-montant").value = "0"; $("filtre-texte").value = "";
-  $("filtre-zone").setAttribute("aria-pressed", "false");
   dessinerSecteurs();
   dessiner();
 }
@@ -358,8 +345,6 @@ async function demarrer() {
     etat.levees = donnees.levees;
     etat.presseSeule = donnees.presse_seule || [];
     etat.prioritaires = config.secteurs_prioritaires || [];
-    const nomZone = (config.zone_prioritaire || {}).nom || "";
-    const dansLaZone = etat.levees.filter((l) => l.zone).length + etat.presseSeule.filter((a) => a.zone).length;
     const seuil = config.montant_min_eur ? " d'au moins " + montant(config.montant_min_eur) : "";
     const passages = [...new Set(etat.levees.map((l) => l.vue_le))].sort();
     etat.dernierPassage = passages.length > 1 ? passages[passages.length - 1] : null;
@@ -374,19 +359,8 @@ async function demarrer() {
         ". Mise à jour le " + majLe.toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) +
         " à " + majLe.toLocaleTimeString("fr-FR", { hour: "numeric", minute: "2-digit" }).replace(":", " h ") +
         "." + (etat.presseSeule.length ? " " + pluriel(etat.presseSeule.length, "autre") + " vue" + (etat.presseSeule.length > 1 ? "s" : "") + " dans la presse seulement." : "") +
-        (nomZone ? " Dans ta zone (" + nomZone + ") : " + dansLaZone + "." : "") +
         " Les secteurs surlignés sont tes priorités.";
 
-    if (dansLaZone) {
-      const bouton = $("filtre-zone");
-      bouton.hidden = false;
-      bouton.append(element("span", "nombre", dansLaZone));
-      bouton.addEventListener("click", () => {
-        etat.zone = !etat.zone;
-        bouton.setAttribute("aria-pressed", etat.zone);
-        dessiner();
-      });
-    }
     const sources = donnees.sources || [];
     if (sources.length) {
       const enPanne = sources.filter((x) => x.etat !== "ok").map((x) => x.nom);
