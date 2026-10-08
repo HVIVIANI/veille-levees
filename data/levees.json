@@ -1,23 +1,23 @@
 {
-  "mis_a_jour": "2026-10-07T15:33:58+00:00",
+  "mis_a_jour": "2026-10-08T07:03:31+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 48
+      "levees": 50
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 21
+      "articles_levees": 22
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 3
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
@@ -29,10 +29,126 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 4
+      "articles_levees": 5
     }
   ],
   "levees": [
+    {
+      "id": "952BF692-1C84-4E05-A316-8469C4D7631D",
+      "date": "2026-10-07",
+      "entreprise": "VoltR",
+      "pays": "France",
+      "ville": "Pays de la Loire",
+      "secteurs": [
+        "Energy"
+      ],
+      "montant_eur": 22000000,
+      "stade": "Other",
+      "investisseurs": [
+        "“Première Usine” programme",
+        "SPI 2 Fund",
+        "Decathlon Pulse"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/952BF692-1C84-4E05-A316-8469C4D7631D",
+      "vue_le": "2026-10-08",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "French startup VoltR secures €22 million to scale lithium battery remanufacturing in Europe",
+          "lien": "https://www.eu-startups.com/2026/10/french-startup-voltr-secures-e22-million-to-scale-lithium-battery-remanufacturing-in-europe/"
+        }
+      ]
+    },
+    {
+      "id": "B07076E5-0604-4437-BA6C-39843D481BD0",
+      "date": "2026-10-07",
+      "entreprise": "Rivercell",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 22000000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Alven",
+        "HV Capital",
+        "Bpifrance Digital Venture",
+        "HCVC"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B07076E5-0604-4437-BA6C-39843D481BD0",
+      "vue_le": "2026-10-08",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "France’s Rivercell emerges from stealth with €22 million for AI-powered drug discovery infrastructure",
+          "lien": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/"
+        }
+      ]
+    },
+    {
+      "id": "2F015E4E-236C-406B-AACD-8DC28E0F8F7F",
+      "date": "2026-10-07",
+      "entreprise": "Netsec",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Cybersecurity"
+      ],
+      "montant_eur": 8946945,
+      "stade": "Other",
+      "investisseurs": [
+        "Vento",
+        "Partech",
+        "View Different",
+        "Primo Capital",
+        "Kima Ventures",
+        "Vito Lomele",
+        "Ithaca Investments",
+        "Riccardo Zacconi",
+        "Everywhere Ventures"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/2F015E4E-236C-406B-AACD-8DC28E0F8F7F",
+      "vue_le": "2026-10-08",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "Avec environ 8,9 millions d’euros, NETSEC veut changer l’économie de l’infogérance",
+          "lien": "https://www.frenchweb.fr/avec-environ-89-millions-deuros-netsec-veut-changer-leconomie-de-linfogerance/463825"
+        },
+        {
+          "source": "EU-Startups",
+          "titre": "France- and Italy-based Netsec raises over €8.93 million to scale its AI-native solution for cybersecurity and IT",
+          "lien": "https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/"
+        }
+      ]
+    },
+    {
+      "id": "996ACBA2-0D76-4A74-BF9B-FF07ADBE1A3C",
+      "date": "2026-10-07",
+      "entreprise": "DeepPsy",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 2137716,
+      "stade": "Grant",
+      "investisseurs": [
+        "The Swiss National Science Foundation"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/996ACBA2-0D76-4A74-BF9B-FF07ADBE1A3C",
+      "vue_le": "2026-10-08",
+      "presse": []
+    },
     {
       "id": "577C71C3-3FFF-4783-91B4-B08B57C1A5E8",
       "date": "2026-10-06",
@@ -133,7 +249,13 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/6C4467E9-993A-4618-8C39-686B108B5121",
       "vue_le": "2026-10-07",
-      "presse": []
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "VATES : pourquoi un éditeur rentable depuis dix ans lève 30 millions d’euros",
+          "lien": "https://www.frenchweb.fr/vates-pourquoi-un-editeur-rentable-depuis-dix-ans-leve-30-millions-deuros/463837"
+        }
+      ]
     },
     {
       "id": "2A37C073-40EC-445E-8DEC-A9BF501B5E05",
@@ -182,7 +304,7 @@
         "Swen Blue Ocean 2",
         "Asterion Ventures"
       ],
-      "source": "maddyness.com",
+      "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
       "vue_le": "2026-10-07",
@@ -1248,30 +1370,6 @@
   ],
   "presse_seule": [
     {
-      "date": "2026-10-07",
-      "titre": "French startup VoltR secures €22 million to scale lithium battery remanufacturing in Europe",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/french-startup-voltr-secures-e22-million-to-scale-lithium-battery-remanufacturing-in-europe/",
-      "montant_texte": "€22 million",
-      "montant_eur_estime": 22000000
-    },
-    {
-      "date": "2026-10-07",
-      "titre": "France’s Rivercell emerges from stealth with €22 million for AI-powered drug discovery infrastructure",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
-      "montant_texte": "€22 million",
-      "montant_eur_estime": 22000000
-    },
-    {
-      "date": "2026-10-07",
-      "titre": "France- and Italy-based Netsec raises over €8.93 million to scale its AI-native solution for cybersecurity and IT",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/",
-      "montant_texte": "€8.93 million",
-      "montant_eur_estime": 8930000
-    },
-    {
       "date": "2026-10-01",
       "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
       "source": "FrenchWeb",
@@ -1297,6 +1395,51 @@
     }
   ],
   "articles": [
+    {
+      "source": "FrenchWeb",
+      "titre": "VATES : pourquoi un éditeur rentable depuis dix ans lève 30 millions d’euros",
+      "lien": "https://www.frenchweb.fr/vates-pourquoi-un-editeur-rentable-depuis-dix-ans-leve-30-millions-deuros/463837",
+      "date": "2026-10-08",
+      "montant_texte": "30 millions d’euros",
+      "montant_eur_estime": 30000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "German female-founded startup Finches raises €2 million to bring AI early warnings to agricultural sourcing",
+      "lien": "https://www.eu-startups.com/2026/10/bavarias-female-founded-startup-finches-raises-e2-million-to-bring-ai-early-warnings-to-agricultural-procurement/",
+      "date": "2026-10-08",
+      "montant_texte": "€2 million",
+      "montant_eur_estime": 2000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Weight loss startup Yazen raises €50m led by Verdane",
+      "lien": "https://sifted.eu/articles/yazen-funding-round-verdane-series-b/",
+      "date": "2026-10-08",
+      "montant_texte": "€50m",
+      "montant_eur_estime": 50000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Copenhagen’s TODAY raises €2.8 million to bring compliant AI agents to financial and insurance advisors",
+      "lien": "https://www.eu-startups.com/2026/10/copenhagens-today-raises-e2-8-million-to-bring-compliant-ai-agents-to-financial-and-insurance-advisors/",
+      "date": "2026-10-08",
+      "montant_texte": "€2.8 million",
+      "montant_eur_estime": 2800000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Avec environ 8,9 millions d’euros, NETSEC veut changer l’économie de l’infogérance",
+      "lien": "https://www.frenchweb.fr/avec-environ-89-millions-deuros-netsec-veut-changer-leconomie-de-linfogerance/463825",
+      "date": "2026-10-08",
+      "montant_texte": "8,9 millions d’euros",
+      "montant_eur_estime": 8900000,
+      "pays_ok": true
+    },
     {
       "source": "EU-Startups",
       "titre": "UK-based InsurTech Konsileo raises €5.9 million to expand its team and integrate AI",
