@@ -1,29 +1,29 @@
 {
-  "mis_a_jour": "2026-10-08T08:01:03+00:00",
+  "mis_a_jour": "2026-10-09T07:03:45+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 50
+      "levees": 46
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 22
+      "articles_levees": 23
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 8
+      "articles_levees": 6
     },
     {
       "nom": "Sifted",
@@ -33,6 +33,63 @@
     }
   ],
   "levees": [
+    {
+      "id": "66FAD0F8-F8BC-48DD-84A4-35AA875CEFD0",
+      "date": "2026-10-08",
+      "entreprise": "Verso",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 5363848,
+      "stade": "Seed",
+      "investisseurs": [
+        "Sharpstone Capital",
+        "100IN",
+        "Kima Ventures",
+        "Olympe Capital",
+        "Angular Ventures",
+        "Hexa"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/66FAD0F8-F8BC-48DD-84A4-35AA875CEFD0",
+      "vue_le": "2026-10-09",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "VERSO lève 5,4 millions d’euros : une nouvelle génération de plateformes d’études consommateurs émerge",
+          "lien": "https://www.frenchweb.fr/verso-leve-54-millions-deuros-une-nouvelle-generation-de-plateformes-detudes-consommateurs-emerge/463862"
+        }
+      ]
+    },
+    {
+      "id": "70F38D75-94F7-4AE5-9267-8C867B10803E",
+      "date": "2026-10-08",
+      "entreprise": "UniSieve",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "Cleantech"
+      ],
+      "montant_eur": 8045772,
+      "stade": "Series A",
+      "investisseurs": [
+        "Zürcher Kantonalbank",
+        "Founderful",
+        "Guenat Holding",
+        "new investors",
+        "Amadeus APEX Technology Fund",
+        "The Orano Venture Fund",
+        "Supernova Invest"
+      ],
+      "source": "techfundingnews.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/70F38D75-94F7-4AE5-9267-8C867B10803E",
+      "vue_le": "2026-10-09",
+      "presse": []
+    },
     {
       "id": "952BF692-1C84-4E05-A316-8469C4D7631D",
       "date": "2026-10-07",
@@ -1370,6 +1427,14 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-09",
+      "titre": "Bern-based Besso raises €4.29 million to scale its AI-powered trade regulation intelligence platform",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/",
+      "montant_texte": "€4.29 million",
+      "montant_eur_estime": 4290000
+    },
+    {
       "date": "2026-10-01",
       "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
       "source": "FrenchWeb",
@@ -1397,6 +1462,24 @@
   "articles": [
     {
       "source": "FrenchWeb",
+      "titre": "VERSO lève 5,4 millions d’euros : une nouvelle génération de plateformes d’études consommateurs émerge",
+      "lien": "https://www.frenchweb.fr/verso-leve-54-millions-deuros-une-nouvelle-generation-de-plateformes-detudes-consommateurs-emerge/463862",
+      "date": "2026-10-09",
+      "montant_texte": "5,4 millions d’euros",
+      "montant_eur_estime": 5400000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Bern-based Besso raises €4.29 million to scale its AI-powered trade regulation intelligence platform",
+      "lien": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/",
+      "date": "2026-10-09",
+      "montant_texte": "€4.29 million",
+      "montant_eur_estime": 4290000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
       "titre": "VATES : pourquoi un éditeur rentable depuis dix ans lève 30 millions d’euros",
       "lien": "https://www.frenchweb.fr/vates-pourquoi-un-editeur-rentable-depuis-dix-ans-leve-30-millions-deuros/463837",
       "date": "2026-10-08",
@@ -1406,11 +1489,38 @@
     },
     {
       "source": "EU-Startups",
+      "titre": "Universal Quantum secures UK’s largest quantum Series A with €89 million to scale modular quantum computers",
+      "lien": "https://www.eu-startups.com/2026/10/universal-quantum-secures-uks-largest-quantum-series-a-with-e89-million-to-scale-modular-quantum-computers/",
+      "date": "2026-10-08",
+      "montant_texte": "€89 million",
+      "montant_eur_estime": 89000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "London’s IMMIX secures €3.12 million to build FX infrastructure for stablecoin payments beyond the US dollar",
       "lien": "https://www.eu-startups.com/2026/10/londons-immix-secures-e3-12-million-to-build-fx-infrastructure-for-stablecoin-payments-beyond-the-us-dollar/",
       "date": "2026-10-08",
       "montant_texte": "€3.12 million",
       "montant_eur_estime": 3120000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Limassol-based NeoFleet Capital raises €3.5 million to finance taxi fleets across emerging markets",
+      "lien": "https://www.eu-startups.com/2026/10/limassol-based-neofleet-capital-raises-e3-5-million-to-finance-taxi-fleets-across-emerging-markets/",
+      "date": "2026-10-08",
+      "montant_texte": "€3.5 million",
+      "montant_eur_estime": 3500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Leonardo DiCaprio, yes that Leo, announces investment in Swedish EnergyTech startup Elvy",
+      "lien": "https://www.eu-startups.com/2026/10/leonardo-dicaprio-yes-that-leo-announces-investment-in-swedish-energytech-startup-elvy/",
+      "date": "2026-10-08",
+      "montant_texte": null,
+      "montant_eur_estime": null,
       "pays_ok": false
     },
     {
@@ -1438,6 +1548,15 @@
       "date": "2026-10-08",
       "montant_texte": "€2.8 million",
       "montant_eur_estime": 2800000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Building on Fund I’s success, PSV Tech closes Fund II at €56 million with 19 investments already made",
+      "lien": "https://www.eu-startups.com/2026/10/building-on-fund-is-success-psv-tech-announces-close-of-fund-ii-at-e56-million-with-19-investments-already-made/",
+      "date": "2026-10-08",
+      "montant_texte": "€56 million",
+      "montant_eur_estime": 56000000,
       "pays_ok": false
     },
     {
