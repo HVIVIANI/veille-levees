@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-09T07:03:45+00:00",
+  "mis_a_jour": "2026-10-09T08:01:29+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -1428,6 +1428,14 @@
   "presse_seule": [
     {
       "date": "2026-10-09",
+      "titre": "Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/",
+      "montant_texte": "€7.13 million",
+      "montant_eur_estime": 7130000
+    },
+    {
+      "date": "2026-10-09",
       "titre": "Bern-based Besso raises €4.29 million to scale its AI-powered trade regulation intelligence platform",
       "source": "EU-Startups",
       "lien": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/",
@@ -1460,6 +1468,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US",
+      "lien": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/",
+      "date": "2026-10-09",
+      "montant_texte": "€7.13 million",
+      "montant_eur_estime": 7130000,
+      "pays_ok": true
+    },
     {
       "source": "FrenchWeb",
       "titre": "VERSO lève 5,4 millions d’euros : une nouvelle génération de plateformes d’études consommateurs émerge",
