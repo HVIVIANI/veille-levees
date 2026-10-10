@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-09T08:01:29+00:00",
+  "mis_a_jour": "2026-10-10T07:00:02+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -29,10 +29,66 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 5
+      "articles_levees": 3
     }
   ],
   "levees": [
+    {
+      "id": "B5C4E79B-8A8A-496B-B0EC-55679301BE39",
+      "date": "2026-10-09",
+      "entreprise": "Klarent",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 7130000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Moonfire Ventures",
+        "Harris Barton",
+        "Mosaic Ventures",
+        "Jürgen Galler",
+        "AngelInvest Ventures"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B5C4E79B-8A8A-496B-B0EC-55679301BE39",
+      "vue_le": "2026-10-10",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US",
+          "lien": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/"
+        }
+      ]
+    },
+    {
+      "id": "B0521467-54AF-4D2E-9FA0-C8F5D99B6091",
+      "date": "2026-10-09",
+      "entreprise": "Besso",
+      "pays": "Switzerland",
+      "ville": "Bern",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 4295071,
+      "stade": "Other",
+      "investisseurs": [
+        "European family offices"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B0521467-54AF-4D2E-9FA0-C8F5D99B6091",
+      "vue_le": "2026-10-10",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Bern-based Besso raises €4.29 million to scale its AI-powered trade regulation intelligence platform",
+          "lien": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/"
+        }
+      ]
+    },
     {
       "id": "66FAD0F8-F8BC-48DD-84A4-35AA875CEFD0",
       "date": "2026-10-08",
@@ -1427,22 +1483,6 @@
   ],
   "presse_seule": [
     {
-      "date": "2026-10-09",
-      "titre": "Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/",
-      "montant_texte": "€7.13 million",
-      "montant_eur_estime": 7130000
-    },
-    {
-      "date": "2026-10-09",
-      "titre": "Bern-based Besso raises €4.29 million to scale its AI-powered trade regulation intelligence platform",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/",
-      "montant_texte": "€4.29 million",
-      "montant_eur_estime": 4290000
-    },
-    {
       "date": "2026-10-01",
       "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
       "source": "FrenchWeb",
@@ -1485,6 +1525,33 @@
       "montant_texte": "5,4 millions d’euros",
       "montant_eur_estime": 5400000,
       "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Monte Carlo Capital raises €13 million for Fund II to invest in early-stage DeepTech, AI and SpaceTech",
+      "lien": "https://www.eu-startups.com/2026/10/monte-carlo-capital-raises-e13-million-for-fund-ii-to-invest-in-early-stage-deeptech-ai-and-spacetech/",
+      "date": "2026-10-09",
+      "montant_texte": "€13 million",
+      "montant_eur_estime": 13000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London’s Sava raises €32.08 million and partners with Ascensia to bring its glucose microsensor to Europe",
+      "lien": "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/",
+      "date": "2026-10-09",
+      "montant_texte": "€32.08 million",
+      "montant_eur_estime": 32080000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Ghent-based SpectaCell launches with €6 million to advance its cell analysis platform for immunotherapy development",
+      "lien": "https://www.eu-startups.com/2026/10/ghent-based-spectacell-launches-with-e6-million-to-advance-its-cell-analysis-platform-for-immunotherapy-development/",
+      "date": "2026-10-09",
+      "montant_texte": "€6 million",
+      "montant_eur_estime": 6000000,
+      "pays_ok": false
     },
     {
       "source": "EU-Startups",
@@ -1533,7 +1600,7 @@
     },
     {
       "source": "EU-Startups",
-      "titre": "Leonardo DiCaprio, yes that Leo, announces investment in Swedish EnergyTech startup Elvy",
+      "titre": "Leonardo DiCaprio (yes that Leo) announces investment in Swedish EnergyTech startup Elvy",
       "lien": "https://www.eu-startups.com/2026/10/leonardo-dicaprio-yes-that-leo-announces-investment-in-swedish-energytech-startup-elvy/",
       "date": "2026-10-08",
       "montant_texte": null,
