@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-11T07:58:44+00:00",
+  "mis_a_jour": "2026-10-12T07:10:10+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -11,7 +11,7 @@
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 23
+      "articles_levees": 22
     },
     {
       "nom": "Maddyness",
@@ -23,13 +23,13 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 6
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 3
+      "articles_levees": 2
     }
   ],
   "levees": [
@@ -283,6 +283,11 @@
       "lien": "https://funding.tech.eu/deals/577C71C3-3FFF-4783-91B4-B08B57C1A5E8",
       "vue_le": "2026-10-07",
       "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Profitable French scale-up Wiremind raises €35 million after 12 years of bootstrapping",
+          "lien": "https://www.eu-startups.com/2026/10/profitable-french-scale-up-wiremind-raises-e35-million-after-12-years-of-bootstrapping/"
+        },
         {
           "source": "Maddyness",
           "titre": "12 ans après sa création, Wiremind boucle un premier tour de table de 35 millions d’euros",
@@ -1508,6 +1513,24 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "Profitable French scale-up Wiremind raises €35 million after 12 years of bootstrapping",
+      "lien": "https://www.eu-startups.com/2026/10/profitable-french-scale-up-wiremind-raises-e35-million-after-12-years-of-bootstrapping/",
+      "date": "2026-10-12",
+      "montant_texte": "€35 million",
+      "montant_eur_estime": 35000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Gaius Capital closes debut fund at €50 million, raises another €6 million via co-investment vehicle",
+      "lien": "https://www.eu-startups.com/2026/10/gaius-capital-closes-debut-fund-at-e50-million-raises-another-e6-million-via-co-investment-vehicle/",
+      "date": "2026-10-12",
+      "montant_texte": "€50 million",
+      "montant_eur_estime": 50000000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US",
