@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-10-12T08:04:13+00:00",
+  "mis_a_jour": "2026-10-13T07:09:10+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 44
+      "levees": 45
     },
     {
       "nom": "FrenchWeb",
@@ -17,13 +17,13 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 0
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 7
+      "articles_levees": 8
     },
     {
       "nom": "Sifted",
@@ -33,6 +33,41 @@
     }
   ],
   "levees": [
+    {
+      "id": "30E02002-6175-40A5-97B0-16B348157335",
+      "date": "2026-10-12",
+      "entreprise": "HyLight",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Transportation"
+      ],
+      "montant_eur": 13000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Rubio Impact Ventures",
+        "TeamPact Ventures",
+        "Y Combinator",
+        "DRW Venture",
+        "Ring Capital"
+      ],
+      "source": "techfundingnews.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/30E02002-6175-40A5-97B0-16B348157335",
+      "vue_le": "2026-10-13",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "HYLIGHT lève 13 millions d’euros pour faire du dirigeable un outil de maintenance industrielle",
+          "lien": "https://www.frenchweb.fr/hylight-leve-13-millions-deuros-pour-faire-du-dirigeable-un-outil-de-maintenance-industrielle/463913"
+        },
+        {
+          "source": "EU-Startups",
+          "titre": "HyLight raises €13 million for its autonomous airships inspecting Europe’s critical infrastructure",
+          "lien": "https://www.eu-startups.com/2026/10/hylight-raises-e13-million-for-its-autonomous-airships-inspecting-europes-critical-infrastructure/"
+        }
+      ]
+    },
     {
       "id": "B5C4E79B-8A8A-496B-B0EC-55679301BE39",
       "date": "2026-10-09",
@@ -1488,6 +1523,30 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-13",
+      "titre": "Wavo lève 10 millions d’euros pour transformer le stock des PME en trésorerie",
+      "source": "Maddyness",
+      "lien": "https://www.maddyness.com/2026/10/13/wavo-leve-10-millions-deuros-pour-transformer-le-stock-des-pme-en-tresorerie/",
+      "montant_texte": "10 millions d’euros",
+      "montant_eur_estime": 10000000
+    },
+    {
+      "date": "2026-10-13",
+      "titre": "Paris-based CarbonFarm raises €7 million to tackle methane emissions from rice farming",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/",
+      "montant_texte": "€7 million",
+      "montant_eur_estime": 7000000
+    },
+    {
+      "date": "2026-10-13",
+      "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919",
+      "montant_texte": "7 millions d’euros",
+      "montant_eur_estime": 7000000
+    },
+    {
       "date": "2026-10-01",
       "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
       "source": "FrenchWeb",
@@ -1514,6 +1573,51 @@
   ],
   "articles": [
     {
+      "source": "Maddyness",
+      "titre": "Wavo lève 10 millions d’euros pour transformer le stock des PME en trésorerie",
+      "lien": "https://www.maddyness.com/2026/10/13/wavo-leve-10-millions-deuros-pour-transformer-le-stock-des-pme-en-tresorerie/",
+      "date": "2026-10-13",
+      "montant_texte": "10 millions d’euros",
+      "montant_eur_estime": 10000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Vienna-based reebuild raises €3 million to build the AI operating system for construction and real estate",
+      "lien": "https://www.eu-startups.com/2026/10/vienna-based-reebuild-raises-e3-million-to-build-the-ai-operating-system-for-construction-and-real-estate/",
+      "date": "2026-10-13",
+      "montant_texte": "€3 million",
+      "montant_eur_estime": 3000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Paris-based CarbonFarm raises €7 million to tackle methane emissions from rice farming",
+      "lien": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/",
+      "date": "2026-10-13",
+      "montant_texte": "€7 million",
+      "montant_eur_estime": 7000000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "HYLIGHT lève 13 millions d’euros pour faire du dirigeable un outil de maintenance industrielle",
+      "lien": "https://www.frenchweb.fr/hylight-leve-13-millions-deuros-pour-faire-du-dirigeable-un-outil-de-maintenance-industrielle/463913",
+      "date": "2026-10-13",
+      "montant_texte": "13 millions d’euros",
+      "montant_eur_estime": 13000000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
+      "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919",
+      "date": "2026-10-13",
+      "montant_texte": "7 millions d’euros",
+      "montant_eur_estime": 7000000,
+      "pays_ok": true
+    },
+    {
       "source": "EU-Startups",
       "titre": "Profitable French scale-up Wiremind raises €35 million after 12 years of bootstrapping",
       "lien": "https://www.eu-startups.com/2026/10/profitable-french-scale-up-wiremind-raises-e35-million-after-12-years-of-bootstrapping/",
@@ -1524,11 +1628,29 @@
     },
     {
       "source": "EU-Startups",
+      "titre": "HyLight raises €13 million for its autonomous airships inspecting Europe’s critical infrastructure",
+      "lien": "https://www.eu-startups.com/2026/10/hylight-raises-e13-million-for-its-autonomous-airships-inspecting-europes-critical-infrastructure/",
+      "date": "2026-10-12",
+      "montant_texte": "€13 million",
+      "montant_eur_estime": 13000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Gaius Capital closes debut fund at €50 million, raises another €6 million via co-investment vehicle",
       "lien": "https://www.eu-startups.com/2026/10/gaius-capital-closes-debut-fund-at-e50-million-raises-another-e6-million-via-co-investment-vehicle/",
       "date": "2026-10-12",
       "montant_texte": "€50 million",
       "montant_eur_estime": 50000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Energy unicorn 1Komma5 raises €70m as IPO plans remain on ice",
+      "lien": "https://sifted.eu/articles/energy-unicorn-1komma5-raises-e70m-as-ipo-plans-remain-on-ice/",
+      "date": "2026-10-12",
+      "montant_texte": "€70m",
+      "montant_eur_estime": 70000000,
       "pays_ok": false
     },
     {
