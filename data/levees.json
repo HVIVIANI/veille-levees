@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-13T07:09:10+00:00",
+  "mis_a_jour": "2026-10-13T08:03:37+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -23,7 +23,7 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 8
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
