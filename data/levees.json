@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-14T07:24:03+00:00",
+  "mis_a_jour": "2026-10-14T08:15:29+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -1628,6 +1628,14 @@
       "montant_eur_estime": null
     },
     {
+      "date": "2026-10-14",
+      "titre": "NVIDIA plans minority investments in four French startups as European tech commitment nears €9 billion",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/nvidia-plans-minority-investments-in-four-french-startups-as-european-tech-commitment-nears-e9-billion/",
+      "montant_texte": "€9 billion",
+      "montant_eur_estime": 9000000000
+    },
+    {
       "date": "2026-10-01",
       "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
       "source": "FrenchWeb",
@@ -1661,6 +1669,15 @@
       "date": "2026-10-14",
       "montant_texte": null,
       "montant_eur_estime": null,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "NVIDIA plans minority investments in four French startups as European tech commitment nears €9 billion",
+      "lien": "https://www.eu-startups.com/2026/10/nvidia-plans-minority-investments-in-four-french-startups-as-european-tech-commitment-nears-e9-billion/",
+      "date": "2026-10-14",
+      "montant_texte": "€9 billion",
+      "montant_eur_estime": 9000000000,
       "pays_ok": true
     },
     {
