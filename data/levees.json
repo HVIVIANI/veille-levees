@@ -1,38 +1,135 @@
 {
-  "mis_a_jour": "2026-10-13T08:03:37+00:00",
+  "mis_a_jour": "2026-10-14T07:24:03+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 45
+      "levees": 48
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 22
+      "articles_levees": 23
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 2
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 7
+      "articles_levees": 6
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 2
+      "articles_levees": 1
     }
   ],
   "levees": [
+    {
+      "id": "4CE58F59-85A0-4526-AFBA-0A7C2B047B50",
+      "date": "2026-10-13",
+      "entreprise": "Wavo",
+      "pays": "France",
+      "ville": "Lyon",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 10000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Eurazeo",
+        "Axeleo Capital",
+        "Hub612"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/4CE58F59-85A0-4526-AFBA-0A7C2B047B50",
+      "vue_le": "2026-10-14",
+      "presse": [
+        {
+          "source": "Maddyness",
+          "titre": "Wavo lève 10 millions d’euros pour transformer le stock des PME en trésorerie",
+          "lien": "https://www.maddyness.com/2026/10/13/wavo-leve-10-millions-deuros-pour-transformer-le-stock-des-pme-en-tresorerie/"
+        }
+      ]
+    },
+    {
+      "id": "8C376DFD-9C7E-4FD0-AFC6-D5E915C21CF4",
+      "date": "2026-10-13",
+      "entreprise": "EPYR",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Energy"
+      ],
+      "montant_eur": 15000000,
+      "stade": "Series A",
+      "investisseurs": [
+        "SlateVC",
+        "Ovni Capital",
+        "WEPA Ventures",
+        "Aurum Impact",
+        "Daphni",
+        "AENU"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/8C376DFD-9C7E-4FD0-AFC6-D5E915C21CF4",
+      "vue_le": "2026-10-14",
+      "presse": []
+    },
+    {
+      "id": "9E1FBD00-2571-4319-9DFF-FD22F8796AC9",
+      "date": "2026-10-13",
+      "entreprise": "CarbonFarm Technology",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Energy"
+      ],
+      "montant_eur": 7000000,
+      "stade": "Series A",
+      "investisseurs": [
+        "Albo",
+        "elea",
+        "makesense",
+        "Serena",
+        "Bpifrance",
+        "Suma Capital",
+        "Proparco",
+        "Working Capital Fund",
+        "Colam Impact"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/9E1FBD00-2571-4319-9DFF-FD22F8796AC9",
+      "vue_le": "2026-10-14",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Paris-based CarbonFarm raises €7 million to tackle methane emissions from rice farming",
+          "lien": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/"
+        },
+        {
+          "source": "Maddyness",
+          "titre": "CarbonFarm lève 7 millions d’euros pour réduire les émissions de méthane dans les rizières",
+          "lien": "https://www.maddyness.com/2026/10/13/carbonfarm-leve-7-millions-deuros-pour-reduire-les-emissions-de-methane-dans-les-rizieres/"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
+          "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919"
+        }
+      ]
+    },
     {
       "id": "30E02002-6175-40A5-97B0-16B348157335",
       "date": "2026-10-12",
@@ -51,7 +148,7 @@
         "DRW Venture",
         "Ring Capital"
       ],
-      "source": "techfundingnews.com",
+      "source": "tech.eu",
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/30E02002-6175-40A5-97B0-16B348157335",
       "vue_le": "2026-10-13",
@@ -1523,28 +1620,12 @@
   ],
   "presse_seule": [
     {
-      "date": "2026-10-13",
-      "titre": "Wavo lève 10 millions d’euros pour transformer le stock des PME en trésorerie",
-      "source": "Maddyness",
-      "lien": "https://www.maddyness.com/2026/10/13/wavo-leve-10-millions-deuros-pour-transformer-le-stock-des-pme-en-tresorerie/",
-      "montant_texte": "10 millions d’euros",
-      "montant_eur_estime": 10000000
-    },
-    {
-      "date": "2026-10-13",
-      "titre": "Paris-based CarbonFarm raises €7 million to tackle methane emissions from rice farming",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/",
-      "montant_texte": "€7 million",
-      "montant_eur_estime": 7000000
-    },
-    {
-      "date": "2026-10-13",
-      "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
+      "date": "2026-10-14",
+      "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
       "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919",
-      "montant_texte": "7 millions d’euros",
-      "montant_eur_estime": 7000000
+      "lien": "https://www.frenchweb.fr/nvidia-investit-dans-doctolib-retour-sur-une-success-story-francaise/463926",
+      "montant_texte": null,
+      "montant_eur_estime": null
     },
     {
       "date": "2026-10-01",
@@ -1561,17 +1642,36 @@
       "lien": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327",
       "montant_texte": "387 millions d’euros",
       "montant_eur_estime": 387000000
-    },
-    {
-      "date": "2026-08-29",
-      "titre": "PASQAL au Nasdaq : le quantique français cherche le capital de son industrialisation",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/pasqal-au-nasdaq-le-quantique-francais-cherche-le-capital-de-son-industrialisation/463104",
-      "montant_texte": null,
-      "montant_eur_estime": null
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "Warsaw’s Coding Giants secures up to €6 million to expand its STEM education platform beyond Europe",
+      "lien": "https://www.eu-startups.com/2026/10/warsaws-coding-giants-secures-up-to-e6-million-to-expand-its-stem-education-platform-beyond-europe/",
+      "date": "2026-10-14",
+      "montant_texte": "€6 million",
+      "montant_eur_estime": 6000000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
+      "lien": "https://www.frenchweb.fr/nvidia-investit-dans-doctolib-retour-sur-une-success-story-francaise/463926",
+      "date": "2026-10-14",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Whiterock deploys €82 million to support SME growth across Northern Ireland",
+      "lien": "https://www.eu-startups.com/2026/10/whiterock-deploys-e82-million-to-support-sme-growth-across-northern-ireland/",
+      "date": "2026-10-13",
+      "montant_texte": "€82 million",
+      "montant_eur_estime": 82000000,
+      "pays_ok": false
+    },
     {
       "source": "Maddyness",
       "titre": "Wavo lève 10 millions d’euros pour transformer le stock des PME en trésorerie",
@@ -1592,6 +1692,15 @@
     },
     {
       "source": "EU-Startups",
+      "titre": "Undecimal Bio lands €16 million to develop targeted RNA medicines beyond the liver",
+      "lien": "https://www.eu-startups.com/2026/10/undecimal-bio-lands-e16-million-to-develop-targeted-rna-medicines-beyond-the-liver/",
+      "date": "2026-10-13",
+      "montant_texte": "€16 million",
+      "montant_eur_estime": 16000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Paris-based CarbonFarm raises €7 million to tackle methane emissions from rice farming",
       "lien": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/",
       "date": "2026-10-13",
@@ -1600,12 +1709,39 @@
       "pays_ok": true
     },
     {
+      "source": "EU-Startups",
+      "titre": "One of Spain’s largest recent FinTech deals sees ID Finance secure €545 million to scale Plazo",
+      "lien": "https://www.eu-startups.com/2026/10/one-of-spains-largest-recent-fintech-deals-sees-id-finance-secure-e545-million-to-scale-plazo/",
+      "date": "2026-10-13",
+      "montant_texte": "€545 million",
+      "montant_eur_estime": 545000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London’s Obsero raises €1 million to help brands improve visibility in AI-powered search",
+      "lien": "https://www.eu-startups.com/2026/10/londons-obsero-raises-e1-million-to-help-brands-improve-visibility-in-ai-powered-search/",
+      "date": "2026-10-13",
+      "montant_texte": "€1 million",
+      "montant_eur_estime": 1000000,
+      "pays_ok": false
+    },
+    {
       "source": "FrenchWeb",
       "titre": "HYLIGHT lève 13 millions d’euros pour faire du dirigeable un outil de maintenance industrielle",
       "lien": "https://www.frenchweb.fr/hylight-leve-13-millions-deuros-pour-faire-du-dirigeable-un-outil-de-maintenance-industrielle/463913",
       "date": "2026-10-13",
       "montant_texte": "13 millions d’euros",
       "montant_eur_estime": 13000000,
+      "pays_ok": true
+    },
+    {
+      "source": "Maddyness",
+      "titre": "CarbonFarm lève 7 millions d’euros pour réduire les émissions de méthane dans les rizières",
+      "lien": "https://www.maddyness.com/2026/10/13/carbonfarm-leve-7-millions-deuros-pour-reduire-les-emissions-de-methane-dans-les-rizieres/",
+      "date": "2026-10-13",
+      "montant_texte": "7 millions d’euros",
+      "montant_eur_estime": 7000000,
       "pays_ok": true
     },
     {
@@ -2111,15 +2247,6 @@
       "montant_texte": "488 millions d’euros",
       "montant_eur_estime": 488000000,
       "pays_ok": false
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "PASQAL au Nasdaq : le quantique français cherche le capital de son industrialisation",
-      "lien": "https://www.frenchweb.fr/pasqal-au-nasdaq-le-quantique-francais-cherche-le-capital-de-son-industrialisation/463104",
-      "date": "2026-08-29",
-      "montant_texte": null,
-      "montant_eur_estime": null,
-      "pays_ok": true
     }
   ]
 }
