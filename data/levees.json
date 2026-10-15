@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-10-15T07:23:25+00:00",
+  "mis_a_jour": "2026-10-15T08:16:09+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 45
+      "levees": 46
     },
     {
       "nom": "FrenchWeb",
@@ -33,6 +33,42 @@
     }
   ],
   "levees": [
+    {
+      "id": "A7151620-02A2-47A7-AB7E-1F767A6E1DC9",
+      "date": "2026-10-15",
+      "entreprise": "Dougs",
+      "pays": "France",
+      "ville": "Lyon",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 50000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Expedition Growth Capital"
+      ],
+      "source": "techfundingnews.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/A7151620-02A2-47A7-AB7E-1F767A6E1DC9",
+      "vue_le": "2026-10-15",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Profitable French accounting company Dougs raises €50 million to accelerate AI automation",
+          "lien": "https://www.eu-startups.com/2026/10/profitable-french-accounting-company-dougs-raises-e50-million-to-accelerate-ai-automation/"
+        },
+        {
+          "source": "Maddyness",
+          "titre": "Dougs lève 50 millions d’euros pour devenir le «premier cabinet d’expertise-comptable de France»",
+          "lien": "https://www.maddyness.com/2026/10/15/dougs-leve-50-millions-deuros-pour-devenir-le-premier-cabinet-dexpertise-comptable-de-france/"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "DOUGS lève 50 millions d’euros auprès d’Expedition Growth Capital pour changer d’échelle",
+          "lien": "https://www.frenchweb.fr/dougs-leve-50-millions-deuros-aupres-dexpedition-growth-capital-pour-changer-dechelle/463938"
+        }
+      ]
+    },
     {
       "id": "4CE58F59-85A0-4526-AFBA-0A7C2B047B50",
       "date": "2026-10-13",
@@ -1619,30 +1655,6 @@
     }
   ],
   "presse_seule": [
-    {
-      "date": "2026-10-15",
-      "titre": "Profitable French accounting company Dougs raises €50 million to accelerate AI automation",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/profitable-french-accounting-company-dougs-raises-e50-million-to-accelerate-ai-automation/",
-      "montant_texte": "€50 million",
-      "montant_eur_estime": 50000000
-    },
-    {
-      "date": "2026-10-15",
-      "titre": "Dougs lève 50 millions d’euros pour devenir le «premier cabinet d’expertise-comptable de France»",
-      "source": "Maddyness",
-      "lien": "https://www.maddyness.com/2026/10/15/dougs-leve-50-millions-deuros-pour-devenir-le-premier-cabinet-dexpertise-comptable-de-france/",
-      "montant_texte": "50 millions d’euros",
-      "montant_eur_estime": 50000000
-    },
-    {
-      "date": "2026-10-15",
-      "titre": "DOUGS lève 50 millions d’euros auprès d’Expedition Growth Capital pour changer d’échelle",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/dougs-leve-50-millions-deuros-aupres-dexpedition-growth-capital-pour-changer-dechelle/463938",
-      "montant_texte": "50 millions d’euros",
-      "montant_eur_estime": 50000000
-    },
     {
       "date": "2026-10-14",
       "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
