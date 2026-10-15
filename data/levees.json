@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-10-14T08:15:29+00:00",
+  "mis_a_jour": "2026-10-15T07:23:25+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 48
+      "levees": 45
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 23
+      "articles_levees": 24
     },
     {
       "nom": "Maddyness",
@@ -23,13 +23,13 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 6
+      "articles_levees": 8
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 1
+      "articles_levees": 2
     }
   ],
   "levees": [
@@ -1620,6 +1620,30 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-15",
+      "titre": "Profitable French accounting company Dougs raises €50 million to accelerate AI automation",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/profitable-french-accounting-company-dougs-raises-e50-million-to-accelerate-ai-automation/",
+      "montant_texte": "€50 million",
+      "montant_eur_estime": 50000000
+    },
+    {
+      "date": "2026-10-15",
+      "titre": "Dougs lève 50 millions d’euros pour devenir le «premier cabinet d’expertise-comptable de France»",
+      "source": "Maddyness",
+      "lien": "https://www.maddyness.com/2026/10/15/dougs-leve-50-millions-deuros-pour-devenir-le-premier-cabinet-dexpertise-comptable-de-france/",
+      "montant_texte": "50 millions d’euros",
+      "montant_eur_estime": 50000000
+    },
+    {
+      "date": "2026-10-15",
+      "titre": "DOUGS lève 50 millions d’euros auprès d’Expedition Growth Capital pour changer d’échelle",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/dougs-leve-50-millions-deuros-aupres-dexpedition-growth-capital-pour-changer-dechelle/463938",
+      "montant_texte": "50 millions d’euros",
+      "montant_eur_estime": 50000000
+    },
+    {
       "date": "2026-10-14",
       "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
       "source": "FrenchWeb",
@@ -1655,11 +1679,74 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Profitable French accounting company Dougs raises €50 million to accelerate AI automation",
+      "lien": "https://www.eu-startups.com/2026/10/profitable-french-accounting-company-dougs-raises-e50-million-to-accelerate-ai-automation/",
+      "date": "2026-10-15",
+      "montant_texte": "€50 million",
+      "montant_eur_estime": 50000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Oslo-based AI-native engineering firm Solvera raises €5.62 million pre-Seed after July 2026 launch",
+      "lien": "https://www.eu-startups.com/2026/10/oslo-based-ai-native-engineering-firm-solvera-raises-e5-62-million-pre-seed-after-july-2026-launch/",
+      "date": "2026-10-15",
+      "montant_texte": "€5.62 million",
+      "montant_eur_estime": 5620000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Nauta secures €60 million first close for sixth fund to back European software and DeepTech startups",
+      "lien": "https://www.eu-startups.com/2026/10/nauta-secures-e60-million-first-close-for-sixth-fund-to-back-european-software-and-deeptech-startups/",
+      "date": "2026-10-15",
+      "montant_texte": "€60 million",
+      "montant_eur_estime": 60000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "Dougs lève 50 millions d’euros pour devenir le «premier cabinet d’expertise-comptable de France»",
+      "lien": "https://www.maddyness.com/2026/10/15/dougs-leve-50-millions-deuros-pour-devenir-le-premier-cabinet-dexpertise-comptable-de-france/",
+      "date": "2026-10-15",
+      "montant_texte": "50 millions d’euros",
+      "montant_eur_estime": 50000000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "DOUGS lève 50 millions d’euros auprès d’Expedition Growth Capital pour changer d’échelle",
+      "lien": "https://www.frenchweb.fr/dougs-leve-50-millions-deuros-aupres-dexpedition-growth-capital-pour-changer-dechelle/463938",
+      "date": "2026-10-15",
+      "montant_texte": "50 millions d’euros",
+      "montant_eur_estime": 50000000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "AI personal finance platform Matters raises $5m pre-seed",
+      "lien": "https://sifted.eu/articles/matters-5m-pre-seed/",
+      "date": "2026-10-15",
+      "montant_texte": "$5m",
+      "montant_eur_estime": 4450000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Warsaw’s Coding Giants secures up to €6 million to expand its STEM education platform beyond Europe",
       "lien": "https://www.eu-startups.com/2026/10/warsaws-coding-giants-secures-up-to-e6-million-to-expand-its-stem-education-platform-beyond-europe/",
       "date": "2026-10-14",
       "montant_texte": "€6 million",
       "montant_eur_estime": 6000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Spain’s full-stack quantum computing company Qilimanjaro Quantum Tech completes €19.6 million Series A first close",
+      "lien": "https://www.eu-startups.com/2026/10/barcelonas-full-stack-quantum-computing-company-qilimanjaro-quantum-tech-completes-e19-6-million-first-close-of-its-series-a/",
+      "date": "2026-10-14",
+      "montant_texte": "€19.6 million",
+      "montant_eur_estime": 19600000,
       "pays_ok": false
     },
     {
@@ -1673,12 +1760,39 @@
     },
     {
       "source": "EU-Startups",
+      "titre": "New unicorn alert! Skeleton Technologies lands multi-million funding to expand AI infrastructure in the US",
+      "lien": "https://www.eu-startups.com/2026/10/new-unicorn-alert-estonias-skeleton-technologies-lands-multi-million-funding-to-expand-ai-infrastructure-in-the-us/",
+      "date": "2026-10-14",
+      "montant_texte": "€899 million",
+      "montant_eur_estime": 899000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "NVIDIA plans minority investments in four French startups as European tech commitment nears €9 billion",
       "lien": "https://www.eu-startups.com/2026/10/nvidia-plans-minority-investments-in-four-french-startups-as-european-tech-commitment-nears-e9-billion/",
       "date": "2026-10-14",
       "montant_texte": "€9 billion",
       "montant_eur_estime": 9000000000,
       "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Helsinki’s Ambio raises €5.1 million to scale its AI-powered recycled plastics procurement platform",
+      "lien": "https://www.eu-startups.com/2026/10/helsinkis-ambio-raises-e5-1-million-to-scale-its-ai-powered-recycled-plastics-procurement-platform/",
+      "date": "2026-10-14",
+      "montant_texte": "€5.1 million",
+      "montant_eur_estime": 5100000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "FLÆ Robotics raises over €1 million in Seed funding to develop its AI hospitality agent",
+      "lien": "https://www.eu-startups.com/2026/10/flae-robotics-raises-over-e1-million-in-seed-funding-to-develop-its-ai-hospitality-agent/",
+      "date": "2026-10-14",
+      "montant_texte": "€1 million",
+      "montant_eur_estime": 1000000,
+      "pays_ok": false
     },
     {
       "source": "EU-Startups",
