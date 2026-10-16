@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-15T08:16:09+00:00",
+  "mis_a_jour": "2026-10-16T07:21:45+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -17,19 +17,19 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 2
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 8
+      "articles_levees": 6
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 2
+      "articles_levees": 1
     }
   ],
   "levees": [
@@ -1656,6 +1656,22 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-16",
+      "titre": "Strasbourg-founded Goodweek raises €10.69 million to become the AI Manager for SMBs",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs/",
+      "montant_texte": "€10.69 million",
+      "montant_eur_estime": 10690000
+    },
+    {
+      "date": "2026-10-15",
+      "titre": "Nvidia is investing heavily into Europe – why now?",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/nvidia-is-investing-heavily-into-europe-why-now/",
+      "montant_texte": null,
+      "montant_eur_estime": null
+    },
+    {
       "date": "2026-10-14",
       "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
       "source": "FrenchWeb",
@@ -1691,6 +1707,33 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Strasbourg-founded Goodweek raises €10.69 million to become the AI Manager for SMBs",
+      "lien": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs/",
+      "date": "2026-10-16",
+      "montant_texte": "€10.69 million",
+      "montant_eur_estime": 10690000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Dublin-based LearnUpon secures €44.5 million to scale its agentic learning platform",
+      "lien": "https://www.eu-startups.com/2026/10/dublin-based-learnupon-secures-e44-5-million-to-scale-its-agentic-learning-platform/",
+      "date": "2026-10-16",
+      "montant_texte": "€44.5 million",
+      "montant_eur_estime": 44500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Vilnius-based Holo raises €5 million to put marketing on autopilot for small businesses",
+      "lien": "https://www.eu-startups.com/2026/10/vilnius-based-holo-raises-e5-million-to-put-marketing-on-autopilot-for-small-businesses/",
+      "date": "2026-10-15",
+      "montant_texte": "€5 million",
+      "montant_eur_estime": 5000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Profitable French accounting company Dougs raises €50 million to accelerate AI automation",
       "lien": "https://www.eu-startups.com/2026/10/profitable-french-accounting-company-dougs-raises-e50-million-to-accelerate-ai-automation/",
       "date": "2026-10-15",
@@ -1709,11 +1752,38 @@
     },
     {
       "source": "EU-Startups",
+      "titre": "Nvidia is investing heavily into Europe – why now?",
+      "lien": "https://www.eu-startups.com/2026/10/nvidia-is-investing-heavily-into-europe-why-now/",
+      "date": "2026-10-15",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Nauta secures €60 million first close for sixth fund to back European software and DeepTech startups",
       "lien": "https://www.eu-startups.com/2026/10/nauta-secures-e60-million-first-close-for-sixth-fund-to-back-european-software-and-deeptech-startups/",
       "date": "2026-10-15",
       "montant_texte": "€60 million",
       "montant_eur_estime": 60000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Italy’s Panakès Partners launches €8.5 million investment vehicle targeting Lombardy’s MedTech and BioTech",
+      "lien": "https://www.eu-startups.com/2026/10/italys-panakes-partners-launches-e8-5-million-investment-vehicle-targeting-lombardys-medtech-and-biotech-sectors/",
+      "date": "2026-10-15",
+      "montant_texte": "€8.5 million",
+      "montant_eur_estime": 8500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "German AI startup Elevatry secures €3 million to automate procurement workflows",
+      "lien": "https://www.eu-startups.com/2026/10/german-ai-startup-elevatry-secures-e3-million-to-automate-procurement-workflows/",
+      "date": "2026-10-15",
+      "montant_texte": "€3 million",
+      "montant_eur_estime": 3000000,
       "pays_ok": false
     },
     {
