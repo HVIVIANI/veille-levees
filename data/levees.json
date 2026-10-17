@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-10-16T08:14:07+00:00",
+  "mis_a_jour": "2026-10-17T07:18:31+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 46
+      "levees": 43
     },
     {
       "nom": "FrenchWeb",
@@ -17,13 +17,13 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 6
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
@@ -33,6 +33,40 @@
     }
   ],
   "levees": [
+    {
+      "id": "630E3F9D-FB84-4DE4-AA7C-5C40BB9811EE",
+      "date": "2026-10-16",
+      "entreprise": "Goodweek",
+      "pays": "France",
+      "ville": "Strasbourg",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 10663823,
+      "stade": "Seed",
+      "investisseurs": [
+        "Fj Labs",
+        "BY Venture Partners",
+        "CentraleSupélec Venture",
+        "True Ventures",
+        "BGV",
+        "Adara Ventures",
+        "Anamcara Capital",
+        "Interlace Ventures",
+        "Bpifrance"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/630E3F9D-FB84-4DE4-AA7C-5C40BB9811EE",
+      "vue_le": "2026-10-17",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Strasbourg-founded Goodweek raises €10.69 million to become the AI Manager for SMBs",
+          "lien": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs/"
+        }
+      ]
+    },
     {
       "id": "A7151620-02A2-47A7-AB7E-1F767A6E1DC9",
       "date": "2026-10-15",
@@ -1656,14 +1690,6 @@
   ],
   "presse_seule": [
     {
-      "date": "2026-10-16",
-      "titre": "Strasbourg-founded Goodweek raises €10.69 million to become the AI Manager for SMBs",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/strasbourg-founded-goodweek-raises-e10-69-million-to-become-the-ai-manager-for-smbs/",
-      "montant_texte": "€10.69 million",
-      "montant_eur_estime": 10690000
-    },
-    {
       "date": "2026-10-15",
       "titre": "Nvidia is investing heavily into Europe – why now?",
       "source": "EU-Startups",
@@ -1713,6 +1739,42 @@
       "montant_texte": "€10.69 million",
       "montant_eur_estime": 10690000,
       "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Oxford spin-out OMass Therapeutics lands €275 million to bring novel small-molecule therapies closer to patients",
+      "lien": "https://www.eu-startups.com/2026/10/oxford-spin-out-omass-therapeutics-lands-e275-million-to-bring-novel-small-molecule-therapies-closer-to-patients/",
+      "date": "2026-10-16",
+      "montant_texte": "€275 million",
+      "montant_eur_estime": 275000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Norwegian open banking provider Neonomics secures €3.56 million after cutting operating costs by nearly half",
+      "lien": "https://www.eu-startups.com/2026/10/norwegian-open-banking-provider-neonomics-secures-e3-56-million-after-cutting-operating-costs-by-nearly-half/",
+      "date": "2026-10-16",
+      "montant_texte": "€3.56 million",
+      "montant_eur_estime": 3560000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "New treatment for inflammatory bowel disease lands Microbiotica €42 million",
+      "lien": "https://www.eu-startups.com/2026/10/new-treatment-for-inflammatory-bowel-disease-lands-microbiotica-e42-million/",
+      "date": "2026-10-16",
+      "montant_texte": "€42 million",
+      "montant_eur_estime": 42000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London’s Unravel Health raises €2.96 million to help women track hormones at home with a palm-sized lab",
+      "lien": "https://www.eu-startups.com/2026/10/londons-unravel-health-raises-e2-96-million-to-help-women-track-hormones-at-home-with-a-palm-sized-lab/",
+      "date": "2026-10-16",
+      "montant_texte": "€2.96 million",
+      "montant_eur_estime": 2960000,
+      "pays_ok": false
     },
     {
       "source": "EU-Startups",
@@ -2450,15 +2512,6 @@
       "date": "2026-09-02",
       "montant_texte": "50 millions d’euros",
       "montant_eur_estime": 50000000,
-      "pays_ok": false
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "Avec 488 millions d’euros de financement, PLD Space doit maintenant passer de la fusée à l’industrie",
-      "lien": "https://www.frenchweb.fr/avec-488-millions-deuros-de-financement-pld-space-doit-maintenant-passer-de-la-fusee-a-lindustrie/463174",
-      "date": "2026-09-01",
-      "montant_texte": "488 millions d’euros",
-      "montant_eur_estime": 488000000,
       "pays_ok": false
     }
   ]
