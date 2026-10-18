@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-17T08:07:01+00:00",
+  "mis_a_jour": "2026-10-18T07:18:34+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -2495,24 +2495,6 @@
       "montant_texte": "3 milliards d’euros",
       "montant_eur_estime": 3000000000,
       "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "INLEAP PHOTONICS porte son financement à 20 millions d’euros pour passer du laser industriel à la défense anti-drones",
-      "lien": "https://www.frenchweb.fr/inleap-photonics-porte-son-financement-a-20-millions-deuros-pour-passer-du-laser-industriel-a-la-defense-anti-drones/463189",
-      "date": "2026-09-02",
-      "montant_texte": "20 millions d’euros",
-      "montant_eur_estime": 20000000,
-      "pays_ok": false
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "HYIMPULSE lève plus de 50 millions d’euros pour trouver une autre voie vers l’orbite",
-      "lien": "https://www.frenchweb.fr/hyimpulse-leve-plus-de-50-millions-deuros-pour-trouver-une-autre-voie-vers-lorbite/463193",
-      "date": "2026-09-02",
-      "montant_texte": "50 millions d’euros",
-      "montant_eur_estime": 50000000,
-      "pays_ok": false
     }
   ]
 }
