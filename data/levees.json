@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-18T08:07:16+00:00",
+  "mis_a_jour": "2026-10-19T07:31:17+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -11,7 +11,7 @@
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 24
+      "articles_levees": 23
     },
     {
       "nom": "Maddyness",
@@ -1731,6 +1731,24 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "Stockholm’s Vessla exits stealth with €2.94 million to bring AI agents to property management",
+      "lien": "https://www.eu-startups.com/2026/10/stockholms-vessla-exits-stealth-with-e2-94-million-to-bring-ai-agents-to-property-management/",
+      "date": "2026-10-19",
+      "montant_texte": "€2.94 million",
+      "montant_eur_estime": 2940000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Amsterdam’s Huppa raises €1 million to build an operating system for class-based gyms and studios",
+      "lien": "https://www.eu-startups.com/2026/10/amsterdams-huppa-raises-e1-million-to-build-an-operating-system-for-class-based-gyms-and-studios/",
+      "date": "2026-10-19",
+      "montant_texte": "€1 million",
+      "montant_eur_estime": 1000000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "Strasbourg-founded Goodweek raises €10.69 million to become the AI Manager for SMBs",
