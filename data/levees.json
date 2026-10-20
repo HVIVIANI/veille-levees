@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-19T08:24:01+00:00",
+  "mis_a_jour": "2026-10-20T07:25:21+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -11,7 +11,7 @@
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 23
+      "articles_levees": 22
     },
     {
       "nom": "Maddyness",
@@ -1690,6 +1690,14 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-19",
+      "titre": "Switzerland’s Nouscom bags €120 million to bring innovative cancer immunotherapy closer to clinical trials",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/switzerlands-nouscom-bags-e120-million-to-bring-innovative-cancer-immunotherapy-closer-to-clinical-trials/",
+      "montant_texte": "€120 million",
+      "montant_eur_estime": 120000000
+    },
+    {
       "date": "2026-10-15",
       "titre": "Nvidia is investing heavily into Europe – why now?",
       "source": "EU-Startups",
@@ -1733,11 +1741,74 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "London-based “Surgical Intelligence” company XRlabs raises €7.48 million to bring AI into the operating room",
+      "lien": "https://www.eu-startups.com/2026/10/london-based-surgical-intelligence-company-xrlabs-raises-e7-48-million-to-bring-ai-into-the-operating-room/",
+      "date": "2026-10-20",
+      "montant_texte": "€7.48 million",
+      "montant_eur_estime": 7480000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Copenhagen’s Plinto raises €2.9 million to help finance teams catch and fix errors with AI agents",
+      "lien": "https://www.eu-startups.com/2026/10/copenhagens-plinto-raises-e2-9-million-to-help-finance-teams-catch-and-fix-errors-with-ai-agents/",
+      "date": "2026-10-20",
+      "montant_texte": "€2.9 million",
+      "montant_eur_estime": 2900000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Valencia-based Linkener raises €7.5 million to digitise and optimise energy management for businesses",
+      "lien": "https://www.eu-startups.com/2026/10/valencia-based-linkener-raises-e7-5-million-to-digitise-and-optimise-energy-management-for-businesses/",
+      "date": "2026-10-19",
+      "montant_texte": "€7.5 million",
+      "montant_eur_estime": 7500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Turbine Capital closes €54 million DeepTech fund to connect Nordic startups with industrial leaders",
+      "lien": "https://www.eu-startups.com/2026/10/turbine-capital-closes-e54-million-deeptech-fund-to-connect-nordic-startups-with-industrial-leaders/",
+      "date": "2026-10-19",
+      "montant_texte": "€54 million",
+      "montant_eur_estime": 54000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Switzerland’s Nouscom bags €120 million to bring innovative cancer immunotherapy closer to clinical trials",
+      "lien": "https://www.eu-startups.com/2026/10/switzerlands-nouscom-bags-e120-million-to-bring-innovative-cancer-immunotherapy-closer-to-clinical-trials/",
+      "date": "2026-10-19",
+      "montant_texte": "€120 million",
+      "montant_eur_estime": 120000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Stockholm’s Vessla exits stealth with €2.94 million to bring AI agents to property management",
       "lien": "https://www.eu-startups.com/2026/10/stockholms-vessla-exits-stealth-with-e2-94-million-to-bring-ai-agents-to-property-management/",
       "date": "2026-10-19",
       "montant_texte": "€2.94 million",
       "montant_eur_estime": 2940000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Spanish VC Enzo Ventures doubles down on early-stage startups with new €20 million fund",
+      "lien": "https://www.eu-startups.com/2026/10/spanish-vc-enzo-ventures-doubles-down-on-early-stage-startups-with-new-e20-million-fund/",
+      "date": "2026-10-19",
+      "montant_texte": "€20 million",
+      "montant_eur_estime": 20000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Bristol’s Siloton wins €9.98 million Innovate UK contract to develop its handheld eye imaging system",
+      "lien": "https://www.eu-startups.com/2026/10/bristols-siloton-wins-e9-98-million-innovate-uk-contract-to-develop-its-handheld-eye-imaging-system/",
+      "date": "2026-10-19",
+      "montant_texte": "€9.98 million",
+      "montant_eur_estime": 9980000,
       "pays_ok": false
     },
     {
