@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-20T07:25:21+00:00",
+  "mis_a_jour": "2026-10-20T08:17:23+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -1739,6 +1739,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "London’s Emerald secures €1.66 million to scale its preventive healthcare platform",
+      "lien": "https://www.eu-startups.com/2026/10/londons-emerald-secures-e1-66-million-to-scale-its-preventive-healthcare-platform/",
+      "date": "2026-10-20",
+      "montant_texte": "€1.66 million",
+      "montant_eur_estime": 1660000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "London-based “Surgical Intelligence” company XRlabs raises €7.48 million to bring AI into the operating room",
