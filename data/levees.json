@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-10-20T08:17:23+00:00",
+  "mis_a_jour": "2026-10-21T07:27:58+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 43
+      "levees": 44
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 22
+      "articles_levees": 23
     },
     {
       "nom": "Maddyness",
@@ -33,6 +33,45 @@
     }
   ],
   "levees": [
+    {
+      "id": "B00FA289-03E5-4124-A869-3A0F4B95A52D",
+      "date": "2026-10-19",
+      "entreprise": "Nouscom",
+      "pays": "Switzerland",
+      "ville": "Basel",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 120267261,
+      "stade": "Series B",
+      "investisseurs": [
+        "EQT Life Sciences",
+        "Angelini Ventures",
+        "5AM Ventures",
+        "Bpifrance",
+        "Indaco Venture Partners",
+        "Andera Partners",
+        "Revelation Partners",
+        "Panakes Partners",
+        "M Ventures",
+        "CDP Venture Capital",
+        "Versant Ventures",
+        "XGEN Ventures",
+        "European Investment Bank (EIB)",
+        "Neva SGR"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/B00FA289-03E5-4124-A869-3A0F4B95A52D",
+      "vue_le": "2026-10-21",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Switzerland’s Nouscom bags €120 million to bring innovative cancer immunotherapy closer to clinical trials",
+          "lien": "https://www.eu-startups.com/2026/10/switzerlands-nouscom-bags-e120-million-to-bring-innovative-cancer-immunotherapy-closer-to-clinical-trials/"
+        }
+      ]
+    },
     {
       "id": "630E3F9D-FB84-4DE4-AA7C-5C40BB9811EE",
       "date": "2026-10-16",
@@ -1690,12 +1729,12 @@
   ],
   "presse_seule": [
     {
-      "date": "2026-10-19",
-      "titre": "Switzerland’s Nouscom bags €120 million to bring innovative cancer immunotherapy closer to clinical trials",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/10/switzerlands-nouscom-bags-e120-million-to-bring-innovative-cancer-immunotherapy-closer-to-clinical-trials/",
-      "montant_texte": "€120 million",
-      "montant_eur_estime": 120000000
+      "date": "2026-10-21",
+      "titre": "Et si les économies d’énergie commençaient par le chauffe-eau ? ELAX ENERGIE lève 30 millions d’euros pour chauffer l’eau au bon moment",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/et-si-les-economies-denergie-commencaient-par-le-chauffe-eau-elax-energie-leve-30-millions-deuros-pour-chauffer-leau-au-bon-moment/464009",
+      "montant_texte": "30 millions d’euros",
+      "montant_eur_estime": 30000000
     },
     {
       "date": "2026-10-15",
@@ -1741,6 +1780,42 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Former international boxer’s LegalTech startup EstateMin raises €1 million to scale in the US",
+      "lien": "https://www.eu-startups.com/2026/10/former-international-boxers-legaltech-startup-estatemin-raises-e1-million-to-scale-in-the-us/",
+      "date": "2026-10-21",
+      "montant_texte": "€1 million",
+      "montant_eur_estime": 1000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Photon Bridge raises €10m to build laser devices that connect AI chips",
+      "lien": "https://sifted.eu/articles/photon-bridge-laser-device-ai-chips-seed-round/",
+      "date": "2026-10-21",
+      "montant_texte": "€10m",
+      "montant_eur_estime": 10000000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Et si les économies d’énergie commençaient par le chauffe-eau ? ELAX ENERGIE lève 30 millions d’euros pour chauffer l’eau au bon moment",
+      "lien": "https://www.frenchweb.fr/et-si-les-economies-denergie-commencaient-par-le-chauffe-eau-elax-energie-leve-30-millions-deuros-pour-chauffer-leau-au-bon-moment/464009",
+      "date": "2026-10-21",
+      "montant_texte": "30 millions d’euros",
+      "montant_eur_estime": 30000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Transport for biological material helps Cellbox raise a €5 million Series A",
+      "lien": "https://www.eu-startups.com/2026/10/container-for-biological-material-helps-cellbox-raise-a-e5-million-series-a/",
+      "date": "2026-10-20",
+      "montant_texte": "€5 million",
+      "montant_eur_estime": 5000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "London’s Emerald secures €1.66 million to scale its preventive healthcare platform",
       "lien": "https://www.eu-startups.com/2026/10/londons-emerald-secures-e1-66-million-to-scale-its-preventive-healthcare-platform/",
       "date": "2026-10-20",
@@ -1755,6 +1830,33 @@
       "date": "2026-10-20",
       "montant_texte": "€7.48 million",
       "montant_eur_estime": 7480000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Espoo’s Coherence Quantum raises €2.78 million to build infrastructure for larger quantum computers",
+      "lien": "https://www.eu-startups.com/2026/10/espoo-based-coherence-quantum-raises-e2-78-million-to-build-infrastructure-for-larger-quantum-computers/",
+      "date": "2026-10-20",
+      "montant_texte": "€2.78 million",
+      "montant_eur_estime": 2780000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "EU-Startups identifies 20 startups among 77 projects selected for €3.4 billion net-zero funding",
+      "lien": "https://www.eu-startups.com/2026/10/eu-startups-identifies-20-startups-among-77-projects-selected-for-e3-4-billion-net-zero-funding/",
+      "date": "2026-10-20",
+      "montant_texte": "€3.4 billion",
+      "montant_eur_estime": 3400000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "EIF commits €20 million to Swedish VC BackingMinds to support underrepresented entrepreneurs",
+      "lien": "https://www.eu-startups.com/2026/10/eif-commits-e20-million-to-swedish-vc-backingminds-to-support-underrepresented-entrepreneurs/",
+      "date": "2026-10-20",
+      "montant_texte": "€20 million",
+      "montant_eur_estime": 20000000,
       "pays_ok": false
     },
     {
