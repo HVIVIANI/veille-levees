@@ -11,6 +11,7 @@
   :root {
     --papier: #faf6ee; --carte: #ffffff; --encre: #171b22; --ardoise: #4a5160; --trait: #d9d2c3;
     --action: #1e65aa; --bleu-p: #8cc2ff; --surligneur: #c7e1ff; --fond-puce: #efe8da;
+    --lav-p: #c8aefa; --lav-t: #e3d6ff; --ora-p: #f6a97a; --ora-t: #ffd4bb; --sau-p: #a9cb7d; --sau-t: #d2e7b9;
     --mono: Menlo, Consolas, 'Courier New', monospace;
     --serif: Georgia, 'Times New Roman', serif;
     --sans: Arial, Helvetica, sans-serif;
@@ -35,8 +36,8 @@
   .trait { border: 0; border-top: 2px solid var(--encre); margin: 1.4rem 0 0; }
 
   /* Filtres : une boîte rétro (bordure d'encre, ombre pleine) */
-  .filtres { display: grid; gap: 0.9rem; margin: 1.75rem 0 1rem; padding: 1rem 1.1rem 1.1rem; background: var(--carte); border: 2px solid var(--encre); box-shadow: 5px 5px 0 var(--encre); }
-  .filtres .etiquette { font-family: var(--mono); font-size: 11px; letter-spacing: 1.5px; color: var(--action); text-transform: uppercase; }
+  .filtres { display: grid; gap: 0.9rem; margin: 1.75rem 0 1rem; padding: 0 1.1rem 1.1rem; background: var(--carte); border: 2px solid var(--encre); box-shadow: 5px 5px 0 var(--encre); }
+  .filtres .etiquette { font-family: var(--mono); font-size: 11px; letter-spacing: 1.5px; color: var(--encre); text-transform: uppercase; background: var(--surligneur); margin: 0 -1.1rem; padding: 0.55rem 1.1rem; border-bottom: 2px solid var(--encre); }
   .ligne-filtres { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; align-items: center; }
   .ligne-filtres label { color: var(--ardoise); font-family: var(--mono); font-size: 12px; display: flex; gap: 0.5rem; align-items: center; }
   select, input[type="search"] {
@@ -51,9 +52,11 @@
   .jour h2 {
     font-family: var(--serif); font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; margin: 0;
     display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
-    padding-bottom: 0.4rem; border-bottom: 2px solid var(--encre);
+    padding: 0.55rem 0.9rem; background: var(--bleu-p); border: 2px solid var(--encre); box-shadow: 4px 4px 0 var(--encre);
   }
-  .jour h2 span { font-family: var(--mono); font-size: 11px; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; color: var(--ardoise); white-space: nowrap; }
+  .jour:nth-of-type(3n+2) h2 { background: var(--lav-p); }
+  .jour:nth-of-type(3n+3) h2 { background: var(--sau-p); }
+  .jour h2 span { font-family: var(--mono); font-size: 11px; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; color: var(--encre); white-space: nowrap; }
   .levee {
     display: grid;
     grid-template-columns: 6.5rem minmax(0, 1.5fr) minmax(0, 1fr) auto;
@@ -62,7 +65,7 @@
     padding: 0.95rem 0;
     border-top: 1px solid var(--trait);
   }
-  .jour h2 + .levee { border-top: 0; }
+  .jour h2 + .levee { border-top: 0; margin-top: 0.4rem; }
   .montant { font-family: var(--mono); font-size: 1.3rem; font-weight: 700; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
   .nom { font-family: var(--serif); font-size: 1.25rem; font-weight: 700; margin: 0; line-height: 1.3; }
   .levee.prioritaire .nom > span:first-child { background: linear-gradient(transparent 50%, var(--surligneur) 50%); padding: 0 0.15rem; }
@@ -73,6 +76,7 @@
   .details .stade { font-family: var(--mono); font-size: 11px; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; color: var(--ardoise); }
   .badge { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.8px; text-transform: uppercase; background: var(--fond-puce); padding: 0.1rem 0.45rem; margin: 0 0.3rem 0.25rem 0; }
   .badge.prioritaire { background: var(--surligneur); }
+  .badge.f-lav { background: var(--lav-t); } .badge.f-ora { background: var(--ora-t); } .badge.f-sau { background: var(--sau-t); }
   .liens { display: flex; flex-direction: column; gap: 0.25rem; font-family: var(--mono); font-size: 12px; text-align: right; }
   .liens a.principal { font-weight: 700; }
 
@@ -174,6 +178,13 @@ function element(balise, classe, texte) {
 }
 const secteur = (s) => NOMS_SECTEURS[s] || s;
 const pays = (p) => NOMS_PAYS[p] || p;
+// Couleur des badges par famille de secteurs (les secteurs prioritaires restent en bleu)
+const FAMILLES = {
+  "f-ora": ["Healthtech", "Biotech", "Wellness & Beauty", "Medtech", "Pharma"],
+  "f-sau": ["Energy", "Cleantech", "Agritech", "Foodtech", "Climate", "Transportation", "Mobility", "Space", "Deeptech", "Hardware", "Robotics"],
+  "f-lav": ["Fintech", "E-commerce", "Retail", "Marketing", "Proptech", "Real Estate", "Edtech", "Education", "Recruitment", "HR", "Legaltech", "Insurtech", "Gaming", "Media", "Logistics"],
+};
+const famille = (s) => Object.keys(FAMILLES).find((f) => FAMILLES[f].includes(s)) || "";
 const estPrioritaire = (levee) => levee.secteurs.some((s) => etat.prioritaires.includes(s));
 
 function montant(euros) {
@@ -235,7 +246,7 @@ function ligne(levee) {
 
   const details = element("div", "details");
   for (const s of levee.secteurs) {
-    details.append(element("span", "badge" + (etat.prioritaires.includes(s) ? " prioritaire" : ""), secteur(s)));
+    details.append(element("span", "badge" + (etat.prioritaires.includes(s) ? " prioritaire" : (famille(s) ? " " + famille(s) : "")), secteur(s)));
   }
   const lieu = [levee.ville, pays(levee.pays)].filter(Boolean).join(", ");
   const stade = NOMS_STADES[levee.stade] ?? levee.stade;
