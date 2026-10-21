@@ -4,126 +4,119 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Veille des levées</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#faf6ee">
 <style>
+  /* Même direction artistique que la newsletter Veille IA : « carnet de labo » (fond crème, encre, bleu labo) */
   :root {
-    --papier: #F2F5F7;
-    --encre: #14213D;
-    --ardoise: #56617A;
-    --trait: #D5DCE4;
-    --surligneur: #FFE45C;
-    --action: #1B46C9;
-    --fond-puce: #E4E9EF;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --papier: #111A2B;
-      --encre: #E9EEF6;
-      --ardoise: #9AA7BD;
-      --trait: #2A364C;
-      --surligneur: #7A6400;
-      --action: #9DB6FF;
-      --fond-puce: #1D2940;
-    }
+    --papier: #faf6ee; --carte: #ffffff; --encre: #171b22; --ardoise: #4a5160; --trait: #d9d2c3;
+    --action: #1e65aa; --bleu-p: #8cc2ff; --surligneur: #c7e1ff; --fond-puce: #efe8da;
+    --mono: Menlo, Consolas, 'Courier New', monospace;
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: Arial, Helvetica, sans-serif;
   }
   * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--papier);
-    color: var(--encre);
-    font-family: "Bricolage Grotesque", system-ui, sans-serif;
-    font-size: 1rem;
-    line-height: 1.45;
-  }
-  main { max-width: 60rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
-  h1 { font-size: 2.6rem; font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 0.6rem; }
-  .resume { margin: 0 0 2rem; color: var(--ardoise); max-width: 42rem; }
-
-  .filtres { display: grid; gap: 0.9rem; margin-bottom: 2.5rem; }
-  .ligne-filtres { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; align-items: center; }
-  .ligne-filtres label { color: var(--ardoise); font-size: 0.9rem; display: flex; gap: 0.4rem; align-items: center; }
-  select, input[type="search"] {
-    font: inherit; color: inherit; background: transparent;
-    border: 1.5px solid var(--trait); border-radius: 0.4rem; padding: 0.3rem 0.5rem;
-  }
-  input[type="search"] { width: 14rem; max-width: 100%; }
-  .puces { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-  .puce {
-    font: inherit; font-size: 0.9rem; color: inherit; cursor: pointer;
-    background: var(--fond-puce); border: 1.5px solid transparent;
-    border-radius: 99rem; padding: 0.2rem 0.75rem;
-  }
-  .puce.prioritaire { background: var(--surligneur); }
-  .puce[aria-pressed="true"] { border-color: var(--encre); font-weight: 600; }
-  .puce .nombre { color: var(--ardoise); margin-left: 0.3rem; }
-  .puce.prioritaire .nombre { color: inherit; opacity: 0.7; }
+  html { background: var(--papier); }
+  body { margin: 0; background: var(--papier); color: var(--encre); font-family: var(--sans); font-size: 1rem; line-height: 1.5; -webkit-text-size-adjust: 100%; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+  a { color: var(--action); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 0.15em; }
   :focus-visible { outline: 3px solid var(--action); outline-offset: 2px; }
 
+  /* En-tête, comme la newsletter */
+  .haut { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-family: var(--mono); font-size: 12px; letter-spacing: 1.5px; color: var(--action); }
+  h1 { font-family: var(--serif); font-size: 3.2rem; font-weight: 700; line-height: 1.02; letter-spacing: -0.04em; margin: 0.6rem 0 0; }
+  h1 .curseur { color: var(--action); animation: clignote 1.1s steps(1) infinite; }
+  @keyframes clignote { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { h1 .curseur { animation: none; } }
+  .resume { margin: 0.8rem 0 0; color: var(--ardoise); max-width: 44rem; }
+  .par { font-size: 0.875rem; color: var(--ardoise); margin: 0.4rem 0 0; }
+  .par b { color: var(--encre); }
+  .trait { border: 0; border-top: 2px solid var(--encre); margin: 1.4rem 0 0; }
+
+  /* Filtres : une boîte rétro (bordure d'encre, ombre pleine) */
+  .filtres { display: grid; gap: 0.9rem; margin: 1.75rem 0 1rem; padding: 1rem 1.1rem 1.1rem; background: var(--carte); border: 2px solid var(--encre); box-shadow: 5px 5px 0 var(--encre); }
+  .filtres .etiquette { font-family: var(--mono); font-size: 11px; letter-spacing: 1.5px; color: var(--action); text-transform: uppercase; }
+  .ligne-filtres { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; align-items: center; }
+  .ligne-filtres label { color: var(--ardoise); font-family: var(--mono); font-size: 12px; display: flex; gap: 0.5rem; align-items: center; }
+  select, input[type="search"] {
+    font-family: var(--mono); font-size: 14px; color: var(--encre); background: var(--papier);
+    border: 2px solid var(--encre); border-radius: 0; padding: 0.35rem 0.5rem;
+  }
+  input[type="search"] { width: 15rem; max-width: 100%; }
+  #filtre-secteur { width: 14rem; max-width: 100%; }
+
+  /* Un jour = un en-tête, comme les rubriques de la newsletter */
   .jour { margin-top: 2.25rem; }
   .jour h2 {
-    font-size: 1.15rem; font-weight: 600; margin: 0 0 0.25rem;
-    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: var(--serif); font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; margin: 0;
+    display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+    padding-bottom: 0.4rem; border-bottom: 2px solid var(--encre);
   }
-  .jour h2 span { font-size: 0.9rem; font-weight: 400; color: var(--ardoise); }
+  .jour h2 span { font-family: var(--mono); font-size: 11px; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; color: var(--ardoise); white-space: nowrap; }
   .levee {
     display: grid;
     grid-template-columns: 6.5rem minmax(0, 1.5fr) minmax(0, 1fr) auto;
     gap: 0.15rem 1.25rem;
     align-items: baseline;
-    padding: 0.9rem 0;
+    padding: 0.95rem 0;
     border-top: 1px solid var(--trait);
   }
-  .montant { font-size: 1.5rem; font-weight: 800; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
-  .nom { font-size: 1.2rem; font-weight: 600; margin: 0; }
-  .levee.prioritaire .nom span { background: linear-gradient(transparent 52%, var(--surligneur) 52%); padding: 0 0.15rem; }
-  .nouveau { font-size: 0.8rem; font-weight: 600; color: var(--action); margin-left: 0.5rem; }
-  .investisseurs { margin: 0.15rem 0 0; font-size: 0.9rem; color: var(--ardoise); }
-  .details { font-size: 0.9rem; }
-  .details .lieu { color: var(--ardoise); margin: 0.2rem 0 0; }
-  .details .stade { white-space: nowrap; }
-  .badge { display: inline-block; background: var(--fond-puce); border-radius: 99rem; padding: 0.05rem 0.6rem; margin: 0 0.25rem 0.2rem 0; }
+  .jour h2 + .levee { border-top: 0; }
+  .montant { font-family: var(--mono); font-size: 1.3rem; font-weight: 700; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .nom { font-family: var(--serif); font-size: 1.25rem; font-weight: 700; margin: 0; line-height: 1.3; }
+  .levee.prioritaire .nom > span:first-child { background: linear-gradient(transparent 50%, var(--surligneur) 50%); padding: 0 0.15rem; }
+  .nouveau { display: inline-block; vertical-align: 0.2em; font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; background: var(--action); color: #fff; padding: 0.05rem 0.4rem; margin-left: 0.5rem; }
+  .investisseurs { margin: 0.2rem 0 0; font-size: 0.875rem; color: var(--ardoise); }
+  .details { font-size: 0.875rem; }
+  .details .lieu { color: var(--ardoise); margin: 0.25rem 0 0; }
+  .details .stade { font-family: var(--mono); font-size: 11px; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; color: var(--ardoise); }
+  .badge { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.8px; text-transform: uppercase; background: var(--fond-puce); padding: 0.1rem 0.45rem; margin: 0 0.3rem 0.25rem 0; }
   .badge.prioritaire { background: var(--surligneur); }
-  .liens { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.9rem; text-align: right; }
-  a { color: var(--action); text-underline-offset: 0.15em; }
-  .liens a.principal { font-weight: 600; }
+  .liens { display: flex; flex-direction: column; gap: 0.25rem; font-family: var(--mono); font-size: 12px; text-align: right; }
+  .liens a.principal { font-weight: 700; }
 
-  .articles { margin: 0.25rem 0 0; font-size: 0.85rem; color: var(--ardoise); }
-  .presse-seule { margin-top: 3.5rem; }
-  .presse-seule > h2 { font-size: 1.4rem; font-weight: 800; margin: 0 0 0.3rem; }
-  .presse-seule > p { color: var(--ardoise); margin: 0 0 0.75rem; max-width: 42rem; }
+  .articles { margin: 0.3rem 0 0; font-size: 0.85rem; color: var(--ardoise); }
+  .presse-seule { margin-top: 3.25rem; }
+  .presse-seule > h2 { font-family: var(--serif); font-size: 1.5rem; font-weight: 700; margin: 0; padding-bottom: 0.4rem; border-bottom: 2px solid var(--encre); }
+  .presse-seule > p { color: var(--ardoise); margin: 0.6rem 0 0.4rem; max-width: 44rem; font-size: 0.925rem; }
   .article {
     display: grid; grid-template-columns: 6.5rem minmax(0, 1fr) auto; gap: 0.15rem 1.25rem;
-    align-items: baseline; padding: 0.7rem 0; border-top: 1px solid var(--trait);
+    align-items: baseline; padding: 0.75rem 0; border-top: 1px solid var(--trait);
   }
-  .article .montant { font-size: 1.2rem; }
+  .article .montant { font-size: 1.05rem; }
   .article .titre { margin: 0; }
-  .article .meta { font-size: 0.9rem; color: var(--ardoise); white-space: nowrap; }
+  .article .meta { font-family: var(--mono); font-size: 12px; color: var(--ardoise); white-space: nowrap; }
 
-  .message { border: 1.5px solid var(--trait); border-radius: 0.5rem; padding: 1.25rem; margin-top: 2rem; max-width: 42rem; }
-  .message button { font: inherit; cursor: pointer; margin-top: 0.75rem; padding: 0.35rem 0.9rem; border-radius: 0.4rem; border: 1.5px solid var(--encre); background: transparent; color: inherit; }
-  footer { margin-top: 4rem; font-size: 0.85rem; color: var(--ardoise); max-width: 42rem; }
+  .message { background: var(--carte); border: 2px solid var(--encre); box-shadow: 5px 5px 0 var(--encre); padding: 1.25rem; margin-top: 2rem; max-width: 42rem; }
+  .message button { font-family: var(--mono); font-size: 14px; font-weight: 700; cursor: pointer; margin-top: 0.75rem; padding: 0.5rem 1rem; border-radius: 0; border: 2px solid var(--encre); background: var(--action); color: #fff; box-shadow: 3px 3px 0 var(--encre); }
+  footer { margin-top: 4rem; padding-top: 1rem; border-top: 2px solid var(--encre); font-size: 0.85rem; color: var(--ardoise); }
+  footer .autre { font-family: var(--mono); font-size: 12px; }
 
   @media (max-width: 44rem) {
-    h1 { font-size: 2rem; }
-    .levee { grid-template-columns: 5.2rem minmax(0, 1fr); }
-    .montant { font-size: 1.2rem; }
+    main { padding: 1.5rem 1rem 3rem; }
+    h1 { font-size: 2.4rem; }
+    .levee { grid-template-columns: 5.4rem minmax(0, 1fr); }
+    .montant { font-size: 1.05rem; }
     .details, .liens { grid-column: 2; }
-    .article { grid-template-columns: 5.2rem minmax(0, 1fr); }
-    .article .montant { font-size: 0.95rem; white-space: normal; }
+    .article { grid-template-columns: 5.4rem minmax(0, 1fr); }
+    .article .montant { font-size: 0.9rem; white-space: normal; }
     .article .meta { grid-column: 2; }
-    .liens { flex-direction: row; flex-wrap: wrap; gap: 0.2rem 1rem; text-align: left; margin-top: 0.3rem; }
+    .liens { flex-direction: row; flex-wrap: wrap; gap: 0.2rem 1rem; text-align: left; margin-top: 0.35rem; }
     .liens a { white-space: nowrap; }
   }
 </style>
 </head>
 <body>
 <main>
-  <h1>Veille des levées</h1>
+  <div class="haut"><span>~/veille-levees · LABO</span><span>FRANCE · SUISSE · CHAQUE MATIN</span></div>
+  <h1>Veille des levées<span class="curseur" aria-hidden="true">_</span></h1>
   <p class="resume" id="resume">Chargement des données…</p>
+  <p class="par">Par <b>Hugo Viviani</b> · <a href="https://www.linkedin.com/in/hugo-viviani-a4b298228/" style="font-family:var(--mono)">LinkedIn ↗</a></p>
+  <hr class="trait">
 
   <section class="filtres" id="filtres" hidden aria-label="Filtres">
+    <div class="etiquette">$ ./filtrer</div>
     <div class="ligne-filtres">
       <label>Pays
         <select id="filtre-pays"><option value="">Tous</option></select>
@@ -137,11 +130,13 @@
           <option value="20000000">20 M€</option>
         </select>
       </label>
+      <label>Secteur
+        <select id="filtre-secteur"><option value="">Tous</option></select>
+      </label>
       <label>Recherche
         <input type="search" id="filtre-texte" placeholder="Entreprise, ville, investisseur">
       </label>
     </div>
-    <div class="puces" id="filtre-secteurs" role="group" aria-label="Secteurs"></div>
   </section>
 
   <div id="liste"></div>
@@ -150,6 +145,7 @@
   <footer>
     <p>Données : <a href="https://funding.tech.eu">Tech.eu Funding Explorer</a>, sous licence CC BY 4.0. Les montants sont convertis en euros au taux de la BCE du jour de l'annonce.</p>
     <p id="sources"></p>
+    <p class="autre">Aussi par Hugo : <a href="https://hviviani.github.io/newsletter-ia/">Veille IA, l'actu IA, robotique et deeptech chaque matin →</a></p>
   </footer>
 </main>
 
@@ -201,25 +197,17 @@ function filtrees() {
   );
 }
 
+// Menu déroulant des secteurs : tes priorités d'abord (★), puis les plus fréquents
 function dessinerSecteurs() {
-  const zone = $("filtre-secteurs");
-  zone.replaceChildren();
+  const menu = $("filtre-secteur");
+  const choisi = menu.value;
+  menu.replaceChildren(new Option("Tous", ""));
   const compte = {};
   etat.levees.forEach((l) => l.secteurs.forEach((s) => { compte[s] = (compte[s] || 0) + 1; }));
   const noms = Object.keys(compte).sort((a, b) =>
     (etat.prioritaires.includes(b) - etat.prioritaires.includes(a)) || compte[b] - compte[a] || secteur(a).localeCompare(secteur(b), "fr"));
-  for (const nom of noms) {
-    const puce = element("button", "puce" + (etat.prioritaires.includes(nom) ? " prioritaire" : ""), secteur(nom));
-    puce.type = "button";
-    puce.setAttribute("aria-pressed", etat.secteurs.has(nom));
-    puce.append(element("span", "nombre", compte[nom]));
-    puce.addEventListener("click", () => {
-      etat.secteurs.has(nom) ? etat.secteurs.delete(nom) : etat.secteurs.add(nom);
-      dessinerSecteurs();
-      dessiner();
-    });
-    zone.append(puce);
-  }
+  for (const nom of noms) menu.append(new Option((etat.prioritaires.includes(nom) ? "★ " : "") + secteur(nom) + " (" + compte[nom] + ")", nom));
+  menu.value = noms.includes(choisi) ? choisi : "";
 }
 
 function ligne(levee) {
@@ -320,7 +308,7 @@ function dessinerPresse() {
 
 function toutAfficher() {
   etat.secteurs.clear(); etat.pays = ""; etat.montant = 0; etat.texte = "";
-  $("filtre-pays").value = ""; $("filtre-montant").value = "0"; $("filtre-texte").value = "";
+  $("filtre-pays").value = ""; $("filtre-montant").value = "0"; $("filtre-texte").value = ""; $("filtre-secteur").value = "";
   dessinerSecteurs();
   dessiner();
 }
@@ -359,7 +347,7 @@ async function demarrer() {
         ". Mise à jour le " + majLe.toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) +
         " à " + majLe.toLocaleTimeString("fr-FR", { hour: "numeric", minute: "2-digit" }).replace(":", " h ") +
         "." + (etat.presseSeule.length ? " " + pluriel(etat.presseSeule.length, "autre") + " vue" + (etat.presseSeule.length > 1 ? "s" : "") + " dans la presse seulement." : "") +
-        " Les secteurs surlignés sont tes priorités.";
+        " Tes secteurs prioritaires sont surlignés en bleu (★ dans le menu).";
 
     const sources = donnees.sources || [];
     if (sources.length) {
@@ -372,6 +360,7 @@ async function demarrer() {
     for (const p of listePays) $("filtre-pays").append(new Option(pays(p), p));
     $("filtre-pays").addEventListener("change", (e) => { etat.pays = e.target.value; dessiner(); });
     $("filtre-montant").addEventListener("change", (e) => { etat.montant = Number(e.target.value); dessiner(); });
+    $("filtre-secteur").addEventListener("change", (e) => { etat.secteurs = new Set(e.target.value ? [e.target.value] : []); dessiner(); });
     $("filtre-texte").addEventListener("input", (e) => { etat.texte = e.target.value; dessiner(); });
     if (etat.levees.length || etat.presseSeule.length) $("filtres").hidden = false;
     dessinerSecteurs();
