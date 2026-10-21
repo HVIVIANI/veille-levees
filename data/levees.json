@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-21T07:27:58+00:00",
+  "mis_a_jour": "2026-10-21T08:20:04+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -1804,6 +1804,15 @@
       "montant_texte": "30 millions d’euros",
       "montant_eur_estime": 30000000,
       "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Berlin-based YGO raises €8 million to make travel inventory bookable through AI agents",
+      "lien": "https://www.eu-startups.com/2026/10/berlin-based-ygo-raises-e8-million-to-make-travel-inventory-bookable-through-ai-agents/",
+      "date": "2026-10-21",
+      "montant_texte": "€8 million",
+      "montant_eur_estime": 8000000,
+      "pays_ok": false
     },
     {
       "source": "EU-Startups",
