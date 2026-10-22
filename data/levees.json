@@ -1,38 +1,103 @@
 {
-  "mis_a_jour": "2026-10-21T08:20:04+00:00",
+  "mis_a_jour": "2026-10-22T07:28:52+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 44
+      "levees": 45
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 100,
-      "articles_levees": 23
+      "articles_levees": 21
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 0
+      "articles_levees": 2
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 7
+      "articles_levees": 8
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 1
+      "articles_levees": 3
     }
   ],
   "levees": [
+    {
+      "id": "D61E87A5-0F77-4C29-A2BC-6CB4628AD110",
+      "date": "2026-10-21",
+      "entreprise": "Sonexos",
+      "pays": "Switzerland",
+      "ville": "Vaud",
+      "secteurs": [
+        "Deeptech"
+      ],
+      "montant_eur": 5401901,
+      "stade": "Seed",
+      "investisseurs": [
+        "Valquest Partners",
+        "industry angels",
+        "Robert Bosch Venture Capital GmbH"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/D61E87A5-0F77-4C29-A2BC-6CB4628AD110",
+      "vue_le": "2026-10-22",
+      "presse": []
+    },
+    {
+      "id": "D3F69344-100B-4741-9073-E5420B132DBB",
+      "date": "2026-10-21",
+      "entreprise": "Pigment",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 222538722,
+      "stade": "Series D+",
+      "investisseurs": [
+        "IVP",
+        "Greenoaks Capital",
+        "EQT",
+        "The Scaleup Europe Fund",
+        "Nvidia",
+        "Iconiq Capital",
+        "World Innovation Labs",
+        "Meritech Capital"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/D3F69344-100B-4741-9073-E5420B132DBB",
+      "vue_le": "2026-10-22",
+      "presse": [
+        {
+          "source": "Sifted",
+          "titre": "Pigment raises $250m Series E led by Scaleup Europe Fund",
+          "lien": "https://sifted.eu/articles/pigment-series-e-nvidia-scaleup-europe-fund/"
+        },
+        {
+          "source": "Maddyness",
+          "titre": "Pigment lève 250 millions de dollars avec Nvidia au tour de table",
+          "lien": "https://www.maddyness.com/2026/10/21/pigment-leve-250-millions-de-dollars-avec-nvidia-au-tour-de-table/"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "Après un nouveau cap de revenus récurrents, PIGMENT lève 223 millions d’euros pour poursuivre son expansion",
+          "lien": "https://www.frenchweb.fr/apres-un-nouveau-cap-de-revenus-recurrents-pigment-leve-223-millions-deuros-pour-poursuivre-son-expansion/464019"
+        }
+      ]
+    },
     {
       "id": "B00FA289-03E5-4124-A869-3A0F4B95A52D",
       "date": "2026-10-19",
@@ -1729,10 +1794,34 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-22",
+      "titre": "Robotique : ENACT lève près de 27 millions d’euros pour développer le sens du toucher",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/robotique-enact-leve-pres-de-27-millions-deuros-pour-developper-le-sens-du-toucher/464031",
+      "montant_texte": "27 millions d’euros",
+      "montant_eur_estime": 27000000
+    },
+    {
+      "date": "2026-10-22",
+      "titre": "Backed by Yann LeCun and Arthur Mensch, Swiss Physical AI startup Enact Intelligence exits stealth with €26.68 million",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/backed-by-yann-lecun-and-arthur-mensch-swiss-physical-ai-startup-enact-intelligence-exits-stealth-with-e26-68-million/",
+      "montant_texte": "€26.68 million",
+      "montant_eur_estime": 26680000
+    },
+    {
       "date": "2026-10-21",
       "titre": "Et si les économies d’énergie commençaient par le chauffe-eau ? ELAX ENERGIE lève 30 millions d’euros pour chauffer l’eau au bon moment",
       "source": "FrenchWeb",
       "lien": "https://www.frenchweb.fr/et-si-les-economies-denergie-commencaient-par-le-chauffe-eau-elax-energie-leve-30-millions-deuros-pour-chauffer-leau-au-bon-moment/464009",
+      "montant_texte": "30 millions d’euros",
+      "montant_eur_estime": 30000000
+    },
+    {
+      "date": "2026-10-21",
+      "titre": "Elax Énergie lève 30 millions d’euros pour rendre les chauffe-eau plus économes",
+      "source": "Maddyness",
+      "lien": "https://www.maddyness.com/2026/10/21/elax-energie-leve-30-millions-deuros-pour-rendre-les-chauffe-eau-plus-economes/",
       "montant_texte": "30 millions d’euros",
       "montant_eur_estime": 30000000
     },
@@ -1779,6 +1868,69 @@
   ],
   "articles": [
     {
+      "source": "FrenchWeb",
+      "titre": "Robotique : ENACT lève près de 27 millions d’euros pour développer le sens du toucher",
+      "lien": "https://www.frenchweb.fr/robotique-enact-leve-pres-de-27-millions-deuros-pour-developper-le-sens-du-toucher/464031",
+      "date": "2026-10-22",
+      "montant_texte": "27 millions d’euros",
+      "montant_eur_estime": 27000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Barcelona’s Masia closes €18 million debut fund and opens a physical hub for frontier tech founders and investors",
+      "lien": "https://www.eu-startups.com/2026/10/barcelonas-masia-closes-e18-million-debut-fund-and-opens-a-physical-hub-for-frontier-tech-founders-and-investors/",
+      "date": "2026-10-22",
+      "montant_texte": "€18 million",
+      "montant_eur_estime": 18000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Backed by Yann LeCun and Arthur Mensch, Swiss Physical AI startup Enact Intelligence exits stealth with €26.68 million",
+      "lien": "https://www.eu-startups.com/2026/10/backed-by-yann-lecun-and-arthur-mensch-swiss-physical-ai-startup-enact-intelligence-exits-stealth-with-e26-68-million/",
+      "date": "2026-10-22",
+      "montant_texte": "€26.68 million",
+      "montant_eur_estime": 26680000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "There’s no stopping Legora – €489 million for Stockholm’s LegalTech Unicorn",
+      "lien": "https://www.eu-startups.com/2026/10/theres-no-stopping-legora-e489-million-for-stockholms-legaltech-unicorn/",
+      "date": "2026-10-21",
+      "montant_texte": "€489 million",
+      "montant_eur_estime": 489000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Pigment raises $250m Series E led by Scaleup Europe Fund",
+      "lien": "https://sifted.eu/articles/pigment-series-e-nvidia-scaleup-europe-fund/",
+      "date": "2026-10-21",
+      "montant_texte": "$250m",
+      "montant_eur_estime": 222500000,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "Pigment lève 250 millions de dollars avec Nvidia au tour de table",
+      "lien": "https://www.maddyness.com/2026/10/21/pigment-leve-250-millions-de-dollars-avec-nvidia-au-tour-de-table/",
+      "date": "2026-10-21",
+      "montant_texte": "250 millions de dollars",
+      "montant_eur_estime": 222500000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Legora raises fresh $550m at $8.8bn valuation",
+      "lien": "https://sifted.eu/articles/legora-funding-round-series-e-legal-tech/",
+      "date": "2026-10-21",
+      "montant_texte": "$550m",
+      "montant_eur_estime": 489500000,
+      "pays_ok": false
+    },
+    {
       "source": "EU-Startups",
       "titre": "Former international boxer’s LegalTech startup EstateMin raises €1 million to scale in the US",
       "lien": "https://www.eu-startups.com/2026/10/former-international-boxers-legaltech-startup-estatemin-raises-e1-million-to-scale-in-the-us/",
@@ -1806,6 +1958,33 @@
       "pays_ok": true
     },
     {
+      "source": "Maddyness",
+      "titre": "Elax Énergie lève 30 millions d’euros pour rendre les chauffe-eau plus économes",
+      "lien": "https://www.maddyness.com/2026/10/21/elax-energie-leve-30-millions-deuros-pour-rendre-les-chauffe-eau-plus-economes/",
+      "date": "2026-10-21",
+      "montant_texte": "30 millions d’euros",
+      "montant_eur_estime": 30000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Eindhoven-based Photon Bridge raises €10 million to build optical engines for AI and telecom",
+      "lien": "https://www.eu-startups.com/2026/10/eindhoven-based-photon-bridge-raises-e10-million-to-build-optical-engines-for-ai-and-telecom/",
+      "date": "2026-10-21",
+      "montant_texte": "€10 million",
+      "montant_eur_estime": 10000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Britain’s Skyfly raises €8.91 million to bring its two-seat Axe eVTOL to market and develop Longbow for defence",
+      "lien": "https://www.eu-startups.com/2026/10/britains-skyfly-raises-e8-91-million-to-bring-its-two-seat-axe-evtol-to-market-and-develop-longbow-for-defence/",
+      "date": "2026-10-21",
+      "montant_texte": "€8.91 million",
+      "montant_eur_estime": 8910000,
+      "pays_ok": false
+    },
+    {
       "source": "EU-Startups",
       "titre": "Berlin-based YGO raises €8 million to make travel inventory bookable through AI agents",
       "lien": "https://www.eu-startups.com/2026/10/berlin-based-ygo-raises-e8-million-to-make-travel-inventory-bookable-through-ai-agents/",
@@ -1813,6 +1992,15 @@
       "montant_texte": "€8 million",
       "montant_eur_estime": 8000000,
       "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Après un nouveau cap de revenus récurrents, PIGMENT lève 223 millions d’euros pour poursuivre son expansion",
+      "lien": "https://www.frenchweb.fr/apres-un-nouveau-cap-de-revenus-recurrents-pigment-leve-223-millions-deuros-pour-poursuivre-son-expansion/464019",
+      "date": "2026-10-21",
+      "montant_texte": "223 millions d’euros",
+      "montant_eur_estime": 223000000,
+      "pays_ok": true
     },
     {
       "source": "EU-Startups",
