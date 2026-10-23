@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-23T07:27:50+00:00",
+  "mis_a_jour": "2026-10-23T08:19:32+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -1935,6 +1935,15 @@
       "date": "2026-10-23",
       "montant_texte": "€1.35 million",
       "montant_eur_estime": 1350000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Berlin’s Cygrid exits stealth with €2.66 million to stop AI agents from accessing confidential company data",
+      "lien": "https://www.eu-startups.com/2026/10/berlins-cygrid-exits-stealth-with-e2-66-million-to-stop-ai-agents-from-accessing-confidential-company-data/",
+      "date": "2026-10-23",
+      "montant_texte": "€2.66 million",
+      "montant_eur_estime": 2660000,
       "pays_ok": false
     },
     {
