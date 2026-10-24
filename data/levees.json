@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-23T08:19:32+00:00",
+  "mis_a_jour": "2026-10-24T07:22:07+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -17,13 +17,13 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 5
+      "articles_levees": 4
     },
     {
       "nom": "Sifted",
@@ -1808,13 +1808,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B2577001-7D87-4B7F-AB31-FF4FE7C48E1A",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "Avec 3 milliards d’euros, MISTRAL change de métier",
-          "lien": "https://www.frenchweb.fr/avec-3-milliards-deuros-mistral-change-de-metier/463318"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "49CA56E5-DF66-49E9-A78F-6654CC9F2A03",
@@ -1879,6 +1873,14 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-23",
+      "titre": "Milan’s Phononic Vibes secures €25 million to expand noise control tech used by Deutsche Bahn and Mercedes-Benz",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/milans-phononic-vibes-secures-e25-million-to-expand-noise-control-tech-already-in-service-with-deutsche-bahn-and-in-mercedes-benz/",
+      "montant_texte": "€25 million",
+      "montant_eur_estime": 25000000
+    },
+    {
       "date": "2026-10-22",
       "titre": "Robotique : ENACT lève près de 27 millions d’euros pour développer le sens du toucher",
       "source": "FrenchWeb",
@@ -1917,14 +1919,6 @@
       "lien": "https://www.frenchweb.fr/robotiser-le-geste-irreversible-lupin-dental-leve-15-millions-deuros-pour-ses-robots-dentaires/463722",
       "montant_texte": "15 millions d’euros",
       "montant_eur_estime": 15000000
-    },
-    {
-      "date": "2026-09-08",
-      "titre": "THE EXPLORATION COMPANY annonce une levée de 387 millions d’euros pour Nyx et Storm",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327",
-      "montant_texte": "387 millions d’euros",
-      "montant_eur_estime": 387000000
     }
   ],
   "articles": [
@@ -1935,6 +1929,24 @@
       "date": "2026-10-23",
       "montant_texte": "€1.35 million",
       "montant_eur_estime": 1350000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Milan’s Phononic Vibes secures €25 million to expand noise control tech used by Deutsche Bahn and Mercedes-Benz",
+      "lien": "https://www.eu-startups.com/2026/10/milans-phononic-vibes-secures-e25-million-to-expand-noise-control-tech-already-in-service-with-deutsche-bahn-and-in-mercedes-benz/",
+      "date": "2026-10-23",
+      "montant_texte": "€25 million",
+      "montant_eur_estime": 25000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London’s Cognitive Credit lands €35.73 million to scale its AI and data platform for credit markets",
+      "lien": "https://www.eu-startups.com/2026/10/londons-cognitive-credit-lands-e35-73-million-to-scale-its-ai-and-data-platform-for-credit-markets/",
+      "date": "2026-10-23",
+      "montant_texte": "€35.73 million",
+      "montant_eur_estime": 35730000,
       "pays_ok": false
     },
     {
@@ -2979,24 +2991,6 @@
       "date": "2026-09-09",
       "montant_texte": "8,5 millions d’euros",
       "montant_eur_estime": 8500000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "THE EXPLORATION COMPANY annonce une levée de 387 millions d’euros pour Nyx et Storm",
-      "lien": "https://www.frenchweb.fr/the-exploration-company-annonce-une-levee-de-387-millions-deuros-pour-nyx-et-storm/463327",
-      "date": "2026-09-08",
-      "montant_texte": "387 millions d’euros",
-      "montant_eur_estime": 387000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "Avec 3 milliards d’euros, MISTRAL change de métier",
-      "lien": "https://www.frenchweb.fr/avec-3-milliards-deuros-mistral-change-de-metier/463318",
-      "date": "2026-09-08",
-      "montant_texte": "3 milliards d’euros",
-      "montant_eur_estime": 3000000000,
       "pays_ok": true
     }
   ]
