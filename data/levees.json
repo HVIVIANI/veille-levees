@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-10-24T08:10:16+00:00",
+  "mis_a_jour": "2026-10-25T07:22:27+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 42
+      "levees": 41
     },
     {
       "nom": "FrenchWeb",
@@ -1685,13 +1685,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/14EA2FC3-2492-4118-997D-872C4FFC2F2B",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "ACTIONABLE lève 8,5 millions d’euros pour transformer la donnée client en décisions opérationnelles",
-          "lien": "https://www.frenchweb.fr/actionable-leve-85-millions-deuros-pour-transformer-la-donnee-client-en-decisions-operationnelles/463520"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "A896B475-FB37-49F1-8EC9-B14CE76AE1A6",
@@ -2982,15 +2976,6 @@
       "date": "2026-09-10",
       "montant_texte": "28 millions d’euros",
       "montant_eur_estime": 28000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "ACTIONABLE lève 8,5 millions d’euros pour transformer la donnée client en décisions opérationnelles",
-      "lien": "https://www.frenchweb.fr/actionable-leve-85-millions-deuros-pour-transformer-la-donnee-client-en-decisions-operationnelles/463520",
-      "date": "2026-09-09",
-      "montant_texte": "8,5 millions d’euros",
-      "montant_eur_estime": 8500000,
       "pays_ok": true
     }
   ]
