@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-26T07:35:15+00:00",
+  "mis_a_jour": "2026-10-26T08:28:51+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -23,7 +23,7 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 4
+      "articles_levees": 6
     },
     {
       "nom": "Sifted",
@@ -138,7 +138,13 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/D61E87A5-0F77-4C29-A2BC-6CB4628AD110",
       "vue_le": "2026-10-22",
-      "presse": []
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Lausanne’s Sonexos raises €5.4 million to tackle low-frequency noise from fans, compressors and even data centres",
+          "lien": "https://www.eu-startups.com/2026/10/lausannes-sonexos-raises-e5-4-million-to-tackle-low-frequency-noise-from-fans-compressors-and-even-data-centres/"
+        }
+      ]
     },
     {
       "id": "D3F69344-100B-4741-9073-E5420B132DBB",
@@ -1899,8 +1905,26 @@
   ],
   "articles": [
     {
+      "source": "EU-Startups",
+      "titre": "Lausanne’s Sonexos raises €5.4 million to tackle low-frequency noise from fans, compressors and even data centres",
+      "lien": "https://www.eu-startups.com/2026/10/lausannes-sonexos-raises-e5-4-million-to-tackle-low-frequency-noise-from-fans-compressors-and-even-data-centres/",
+      "date": "2026-10-26",
+      "montant_texte": "€5.4 million",
+      "montant_eur_estime": 5400000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Frankfurt’s QuoIntelligence lands backing from ex-German finance minister Christian Lindner months after €7.3 million Series A",
+      "lien": "https://www.eu-startups.com/2026/10/frankfurts-quointelligence-secures-backing-from-ex-german-finance-minister-christian-lindner-months-after-e7-3-million-series-a/",
+      "date": "2026-10-26",
+      "montant_texte": "€7.3 million",
+      "montant_eur_estime": 7300000,
+      "pays_ok": false
+    },
+    {
       "source": "Sifted",
-      "titre": "Exclusive: Monzo founder Tom Blomfield backs AI agent startup Nous in $17m raise",
+      "titre": "Exclusive: Heartcore Capital leads $17m raise for AI agent startup Nous",
       "lien": "https://sifted.eu/articles/nous-ai-agent-funding-round-monzo-tom-blomfield/",
       "date": "2026-10-26",
       "montant_texte": "$17m",
