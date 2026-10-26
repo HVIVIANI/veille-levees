@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-25T08:09:38+00:00",
+  "mis_a_jour": "2026-10-26T07:35:15+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -29,7 +29,7 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 3
+      "articles_levees": 4
     }
   ],
   "levees": [
@@ -1601,13 +1601,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/7BCE71AC-5939-49E0-82EC-3B953A2017CA",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "Ed.ai lève 5 millions d’euros pour aider les professeurs à faire progresser chaque élève",
-          "lien": "https://www.frenchweb.fr/ed-ai-leve-5-millions-deuros-pour-transformer-chaque-copie-en-plan-de-remediation/463368"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226",
@@ -1631,13 +1625,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "ARLEQUIN AI lève 28 millions d’euros pour construire une alternative européenne à Palantir",
-          "lien": "https://www.frenchweb.fr/arlequin-ai-leve-28-millions-deuros-pour-construire-une-alternative-europeenne-a-palantir/463365"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "8CCB9767-CAEC-4E79-BA74-659072B21914",
@@ -1658,13 +1646,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/8CCB9767-CAEC-4E79-BA74-659072B21914",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "IMPLICITY lève 35 millions d’euros pour passer du tri des alertes à la cardiologie prédictive",
-          "lien": "https://www.frenchweb.fr/implicity-leve-35-millions-deuros-pour-passer-du-tri-des-alertes-a-la-cardiologie-predictive/463361"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "14EA2FC3-2492-4118-997D-872C4FFC2F2B",
@@ -1916,6 +1898,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Monzo founder Tom Blomfield backs AI agent startup Nous in $17m raise",
+      "lien": "https://sifted.eu/articles/nous-ai-agent-funding-round-monzo-tom-blomfield/",
+      "date": "2026-10-26",
+      "montant_texte": "$17m",
+      "montant_eur_estime": 15130000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "Portuguese EdTech Intuitivo raises €1.35 million to ease teachers’ workload and expand into Brazil",
@@ -2949,33 +2940,6 @@
       "date": "2026-09-21",
       "montant_texte": "12 millions d’euros",
       "montant_eur_estime": 12000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "IMPLICITY lève 35 millions d’euros pour passer du tri des alertes à la cardiologie prédictive",
-      "lien": "https://www.frenchweb.fr/implicity-leve-35-millions-deuros-pour-passer-du-tri-des-alertes-a-la-cardiologie-predictive/463361",
-      "date": "2026-09-10",
-      "montant_texte": "35 millions d’euros",
-      "montant_eur_estime": 35000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "Ed.ai lève 5 millions d’euros pour aider les professeurs à faire progresser chaque élève",
-      "lien": "https://www.frenchweb.fr/ed-ai-leve-5-millions-deuros-pour-transformer-chaque-copie-en-plan-de-remediation/463368",
-      "date": "2026-09-10",
-      "montant_texte": "5 millions d’euros",
-      "montant_eur_estime": 5000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "ARLEQUIN AI lève 28 millions d’euros pour construire une alternative européenne à Palantir",
-      "lien": "https://www.frenchweb.fr/arlequin-ai-leve-28-millions-deuros-pour-construire-une-alternative-europeenne-a-palantir/463365",
-      "date": "2026-09-10",
-      "montant_texte": "28 millions d’euros",
-      "montant_eur_estime": 28000000,
       "pays_ok": true
     }
   ]
