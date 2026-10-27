@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-26T08:28:51+00:00",
+  "mis_a_jour": "2026-10-27T07:31:12+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -23,13 +23,13 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 6
+      "articles_levees": 5
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 4
+      "articles_levees": 2
     }
   ],
   "levees": [
@@ -1906,12 +1906,30 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "WealthTech startup Nevis secures €62 million to automate financial advisory workflows with AI",
+      "lien": "https://www.eu-startups.com/2026/10/wealthtech-startup-nevis-secures-e62-million-to-automate-financial-advisory-workflows-with-ai/",
+      "date": "2026-10-26",
+      "montant_texte": "€62 million",
+      "montant_eur_estime": 62000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Lausanne’s Sonexos raises €5.4 million to tackle low-frequency noise from fans, compressors and even data centres",
       "lien": "https://www.eu-startups.com/2026/10/lausannes-sonexos-raises-e5-4-million-to-tackle-low-frequency-noise-from-fans-compressors-and-even-data-centres/",
       "date": "2026-10-26",
       "montant_texte": "€5.4 million",
       "montant_eur_estime": 5400000,
       "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Italy’s Z_One Fund secures over €35 million at first close to back AI and UrbanTech startups",
+      "lien": "https://www.eu-startups.com/2026/10/italys-z_one-fund-secures-over-e35-million-at-first-close-to-back-ai-and-urbantech-startups/",
+      "date": "2026-10-26",
+      "montant_texte": "€35 million",
+      "montant_eur_estime": 35000000,
+      "pays_ok": false
     },
     {
       "source": "EU-Startups",
@@ -1923,12 +1941,30 @@
       "pays_ok": false
     },
     {
+      "source": "EU-Startups",
+      "titre": "Finland’s Volare raises €7.1 million and opens 5,000-tonne insect protein factory",
+      "lien": "https://www.eu-startups.com/2026/10/finlands-volare-raises-e7-1-million-and-opens-5000-tonne-insect-protein-factory/",
+      "date": "2026-10-26",
+      "montant_texte": "€7.1 million",
+      "montant_eur_estime": 7100000,
+      "pays_ok": false
+    },
+    {
       "source": "Sifted",
       "titre": "Exclusive: Heartcore Capital leads $17m raise for AI agent startup Nous",
       "lien": "https://sifted.eu/articles/nous-ai-agent-funding-round-monzo-tom-blomfield/",
       "date": "2026-10-26",
       "montant_texte": "$17m",
       "montant_eur_estime": 15130000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "EQT Ventures and QuantumLight back wealthtech platform Nevis in $70m raise",
+      "lien": "https://sifted.eu/articles/revolut-alumni-nevis-wealth-tech-management-funding-round/",
+      "date": "2026-10-26",
+      "montant_texte": "$70m",
+      "montant_eur_estime": 62300000,
       "pays_ok": false
     },
     {
