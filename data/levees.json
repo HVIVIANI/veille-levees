@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-27T07:31:12+00:00",
+  "mis_a_jour": "2026-10-27T08:25:08+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -23,7 +23,7 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 5
+      "articles_levees": 6
     },
     {
       "nom": "Sifted",
@@ -1904,6 +1904,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "EXCLUSIVE: Copenhagen-based PropTech Cortas lands €1.47 million in a pre-Seed round led by PSV Tech",
+      "lien": "https://www.eu-startups.com/2026/10/exclusive-copenhagen-based-proptech-cortas-lands-e1-47-million-in-a-pre-seed-round-led-by-psv-tech/",
+      "date": "2026-10-27",
+      "montant_texte": "€1.47 million",
+      "montant_eur_estime": 1470000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "WealthTech startup Nevis secures €62 million to automate financial advisory workflows with AI",
