@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-10-27T08:25:08+00:00",
+  "mis_a_jour": "2026-10-28T07:40:58+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 41
+      "levees": 42
     },
     {
       "nom": "FrenchWeb",
@@ -17,13 +17,13 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 0
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 6
+      "articles_levees": 8
     },
     {
       "nom": "Sifted",
@@ -33,6 +33,28 @@
     }
   ],
   "levees": [
+    {
+      "id": "42542264-56B6-4E72-8630-7C457AF280C2",
+      "date": "2026-10-27",
+      "entreprise": "Atlas Bio",
+      "pays": "Switzerland",
+      "ville": "Basel",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 11210762,
+      "stade": "Seed",
+      "investisseurs": [
+        "First Momentum Ventures",
+        "Lea Partners",
+        "Creandum"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/42542264-56B6-4E72-8630-7C457AF280C2",
+      "vue_le": "2026-10-28",
+      "presse": []
+    },
     {
       "id": "58679160-EEC0-428D-8492-CAE66241669D",
       "date": "2026-10-22",
@@ -1855,6 +1877,22 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-27",
+      "titre": "French VC Aquiti closes €60 million fund for founders outside of traditional venture hubs",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/french-vc-aquiti-just-closed-their-e60-million-fund-for-founders-outside-of-traditional-venture-hubs/",
+      "montant_texte": "€60 million",
+      "montant_eur_estime": 60000000
+    },
+    {
+      "date": "2026-10-27",
+      "titre": "Deux Français passés par Y Combinator lèvent 32 millions de dollars pour leur moteur de recherche médical dopé à l’IA",
+      "source": "Maddyness",
+      "lien": "https://www.maddyness.com/2026/10/27/deux-francais-passes-par-y-combinator-levent-32-millions-de-dollars-pour-leur-moteur-de-recherche-medical-dope-a-lia/",
+      "montant_texte": "32 millions de dollars",
+      "montant_eur_estime": 28480000
+    },
+    {
       "date": "2026-10-23",
       "titre": "Milan’s Phononic Vibes secures €25 million to expand noise control tech used by Deutsche Bahn and Mercedes-Benz",
       "source": "EU-Startups",
@@ -1906,11 +1944,92 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Poland’s Autofixer raises €3 million in venture debt to scale its online car parts platform",
+      "lien": "https://www.eu-startups.com/2026/10/polands-autofixer-raises-e3-million-in-venture-debt-to-scale-its-online-car-parts-platform/",
+      "date": "2026-10-28",
+      "montant_texte": "€3 million",
+      "montant_eur_estime": 3000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Danish BioTech Samplix secures €25 million in first close of financing round to scale antibody discovery",
+      "lien": "https://www.eu-startups.com/2026/10/danish-biotech-samplix-secures-e25-million-in-first-close-of-financing-round-to-scale-antibody-discovery/",
+      "date": "2026-10-28",
+      "montant_texte": "€25 million",
+      "montant_eur_estime": 25000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Barcelona’s Artiso raises over €3 million to scale its AI operating system for fashion teams",
+      "lien": "https://www.eu-startups.com/2026/10/barcelonas-artiso-raises-over-e3-million-to-scale-its-ai-operating-system-for-fashion-teams/",
+      "date": "2026-10-28",
+      "montant_texte": "€3 million",
+      "montant_eur_estime": 3000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London’s Querio launches with €4.48 million to help companies tackle conflicting answers across AI tools",
+      "lien": "https://www.eu-startups.com/2026/10/londons-querio-launches-with-e4-48-million-to-help-companies-and-their-data-teams-tackle-conflicting-answers-across-ai-tools/",
+      "date": "2026-10-27",
+      "montant_texte": "€4.48 million",
+      "montant_eur_estime": 4480000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Impress bags €40 million EIB financing to expand its digital orthodontics network across Europe",
+      "lien": "https://www.eu-startups.com/2026/10/impress-bags-e40-million-eib-financing-to-expand-its-digital-orthodontics-network-across-europe/",
+      "date": "2026-10-27",
+      "montant_texte": "€40 million",
+      "montant_eur_estime": 40000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "French VC Aquiti closes €60 million fund for founders outside of traditional venture hubs",
+      "lien": "https://www.eu-startups.com/2026/10/french-vc-aquiti-just-closed-their-e60-million-fund-for-founders-outside-of-traditional-venture-hubs/",
+      "date": "2026-10-27",
+      "montant_texte": "€60 million",
+      "montant_eur_estime": 60000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Finnish DefenceTech Arctic RAVN secures €2.5 million in loan commitments before its first product launch",
+      "lien": "https://www.eu-startups.com/2026/10/finnish-defencetech-arctic-ravn-secures-e2-5-million-in-loan-commitments-before-its-first-product-launch/",
+      "date": "2026-10-27",
+      "montant_texte": "€2.5 million",
+      "montant_eur_estime": 2500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "EXCLUSIVE: Copenhagen-based PropTech Cortas lands €1.47 million in a pre-Seed round led by PSV Tech",
       "lien": "https://www.eu-startups.com/2026/10/exclusive-copenhagen-based-proptech-cortas-lands-e1-47-million-in-a-pre-seed-round-led-by-psv-tech/",
       "date": "2026-10-27",
       "montant_texte": "€1.47 million",
       "montant_eur_estime": 1470000,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "Deux Français passés par Y Combinator lèvent 32 millions de dollars pour leur moteur de recherche médical dopé à l’IA",
+      "lien": "https://www.maddyness.com/2026/10/27/deux-francais-passes-par-y-combinator-levent-32-millions-de-dollars-pour-leur-moteur-de-recherche-medical-dope-a-lia/",
+      "date": "2026-10-27",
+      "montant_texte": "32 millions de dollars",
+      "montant_eur_estime": 28480000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "British SME lender Lovey secures up to €298 million to support UK companies",
+      "lien": "https://www.eu-startups.com/2026/10/british-sme-lender-lovey-secures-up-to-e298-million-to-support-uk-companies/",
+      "date": "2026-10-27",
+      "montant_texte": "€298 million",
+      "montant_eur_estime": 298000000,
       "pays_ok": false
     },
     {
