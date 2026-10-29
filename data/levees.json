@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-10-28T08:31:55+00:00",
+  "mis_a_jour": "2026-10-29T07:42:49+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 42
+      "levees": 41
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
-      "articles_lus": 100,
-      "articles_levees": 21
+      "articles_lus": 30,
+      "articles_levees": 6
     },
     {
       "nom": "Maddyness",
@@ -23,7 +23,7 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 8
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
@@ -134,6 +134,11 @@
           "lien": "https://www.frenchweb.fr/et-si-les-economies-denergie-commencaient-par-le-chauffe-eau-elax-energie-leve-30-millions-deuros-pour-chauffer-leau-au-bon-moment/464009"
         },
         {
+          "source": "FrenchWeb",
+          "titre": "Et si les économies d’énergie commençaient par le chauffe-eau ? ELAX ENERGIE lève 30 millions d’euros pour chauffer l’eau au bon moment",
+          "lien": "https://www.frenchweb.fr/et-si-les-economies-denergie-commencaient-par-le-chauffe-eau-elax-energie-leve-30-millions-deuros-pour-chauffer-leau-au-bon-moment/464009?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        },
+        {
           "source": "Maddyness",
           "titre": "Elax Énergie lève 30 millions d’euros pour rendre les chauffe-eau plus économes",
           "lien": "https://www.maddyness.com/2026/10/21/elax-energie-leve-30-millions-deuros-pour-rendre-les-chauffe-eau-plus-economes/"
@@ -208,6 +213,11 @@
           "source": "FrenchWeb",
           "titre": "Après un nouveau cap de revenus récurrents, PIGMENT lève 223 millions d’euros pour poursuivre son expansion",
           "lien": "https://www.frenchweb.fr/apres-un-nouveau-cap-de-revenus-recurrents-pigment-leve-223-millions-deuros-pour-poursuivre-son-expansion/464019"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "Après un nouveau cap de revenus récurrents, PIGMENT lève 223 millions d’euros pour poursuivre son expansion",
+          "lien": "https://www.frenchweb.fr/apres-un-nouveau-cap-de-revenus-recurrents-pigment-leve-223-millions-deuros-pour-poursuivre-son-expansion/464019?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
         }
       ]
     },
@@ -317,6 +327,11 @@
           "source": "FrenchWeb",
           "titre": "DOUGS lève 50 millions d’euros auprès d’Expedition Growth Capital pour changer d’échelle",
           "lien": "https://www.frenchweb.fr/dougs-leve-50-millions-deuros-aupres-dexpedition-growth-capital-pour-changer-dechelle/463938"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "DOUGS lève 50 millions d’euros auprès d’Expedition Growth Capital pour changer d’échelle",
+          "lien": "https://www.frenchweb.fr/dougs-leve-50-millions-deuros-aupres-dexpedition-growth-capital-pour-changer-dechelle/463938?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
         }
       ]
     },
@@ -414,6 +429,11 @@
           "source": "FrenchWeb",
           "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
           "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
+          "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
         }
       ]
     },
@@ -1877,6 +1897,14 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-10-29",
+      "titre": "Auriga Partners reaches €80 million interim close for second fund dedicated to cybersecurity",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/10/auriga-partners-reaches-e80-million-interim-close-for-second-fund-dedicated-to-cybersecurity/",
+      "montant_texte": "€80 million",
+      "montant_eur_estime": 80000000
+    },
+    {
       "date": "2026-10-27",
       "titre": "French VC Aquiti closes €60 million fund for founders outside of traditional venture hubs",
       "source": "EU-Startups",
@@ -1909,6 +1937,14 @@
       "montant_eur_estime": 27000000
     },
     {
+      "date": "2026-10-22",
+      "titre": "Robotique : ENACT lève près de 27 millions d’euros pour développer le sens du toucher",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/robotique-enact-leve-pres-de-27-millions-deuros-pour-developper-le-sens-du-toucher/464031?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "montant_texte": "27 millions d’euros",
+      "montant_eur_estime": 27000000
+    },
+    {
       "date": "2026-10-15",
       "titre": "Nvidia is investing heavily into Europe – why now?",
       "source": "EU-Startups",
@@ -1921,6 +1957,14 @@
       "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
       "source": "FrenchWeb",
       "lien": "https://www.frenchweb.fr/nvidia-investit-dans-doctolib-retour-sur-une-success-story-francaise/463926",
+      "montant_texte": null,
+      "montant_eur_estime": null
+    },
+    {
+      "date": "2026-10-14",
+      "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/nvidia-investit-dans-doctolib-retour-sur-une-success-story-francaise/463926?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
       "montant_texte": null,
       "montant_eur_estime": null
     },
@@ -1944,11 +1988,56 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Profitable Dutch startup Braid raises €34.13 million to help brands launch their own mobile connectivity",
+      "lien": "https://www.eu-startups.com/2026/10/profitable-dutch-startup-braid-raises-e34-12-to-help-brands-launch-their-own-mobile-connectivity/",
+      "date": "2026-10-29",
+      "montant_texte": "€34.13 million",
+      "montant_eur_estime": 34130000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Deeptech startup MuRay raises €7.1m to see inside rocket engines",
+      "lien": "https://sifted.eu/articles/exclusive-deeptech-startup-muray-raises-e7-1m-to-see-inside-rocket-engines/",
+      "date": "2026-10-29",
+      "montant_texte": "€7.1m",
+      "montant_eur_estime": 7100000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Auriga Partners reaches €80 million interim close for second fund dedicated to cybersecurity",
+      "lien": "https://www.eu-startups.com/2026/10/auriga-partners-reaches-e80-million-interim-close-for-second-fund-dedicated-to-cybersecurity/",
+      "date": "2026-10-29",
+      "montant_texte": "€80 million",
+      "montant_eur_estime": 80000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "“My grandfather fell and remained on the floor for an entire day” – Magic Vision raises €600k for monitoring tech",
+      "lien": "https://www.eu-startups.com/2026/10/my-grandfather-fell-and-remained-on-the-floor-for-an-entire-day-magic-vision-raises-e600k-for-monitoring-tech/",
+      "date": "2026-10-28",
+      "montant_texte": "€600k",
+      "montant_eur_estime": 600000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Poland’s Autofixer raises €3 million in venture debt to scale its online car parts platform",
       "lien": "https://www.eu-startups.com/2026/10/polands-autofixer-raises-e3-million-in-venture-debt-to-scale-its-online-car-parts-platform/",
       "date": "2026-10-28",
       "montant_texte": "€3 million",
       "montant_eur_estime": 3000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London’s AP Ventures closes €269.62 million third fund to back early-stage industrial and energy tech startups",
+      "lien": "https://www.eu-startups.com/2026/10/londons-ap-ventures-closes-e269-million-third-fund-to-back-early-stage-industrial-and-energy-tech-startups/",
+      "date": "2026-10-28",
+      "montant_texte": "€269.62 million",
+      "montant_eur_estime": 269620000,
       "pays_ok": false
     },
     {
@@ -2150,6 +2239,15 @@
       "pays_ok": true
     },
     {
+      "source": "FrenchWeb",
+      "titre": "Robotique : ENACT lève près de 27 millions d’euros pour développer le sens du toucher",
+      "lien": "https://www.frenchweb.fr/robotique-enact-leve-pres-de-27-millions-deuros-pour-developper-le-sens-du-toucher/464031?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-10-22",
+      "montant_texte": "27 millions d’euros",
+      "montant_eur_estime": 27000000,
+      "pays_ok": true
+    },
+    {
       "source": "EU-Startups",
       "titre": "Lisbon’s Beyond Vision raises over €28 million to scale AI drones for civilian and defence markets",
       "lien": "https://www.eu-startups.com/2026/10/lisbons-beyond-vision-raises-over-e28-million-to-scale-ai-drones-for-civilian-and-defence-markets/",
@@ -2249,6 +2347,15 @@
       "pays_ok": true
     },
     {
+      "source": "FrenchWeb",
+      "titre": "Et si les économies d’énergie commençaient par le chauffe-eau ? ELAX ENERGIE lève 30 millions d’euros pour chauffer l’eau au bon moment",
+      "lien": "https://www.frenchweb.fr/et-si-les-economies-denergie-commencaient-par-le-chauffe-eau-elax-energie-leve-30-millions-deuros-pour-chauffer-leau-au-bon-moment/464009?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-10-21",
+      "montant_texte": "30 millions d’euros",
+      "montant_eur_estime": 30000000,
+      "pays_ok": true
+    },
+    {
       "source": "Maddyness",
       "titre": "Elax Énergie lève 30 millions d’euros pour rendre les chauffe-eau plus économes",
       "lien": "https://www.maddyness.com/2026/10/21/elax-energie-leve-30-millions-deuros-pour-rendre-les-chauffe-eau-plus-economes/",
@@ -2288,6 +2395,15 @@
       "source": "FrenchWeb",
       "titre": "Après un nouveau cap de revenus récurrents, PIGMENT lève 223 millions d’euros pour poursuivre son expansion",
       "lien": "https://www.frenchweb.fr/apres-un-nouveau-cap-de-revenus-recurrents-pigment-leve-223-millions-deuros-pour-poursuivre-son-expansion/464019",
+      "date": "2026-10-21",
+      "montant_texte": "223 millions d’euros",
+      "montant_eur_estime": 223000000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Après un nouveau cap de revenus récurrents, PIGMENT lève 223 millions d’euros pour poursuivre son expansion",
+      "lien": "https://www.frenchweb.fr/apres-un-nouveau-cap-de-revenus-recurrents-pigment-leve-223-millions-deuros-pour-poursuivre-son-expansion/464019?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
       "date": "2026-10-21",
       "montant_texte": "223 millions d’euros",
       "montant_eur_estime": 223000000,
@@ -2555,6 +2671,15 @@
       "pays_ok": true
     },
     {
+      "source": "FrenchWeb",
+      "titre": "DOUGS lève 50 millions d’euros auprès d’Expedition Growth Capital pour changer d’échelle",
+      "lien": "https://www.frenchweb.fr/dougs-leve-50-millions-deuros-aupres-dexpedition-growth-capital-pour-changer-dechelle/463938?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-10-15",
+      "montant_texte": "50 millions d’euros",
+      "montant_eur_estime": 50000000,
+      "pays_ok": true
+    },
+    {
       "source": "Sifted",
       "titre": "AI personal finance platform Matters raises $5m pre-seed",
       "lien": "https://sifted.eu/articles/matters-5m-pre-seed/",
@@ -2585,6 +2710,15 @@
       "source": "FrenchWeb",
       "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
       "lien": "https://www.frenchweb.fr/nvidia-investit-dans-doctolib-retour-sur-une-success-story-francaise/463926",
+      "date": "2026-10-14",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Nvidia investit dans DOCTOLIB : retour sur une success story française",
+      "lien": "https://www.frenchweb.fr/nvidia-investit-dans-doctolib-retour-sur-une-success-story-francaise/463926?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
       "date": "2026-10-14",
       "montant_texte": null,
       "montant_eur_estime": null,
@@ -2711,6 +2845,15 @@
       "source": "FrenchWeb",
       "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
       "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919",
+      "date": "2026-10-13",
+      "montant_texte": "7 millions d’euros",
+      "montant_eur_estime": 7000000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
+      "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
       "date": "2026-10-13",
       "montant_texte": "7 millions d’euros",
       "montant_eur_estime": 7000000,
