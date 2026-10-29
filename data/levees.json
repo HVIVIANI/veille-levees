@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-10-29T07:42:49+00:00",
+  "mis_a_jour": "2026-10-29T08:33:25+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -2002,6 +2002,15 @@
       "date": "2026-10-29",
       "montant_texte": "€7.1m",
       "montant_eur_estime": 7100000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "EXCLUSIVE: Freiburg’s VUSE XR raises €1.2 million to bring AI-powered mixed reality training to enterprises",
+      "lien": "https://www.eu-startups.com/2026/10/exclusive-freiburgs-vuse-xr-raises-e1-2-million-to-bring-ai-powered-mixed-reality-training-to-enterprises/",
+      "date": "2026-10-29",
+      "montant_texte": "€1.2 million",
+      "montant_eur_estime": 1200000,
       "pays_ok": false
     },
     {
