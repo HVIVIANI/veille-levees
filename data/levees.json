@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-10-29T08:33:25+00:00",
+  "mis_a_jour": "2026-10-30T07:42:21+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 41
+      "levees": 40
     },
     {
       "nom": "FrenchWeb",
@@ -17,13 +17,13 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 7
+      "articles_levees": 8
     },
     {
       "nom": "Sifted",
@@ -33,6 +33,57 @@
     }
   ],
   "levees": [
+    {
+      "id": "ECAC8518-F41E-41D5-8E6A-A41C643F0E93",
+      "date": "2026-10-29",
+      "entreprise": "DistalMotion",
+      "pays": "Switzerland",
+      "ville": "Lausanne",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 62893082,
+      "stade": "Debt",
+      "investisseurs": [
+        "Perceptive Advisors"
+      ],
+      "source": "deutsche-startups.de",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/ECAC8518-F41E-41D5-8E6A-A41C643F0E93",
+      "vue_le": "2026-10-30",
+      "presse": []
+    },
+    {
+      "id": "8E8CDEDB-AA8A-43D9-8C20-A1DA9E490311",
+      "date": "2026-10-29",
+      "entreprise": "Bleu Robotics",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Robotics"
+      ],
+      "montant_eur": 5000000,
+      "stade": "Pre-Seed",
+      "investisseurs": [
+        "WEPA Ventures",
+        "Ovni Capital",
+        "Charlie Songhurst",
+        "Contrarian Ventures",
+        "Kvanted",
+        "Motier Ventures"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/8E8CDEDB-AA8A-43D9-8C20-A1DA9E490311",
+      "vue_le": "2026-10-30",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "French startup Bleu Robotics secures €5 million to teach humanoid robots new tasks with fewer demonstrations",
+          "lien": "https://www.eu-startups.com/2026/10/french-startup-bleu-robotics-secures-e5-million-to-teach-humanoid-robots-new-tasks-with-fewer-demonstrations/"
+        }
+      ]
+    },
     {
       "id": "42542264-56B6-4E72-8630-7C457AF280C2",
       "date": "2026-10-27",
@@ -1988,11 +2039,65 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "EXCLUSIVE: London’s Ares Intelligence raises €2.6 million to turn employee insights into AI adoption plans",
+      "lien": "https://www.eu-startups.com/2026/10/exclusive-londons-ares-intelligence-raises-e2-6-million-to-turn-employee-insights-into-ai-adoption-plans/",
+      "date": "2026-10-30",
+      "montant_texte": "€2.6 million",
+      "montant_eur_estime": 2600000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Tool that identifies AI-generated material helps Pixel Systems raise €2.7 million",
+      "lien": "https://www.eu-startups.com/2026/10/tool-that-identifies-ai-generated-material-helps-pixel-systems-raise-e2-7-million/",
+      "date": "2026-10-29",
+      "montant_texte": "€2.7 million",
+      "montant_eur_estime": 2700000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "StrollMe bags €22 million to put more bikes, strollers and car seats into European homes",
+      "lien": "https://www.eu-startups.com/2026/10/strollme-bags-e22-million-to-put-more-bikes-strollers-and-car-seats-into-european-homes/",
+      "date": "2026-10-29",
+      "montant_texte": "€22 million",
+      "montant_eur_estime": 22000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Profitable Dutch startup Braid raises €34.13 million to help brands launch their own mobile connectivity",
       "lien": "https://www.eu-startups.com/2026/10/profitable-dutch-startup-braid-raises-e34-12-to-help-brands-launch-their-own-mobile-connectivity/",
       "date": "2026-10-29",
       "montant_texte": "€34.13 million",
       "montant_eur_estime": 34130000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Pieterjan Bouten’s Entourage closes €100 million second fund after surpassing €75 million target in two weeks",
+      "lien": "https://www.eu-startups.com/2026/10/pieterjan-boutens-entourage-closes-e100-million-second-fund-after-surpassing-e75-million-target-in-two-weeks/",
+      "date": "2026-10-29",
+      "montant_texte": "€100 million",
+      "montant_eur_estime": 100000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "French startup Bleu Robotics secures €5 million to teach humanoid robots new tasks with fewer demonstrations",
+      "lien": "https://www.eu-startups.com/2026/10/french-startup-bleu-robotics-secures-e5-million-to-teach-humanoid-robots-new-tasks-with-fewer-demonstrations/",
+      "date": "2026-10-29",
+      "montant_texte": "€5 million",
+      "montant_eur_estime": 5000000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Fractile raises £540m in new Series C funding, filings show",
+      "lien": "https://sifted.eu/articles/exclusive-fractile-series-c/",
+      "date": "2026-10-29",
+      "montant_texte": "£540m",
+      "montant_eur_estime": 621000000,
       "pays_ok": false
     },
     {
