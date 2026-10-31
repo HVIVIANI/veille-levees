@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-10-30T08:34:39+00:00",
+  "mis_a_jour": "2026-10-31T07:36:48+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 40
+      "levees": 37
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 6
+      "articles_levees": 5
     },
     {
       "nom": "Maddyness",
@@ -23,7 +23,7 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 8
+      "articles_levees": 5
     },
     {
       "nom": "Sifted",
@@ -2039,6 +2039,24 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "PaperFoam secures €2 million loan to scale sustainable packaging made from starch and natural fibres",
+      "lien": "https://www.eu-startups.com/2026/10/paperfoam-secures-e2-million-loan-to-scale-sustainable-packaging-made-from-starch-and-natural-fibres/",
+      "date": "2026-10-30",
+      "montant_texte": "€2 million",
+      "montant_eur_estime": 2000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Madrid’s Talky raises €1.5 million to teach AI the unwritten rules of accounting",
+      "lien": "https://www.eu-startups.com/2026/10/madrids-talky-raises-e1-5-million-to-teach-ai-the-unwritten-rules-of-accounting/",
+      "date": "2026-10-30",
+      "montant_texte": "€1.5 million",
+      "montant_eur_estime": 1500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "London’s Easol secures €26.78 million Series A extension as it launches AI agents for experience businesses",
       "lien": "https://www.eu-startups.com/2026/10/londons-easol-secures-e26-78-million-series-a-extension-as-it-launches-ai-agents-for-experience-businesses/",
       "date": "2026-10-30",
@@ -2048,11 +2066,11 @@
     },
     {
       "source": "EU-Startups",
-      "titre": "EXCLUSIVE: London’s Ares Intelligence raises €2.6 million to turn employee insights into AI adoption plans",
+      "titre": "EXCLUSIVE: London’s Ares Intelligence raises €2.9 million to turn employee insights into AI adoption plans",
       "lien": "https://www.eu-startups.com/2026/10/exclusive-londons-ares-intelligence-raises-e2-6-million-to-turn-employee-insights-into-ai-adoption-plans/",
       "date": "2026-10-30",
-      "montant_texte": "€2.6 million",
-      "montant_eur_estime": 2600000,
+      "montant_texte": "€2.9 million",
+      "montant_eur_estime": 2900000,
       "pays_ok": false
     },
     {
