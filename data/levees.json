@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-01T08:29:20+00:00",
+  "mis_a_jour": "2026-11-02T08:04:25+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -2037,6 +2037,24 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "Porto’s female-led startup Seamoretech secures €1.1 million to turn desalination brine into freshwater and critical minerals",
+      "lien": "https://www.eu-startups.com/2026/11/portos-seamoretech-secures-e1-1-million-to-turn-desalination-brine-into-freshwater-and-critical-minerals/",
+      "date": "2026-11-02",
+      "montant_texte": "€1.1 million",
+      "montant_eur_estime": 1100000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Munich’s Marble Cognition raises €3.35 million to build AI coworkers that learn business processes before automating them",
+      "lien": "https://www.eu-startups.com/2026/11/munichs-marble-cognition-raises-e3-35-million-to-build-ai-coworkers-that-learn-business-processes-before-automating-them/",
+      "date": "2026-11-02",
+      "montant_texte": "€3.35 million",
+      "montant_eur_estime": 3350000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "PaperFoam secures €2 million loan to scale sustainable packaging made from starch and natural fibres",
