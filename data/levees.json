@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-03T07:54:50+00:00",
+  "mis_a_jour": "2026-11-03T08:40:16+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -1949,7 +1949,7 @@
   "presse_seule": [
     {
       "date": "2026-11-02",
-      "titre": "Paris-based Gallium Defence emerges from stealth with €7.1 million to scale affordable drone detection",
+      "titre": "Paris-based Gallium Defense emerges from stealth with €7.1 million to scale affordable drone detection",
       "source": "EU-Startups",
       "lien": "https://www.eu-startups.com/2026/11/paris-based-gallium-defense-emerges-from-stealth-with-e7-1-million-to-scale-affordable-drone-detection/",
       "montant_texte": "€7.1 million",
@@ -2055,6 +2055,15 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Solo VC Robin Capital closes €15 million second fund to back AI, robotics and space startups",
+      "lien": "https://www.eu-startups.com/2026/11/solo-vc-robin-capital-closes-e15-million-second-fund-to-back-ai-robotics-and-space-startups/",
+      "date": "2026-11-03",
+      "montant_texte": "€15 million",
+      "montant_eur_estime": 15000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Swedish VC Creandum closes €668 million CVIII fund – its largest to date",
       "lien": "https://www.eu-startups.com/2026/11/swedish-vc-creandum-closes-e668-million-cviii-fund-its-largest-to-date/",
       "date": "2026-11-02",
@@ -2073,7 +2082,7 @@
     },
     {
       "source": "EU-Startups",
-      "titre": "Paris-based Gallium Defence emerges from stealth with €7.1 million to scale affordable drone detection",
+      "titre": "Paris-based Gallium Defense emerges from stealth with €7.1 million to scale affordable drone detection",
       "lien": "https://www.eu-startups.com/2026/11/paris-based-gallium-defense-emerges-from-stealth-with-e7-1-million-to-scale-affordable-drone-detection/",
       "date": "2026-11-02",
       "montant_texte": "€7.1 million",
