@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-03T08:40:16+00:00",
+  "mis_a_jour": "2026-11-04T07:58:10+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 34
+      "levees": 36
     },
     {
       "nom": "FrenchWeb",
@@ -17,13 +17,13 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 0
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 7
+      "articles_levees": 8
     },
     {
       "nom": "Sifted",
@@ -33,6 +33,69 @@
     }
   ],
   "levees": [
+    {
+      "id": "238132FB-9A7E-4042-85BB-B59E9B8FBDFE",
+      "date": "2026-11-02",
+      "entreprise": "Seamoretech",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Cleantech"
+      ],
+      "montant_eur": 1100000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Crédito Agrícola",
+        "Rypples",
+        "7Seas Capital"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/238132FB-9A7E-4042-85BB-B59E9B8FBDFE",
+      "vue_le": "2026-11-04",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Porto’s female-led startup Seamoretech secures €1.1 million to turn desalination brine into freshwater and critical minerals",
+          "lien": "https://www.eu-startups.com/2026/11/portos-seamoretech-secures-e1-1-million-to-turn-desalination-brine-into-freshwater-and-critical-minerals/"
+        }
+      ]
+    },
+    {
+      "id": "A1094370-3B14-422B-BAA3-F29BFFC49E98",
+      "date": "2026-11-02",
+      "entreprise": "Gallium Defense",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Space",
+        "Defence"
+      ],
+      "montant_eur": 7100000,
+      "stade": "Seed",
+      "investisseurs": [
+        "360 Capital",
+        "Polytechnique Ventures",
+        "Keen Venture Partners",
+        "Omnes Capital"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/A1094370-3B14-422B-BAA3-F29BFFC49E98",
+      "vue_le": "2026-11-04",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Paris-based Gallium Defense emerges from stealth with €7.1 million to scale affordable drone detection",
+          "lien": "https://www.eu-startups.com/2026/11/paris-based-gallium-defense-emerges-from-stealth-with-e7-1-million-to-scale-affordable-drone-detection/"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "GALLIUM DEFENSE lève 7,1 millions d’euros pour réduire le coût de la détection des drones",
+          "lien": "https://www.frenchweb.fr/gallium-defense-leve-7-1-millions-d-euros-pour-reduire-le-cout-de-la-detection-des-drones/900000012?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        }
+      ]
+    },
     {
       "id": "ECAC8518-F41E-41D5-8E6A-A41C643F0E93",
       "date": "2026-10-29",
@@ -250,6 +313,11 @@
       "lien": "https://funding.tech.eu/deals/D3F69344-100B-4741-9073-E5420B132DBB",
       "vue_le": "2026-10-22",
       "presse": [
+        {
+          "source": "Maddyness",
+          "titre": "Portée par Pigment, la French Tech lève 614,7 millions d’euros en octobre",
+          "lien": "https://www.maddyness.com/2026/11/03/portee-par-pigment-la-french-tech-leve-6147-millions-deuros-en-octobre/"
+        },
         {
           "source": "Sifted",
           "titre": "Pigment raises $250m Series E led by Scaleup Europe Fund",
@@ -1948,22 +2016,6 @@
   ],
   "presse_seule": [
     {
-      "date": "2026-11-02",
-      "titre": "Paris-based Gallium Defense emerges from stealth with €7.1 million to scale affordable drone detection",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/11/paris-based-gallium-defense-emerges-from-stealth-with-e7-1-million-to-scale-affordable-drone-detection/",
-      "montant_texte": "€7.1 million",
-      "montant_eur_estime": 7100000
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "GALLIUM DEFENSE lève 7,1 millions d’euros pour réduire le coût de la détection des drones",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/gallium-defense-leve-7-1-millions-d-euros-pour-reduire-le-cout-de-la-detection-des-drones/900000012?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
-      "montant_texte": "7,1 millions d’euros",
-      "montant_eur_estime": 7100000
-    },
-    {
       "date": "2026-10-29",
       "titre": "Auriga Partners reaches €80 million interim close for second fund dedicated to cybersecurity",
       "source": "EU-Startups",
@@ -2055,8 +2107,89 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Manchester-based Crediflow AI secures €1.8 million to automate commercial loan processing",
+      "lien": "https://www.eu-startups.com/2026/11/manchester-based-crediflow-ai-secures-e1-8-million-to-automate-commercial-loan-processing/",
+      "date": "2026-11-04",
+      "montant_texte": "€1.8 million",
+      "montant_eur_estime": 1800000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Leipzig-based JawBuddy raises €818k to help people reduce jaw pain, bruxism, and TMJ-related tension",
+      "lien": "https://www.eu-startups.com/2026/11/leipzig-based-jawbuddy-raises-e818k-to-help-people-reduce-jaw-pain-bruxism-and-tmj-related-tension/",
+      "date": "2026-11-04",
+      "montant_texte": "€818k",
+      "montant_eur_estime": 818000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Turning pollution into everyday products – Southampton’s Virdi raises €2.6 million to transform waste",
+      "lien": "https://www.eu-startups.com/2026/11/turning-pollution-into-everyday-products-southamptons-virdi-raises-e2-6-million-to-transform-waste/",
+      "date": "2026-11-03",
+      "montant_texte": "€2.6 million",
+      "montant_eur_estime": 2600000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Tallia raises €4 million to bring AI-powered research and review to tax firms",
+      "lien": "https://www.eu-startups.com/2026/11/london-based-tallia-raises-e4-million-to-bring-ai-powered-research-and-review-to-tax-firms/",
+      "date": "2026-11-03",
+      "montant_texte": "€4 million",
+      "montant_eur_estime": 4000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Solo VC Robin Capital closes €15 million second fund to back AI, robotics and space startups",
       "lien": "https://www.eu-startups.com/2026/11/solo-vc-robin-capital-closes-e15-million-second-fund-to-back-ai-robotics-and-space-startups/",
+      "date": "2026-11-03",
+      "montant_texte": "€15 million",
+      "montant_eur_estime": 15000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "Portée par Pigment, la French Tech lève 614,7 millions d’euros en octobre",
+      "lien": "https://www.maddyness.com/2026/11/03/portee-par-pigment-la-french-tech-leve-6147-millions-deuros-en-octobre/",
+      "date": "2026-11-03",
+      "montant_texte": "614,7 millions d’euros",
+      "montant_eur_estime": 614700000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "FreightTech startup Conlio secures €6.4 million to expand AI-powered financial automation across Europe",
+      "lien": "https://www.eu-startups.com/2026/11/freighttech-startup-conlio-secures-e6-4-million-to-expand-ai-powered-financial-automation-across-europe/",
+      "date": "2026-11-03",
+      "montant_texte": "€6.4 million",
+      "montant_eur_estime": 6400000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Following Austria’s first commercial satellite launch, Tumbleweed raises €6.9 million to accelerate space missions",
+      "lien": "https://www.eu-startups.com/2026/11/following-austrias-first-commercial-satellite-launch-tumbleweed-raises-e6-9-million-to-accelerate-space-missions/",
+      "date": "2026-11-03",
+      "montant_texte": "€6.9 million",
+      "montant_eur_estime": 6900000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Ex-LocalGlobe partner closes $17m debut fund",
+      "lien": "https://sifted.eu/articles/evertrue-capital-closes-17m-debut-fund/",
+      "date": "2026-11-03",
+      "montant_texte": "$17m",
+      "montant_eur_estime": 15130000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Evertrue Capital raises €15 million debut fund backed by British Business Bank and Phoenix Court",
+      "lien": "https://www.eu-startups.com/2026/11/4-evertrue-capital-raises-e15-million-debut-fund-backed-by-british-business-bank-and-phoenix-court/",
       "date": "2026-11-03",
       "montant_texte": "€15 million",
       "montant_eur_estime": 15000000,
