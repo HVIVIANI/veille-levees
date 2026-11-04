@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-04T07:58:10+00:00",
+  "mis_a_jour": "2026-11-04T08:40:09+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -2105,6 +2105,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "Rotterdam’s Hardt Hyperloop secures multi-million-euro funding to bounce back from bankruptcy and expand into the Americas",
+      "lien": "https://www.eu-startups.com/2026/11/rotterdams-hardt-hyperloop-secures-multi-million-euro-funding-to-bounce-back-from-bankruptcy-and-expand-into-the-americas/",
+      "date": "2026-11-04",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "Manchester-based Crediflow AI secures €1.8 million to automate commercial loan processing",
