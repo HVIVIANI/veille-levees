@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-11-04T08:40:09+00:00",
+  "mis_a_jour": "2026-11-05T07:58:08+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 36
+      "levees": 33
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 4
+      "articles_levees": 3
     },
     {
       "nom": "Maddyness",
@@ -23,7 +23,7 @@
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 8
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
@@ -2016,6 +2016,22 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-04",
+      "titre": "STATION F unveils 2026 Future 40 as its startups raise a record €2 billion",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/11/station-f-unveils-2026-future-40-as-its-startups-raise-a-record-e2-billion/",
+      "montant_texte": "€2 billion",
+      "montant_eur_estime": 2000000000
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "Exclusive: Top 10 largest investments by EIC in 2026 – so far",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/11/exclusive-top-10-largest-investments-by-eic-in-2026-so-far/",
+      "montant_texte": null,
+      "montant_eur_estime": null
+    },
+    {
       "date": "2026-10-29",
       "titre": "Auriga Partners reaches €80 million interim close for second fund dedicated to cybersecurity",
       "source": "EU-Startups",
@@ -2107,11 +2123,56 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Oxford’s FluoRok raises €26.64 million to scale fluorochemical production without hazardous hydrogen fluoride",
+      "lien": "https://www.eu-startups.com/2026/11/oxfords-fluorok-raises-e26-64-million-to-scale-fluorochemical-production-without-the-hazardous-hydrogen-fluoride/",
+      "date": "2026-11-05",
+      "montant_texte": "€26.64 million",
+      "montant_eur_estime": 26640000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Helsing CEO backs AI learning startup Mindmax in £2.5m raise",
+      "lien": "https://sifted.eu/articles/memrise-mindmax-helsing-funding-round-memory/",
+      "date": "2026-11-05",
+      "montant_texte": "£2.5m",
+      "montant_eur_estime": 2875000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Tired of Roku and the like? Spain’s Titan OS just raised €40 million to provide you with an alternative.",
+      "lien": "https://www.eu-startups.com/2026/11/tired-of-roku-and-the-like-spains-titan-os-just-raised-e40-million-to-provide-you-with-an-alternative/",
+      "date": "2026-11-04",
+      "montant_texte": "€40 million",
+      "montant_eur_estime": 40000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "STATION F unveils 2026 Future 40 as its startups raise a record €2 billion",
+      "lien": "https://www.eu-startups.com/2026/11/station-f-unveils-2026-future-40-as-its-startups-raise-a-record-e2-billion/",
+      "date": "2026-11-04",
+      "montant_texte": "€2 billion",
+      "montant_eur_estime": 2000000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Rotterdam’s Hardt Hyperloop secures multi-million-euro funding to bounce back from bankruptcy and expand into the Americas",
       "lien": "https://www.eu-startups.com/2026/11/rotterdams-hardt-hyperloop-secures-multi-million-euro-funding-to-bounce-back-from-bankruptcy-and-expand-into-the-americas/",
       "date": "2026-11-04",
       "montant_texte": null,
       "montant_eur_estime": null,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Return secures €835 million financing to expand battery storage capacity in Germany",
+      "lien": "https://www.eu-startups.com/2026/11/return-secures-e835-million-financing-to-expand-battery-storage-capacity-in-germany/",
+      "date": "2026-11-04",
+      "montant_texte": "€835 million",
+      "montant_eur_estime": 835000000,
       "pays_ok": false
     },
     {
@@ -2130,6 +2191,24 @@
       "date": "2026-11-04",
       "montant_texte": "€818k",
       "montant_eur_estime": 818000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Exclusive: Top 10 largest investments by EIC in 2026 – so far",
+      "lien": "https://www.eu-startups.com/2026/11/exclusive-top-10-largest-investments-by-eic-in-2026-so-far/",
+      "date": "2026-11-04",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Copenhagen’s Biograil raises €20 million for oral drug delivery device designed as an alternative to injections",
+      "lien": "https://www.eu-startups.com/2026/11/copenhagens-biograil-raises-e20-million-for-oral-drug-delivery-device-designed-as-an-alternative-to-injections/",
+      "date": "2026-11-04",
+      "montant_texte": "€20 million",
+      "montant_eur_estime": 20000000,
       "pays_ok": false
     },
     {
