@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-05T07:58:08+00:00",
+  "mis_a_jour": "2026-11-05T08:41:46+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -21,9 +21,8 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "ok",
-      "articles_lus": 10,
-      "articles_levees": 7
+      "etat": "erreur",
+      "detail": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "nom": "Sifted",
