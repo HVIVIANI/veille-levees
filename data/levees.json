@@ -1,23 +1,23 @@
 {
-  "mis_a_jour": "2026-11-05T08:41:46+00:00",
+  "mis_a_jour": "2026-11-06T07:55:57+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 33
+      "levees": 25
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 3
+      "articles_levees": 1
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "EU-Startups",
@@ -1569,13 +1569,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/E066C68A-6368-412C-B2DD-F3ACA78FB2F1",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "KHEOPS lève 12 millions d’euros pour passer du workflow à l’intelligence de l’assortiment",
-          "lien": "https://www.frenchweb.fr/kheops-leve-15-millions-deuros-pour-passer-du-workflow-a-lintelligence-de-lassortiment/463552"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "0A2A6CAB-26DE-44AC-8A93-0FA4E9848927",
@@ -3729,15 +3723,6 @@
       "date": "2026-09-22",
       "montant_texte": "30 millions d’euros",
       "montant_eur_estime": 30000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "KHEOPS lève 12 millions d’euros pour passer du workflow à l’intelligence de l’assortiment",
-      "lien": "https://www.frenchweb.fr/kheops-leve-15-millions-deuros-pour-passer-du-workflow-a-lintelligence-de-lassortiment/463552",
-      "date": "2026-09-21",
-      "montant_texte": "12 millions d’euros",
-      "montant_eur_estime": 12000000,
       "pays_ok": true
     }
   ]
