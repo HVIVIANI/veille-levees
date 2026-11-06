@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-06T07:55:57+00:00",
+  "mis_a_jour": "2026-11-06T08:40:00+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -21,8 +21,9 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "erreur",
-      "detail": "HTTPError: HTTP Error 403: Forbidden"
+      "etat": "ok",
+      "articles_lus": 10,
+      "articles_levees": 8
     },
     {
       "nom": "Sifted",
@@ -2116,11 +2117,74 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "Oxford spin-out Alethio Therapeutics raises €80.46 million Series A to advance targeted blood cancer therapies",
+      "lien": "https://www.eu-startups.com/2026/11/oxford-spin-out-alethio-therapeutics-raises-e80-46-million-series-a-to-advance-targeted-blood-cancer-therapies/",
+      "date": "2026-11-06",
+      "montant_texte": "€80.46 million",
+      "montant_eur_estime": 80460000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Helsinki’s Vensum Power secures €9 million to scale its software-defined power conversion platform",
+      "lien": "https://www.eu-startups.com/2026/11/helsinkis-vensum-power-secures-e9-million-to-scale-its-software-defined-power-conversion-platform/",
+      "date": "2026-11-06",
+      "montant_texte": "€9 million",
+      "montant_eur_estime": 9000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Top 50: Women business angels shaping European Tech",
+      "lien": "https://www.eu-startups.com/2026/11/top-50-women-business-angels-shaping-european-tech/",
+      "date": "2026-11-05",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "The EIC confirms €1.8 billion for startups in 2027, with expanded defence and women-led startup support",
+      "lien": "https://www.eu-startups.com/2026/11/the-eic-confirms-e1-8-billion-for-startups-and-deeptech-in-2027-with-expanded-defence-and-women-led-startup-support/",
+      "date": "2026-11-05",
+      "montant_texte": "€1.8 billion",
+      "montant_eur_estime": 1800000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Stockholm’s Green Voltis raises €13.5 million to operate and trade battery storage across European power markets using AI",
+      "lien": "https://www.eu-startups.com/2026/11/stockholms-green-voltis-raises-e13-5-million-to-operate-and-trade-battery-storage-across-european-power-markets-using-ai/",
+      "date": "2026-11-05",
+      "montant_texte": "€13.5 million",
+      "montant_eur_estime": 13500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Sequoia Capital raises around €8.9 billion in new funds and closes London office; most local partners opt to stay in Europe",
+      "lien": "https://www.eu-startups.com/2026/11/sequoia-capital-raises-around-e8-9-billion-in-new-funds-and-closes-london-office-most-local-partners-opt-to-stay-in-europe/",
+      "date": "2026-11-05",
+      "montant_texte": "€8.9 billion",
+      "montant_eur_estime": 8900000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Oxford’s FluoRok raises €26.64 million to scale fluorochemical production without hazardous hydrogen fluoride",
       "lien": "https://www.eu-startups.com/2026/11/oxfords-fluorok-raises-e26-64-million-to-scale-fluorochemical-production-without-the-hazardous-hydrogen-fluoride/",
       "date": "2026-11-05",
       "montant_texte": "€26.64 million",
       "montant_eur_estime": 26640000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Germany’s VÆRIDION raises €124 million to bring electric regional flights closer to reality",
+      "lien": "https://www.eu-startups.com/2026/11/germanys-vaeridion-raises-e124-million-to-bring-electric-regional-flights-closer-to-reality/",
+      "date": "2026-11-05",
+      "montant_texte": "€124 million",
+      "montant_eur_estime": 124000000,
       "pays_ok": false
     },
     {
@@ -2130,6 +2194,15 @@
       "date": "2026-11-05",
       "montant_texte": "£2.5m",
       "montant_eur_estime": 2875000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Barcelona’s Kabilio raises €10 million to deploy its AI accounting agent as client base nears 500 firms",
+      "lien": "https://www.eu-startups.com/2026/11/barcelonas-kabilio-raises-e10-million-to-deploy-its-ai-accounting-agent-as-client-base-nears-500-firms/",
+      "date": "2026-11-05",
+      "montant_texte": "€10 million",
+      "montant_eur_estime": 10000000,
       "pays_ok": false
     },
     {
