@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-06T08:40:00+00:00",
+  "mis_a_jour": "2026-11-07T13:35:32+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 25
+      "levees": 21
     },
     {
       "nom": "FrenchWeb",
@@ -21,9 +21,8 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "ok",
-      "articles_lus": 10,
-      "articles_levees": 8
+      "etat": "erreur",
+      "detail": "TimeoutError: The read operation timed out"
     },
     {
       "nom": "Sifted",
@@ -1459,13 +1458,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/074AEBA8-0FA7-4866-8510-315B2B840AD8",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "PRIMO lève près de 7 millions d’euros pour faire gérer votre IT par ses agents IA",
-          "lien": "https://www.frenchweb.fr/primo-leve-pres-de-7-millions-deuros-pour-faire-gerer-votre-it-par-ses-agents-ia/463585"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "6CF5F186-6B46-495A-B4F7-1E25C5459788",
@@ -1542,13 +1535,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B20CDA58-4DF7-49D7-B671-21D572FB946B",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "Avec 30 millions d’euros, BIOLEVATE veut faire de l’IA un outil de conformité pour les laboratoires",
-          "lien": "https://www.frenchweb.fr/avec-30-millions-deuros-biolevate-veut-faire-de-lia-un-outil-de-conformite-pour-les-laboratoires/463589"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "E066C68A-6368-412C-B2DD-F3ACA78FB2F1",
@@ -3778,24 +3765,6 @@
       "date": "2026-09-23",
       "montant_texte": "3,1 millions d’euros",
       "montant_eur_estime": 3100000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "PRIMO lève près de 7 millions d’euros pour faire gérer votre IT par ses agents IA",
-      "lien": "https://www.frenchweb.fr/primo-leve-pres-de-7-millions-deuros-pour-faire-gerer-votre-it-par-ses-agents-ia/463585",
-      "date": "2026-09-22",
-      "montant_texte": "7 millions d’euros",
-      "montant_eur_estime": 7000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "Avec 30 millions d’euros, BIOLEVATE veut faire de l’IA un outil de conformité pour les laboratoires",
-      "lien": "https://www.frenchweb.fr/avec-30-millions-deuros-biolevate-veut-faire-de-lia-un-outil-de-conformite-pour-les-laboratoires/463589",
-      "date": "2026-09-22",
-      "montant_texte": "30 millions d’euros",
-      "montant_eur_estime": 30000000,
       "pays_ok": true
     }
   ]
