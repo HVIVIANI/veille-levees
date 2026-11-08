@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-07T14:23:14+00:00",
+  "mis_a_jour": "2026-11-08T13:53:09+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 21
+      "levees": 19
     },
     {
       "nom": "FrenchWeb",
@@ -21,8 +21,9 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "erreur",
-      "detail": "TimeoutError: The read operation timed out"
+      "etat": "ok",
+      "articles_lus": 10,
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
@@ -1482,13 +1483,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/6CF5F186-6B46-495A-B4F7-1E25C5459788",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "LIGHTSPRING lève 3,1 millions d’euros pour s’attaquer au maillon faible des puces photoniques",
-          "lien": "https://www.frenchweb.fr/lightspring-leve-31-millions-deuros-pour-sattaquer-au-maillon-faible-des-puces-photoniques/463607"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "C8B7B768-342E-4CC2-9061-948FF2546700",
@@ -1997,6 +1992,14 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-06",
+      "titre": "With a new equity round in sight, Candi Solar secures €44 million for solar projects in India",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/11/with-a-new-equity-round-in-sight-candi-solar-secures-e44-million-for-solar-projects-in-india/",
+      "montant_texte": "€44 million",
+      "montant_eur_estime": 44000000
+    },
+    {
       "date": "2026-11-04",
       "titre": "STATION F unveils 2026 Future 40 as its startups raise a record €2 billion",
       "source": "EU-Startups",
@@ -2104,6 +2107,15 @@
   "articles": [
     {
       "source": "EU-Startups",
+      "titre": "With a new equity round in sight, Candi Solar secures €44 million for solar projects in India",
+      "lien": "https://www.eu-startups.com/2026/11/with-a-new-equity-round-in-sight-candi-solar-secures-e44-million-for-solar-projects-in-india/",
+      "date": "2026-11-06",
+      "montant_texte": "€44 million",
+      "montant_eur_estime": 44000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
       "titre": "Oxford spin-out Alethio Therapeutics raises €80.46 million Series A to advance targeted blood cancer therapies",
       "lien": "https://www.eu-startups.com/2026/11/oxford-spin-out-alethio-therapeutics-raises-e80-46-million-series-a-to-advance-targeted-blood-cancer-therapies/",
       "date": "2026-11-06",
@@ -2118,6 +2130,24 @@
       "date": "2026-11-06",
       "montant_texte": "€9 million",
       "montant_eur_estime": 9000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "DefenceTech unicorn TEKEVER strengthens Nordic ambitions amid €520 million funding round",
+      "lien": "https://www.eu-startups.com/2026/11/defencetech-unicorn-tekever-strengthens-nordic-ambitions-amid-e520-million-funding-round/",
+      "date": "2026-11-06",
+      "montant_texte": "€520 million",
+      "montant_eur_estime": 520000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Bioliberty raises €2.95 million to bring its AI-powered rehabilitation technology into the home",
+      "lien": "https://www.eu-startups.com/2026/11/bioliberty-raises-e2-95-million-to-bring-its-ai-powered-rehabilitation-technology-into-the-home/",
+      "date": "2026-11-06",
+      "montant_texte": "€2.95 million",
+      "montant_eur_estime": 2950000,
       "pays_ok": false
     },
     {
@@ -3756,15 +3786,6 @@
       "date": "2026-09-24",
       "montant_texte": "15 millions d’euros",
       "montant_eur_estime": 15000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "LIGHTSPRING lève 3,1 millions d’euros pour s’attaquer au maillon faible des puces photoniques",
-      "lien": "https://www.frenchweb.fr/lightspring-leve-31-millions-deuros-pour-sattaquer-au-maillon-faible-des-puces-photoniques/463607",
-      "date": "2026-09-23",
-      "montant_texte": "3,1 millions d’euros",
-      "montant_eur_estime": 3100000,
       "pays_ok": true
     }
   ]
