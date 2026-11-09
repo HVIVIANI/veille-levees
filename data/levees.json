@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-08T14:33:27+00:00",
+  "mis_a_jour": "2026-11-09T16:52:53+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 19
+      "levees": 17
     },
     {
       "nom": "FrenchWeb",
@@ -21,15 +21,14 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "ok",
-      "articles_lus": 10,
-      "articles_levees": 7
+      "etat": "erreur",
+      "detail": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 4
+      "articles_levees": 3
     }
   ],
   "levees": [
@@ -1383,13 +1382,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/86F5ABC5-DF09-49D7-9BAB-ACD4075660D4",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "WEALTHCOME lève 15 millions d’euros pour défier Harvest et accélérer auprès des grands comptes",
-          "lien": "https://www.frenchweb.fr/wealthcome-leve-15-millions-deuros-pour-defier-harvest-et-accelerer-aupres-des-grands-comptes/463648"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "3DD57E6B-2D94-44F9-87E2-3A6C17500C3A",
@@ -2105,6 +2098,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "Sifted",
+      "titre": "Onodrim raises $300m as European defence rollups heat up",
+      "lien": "https://sifted.eu/articles/onodrim-300-european-defence-rollup/",
+      "date": "2026-11-09",
+      "montant_texte": "$300m",
+      "montant_eur_estime": 267000000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "With a new equity round in sight, Candi Solar secures €44 million for solar projects in India",
@@ -3777,15 +3779,6 @@
       "date": "2026-09-28",
       "montant_texte": "7 millions d’euros",
       "montant_eur_estime": 7000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "WEALTHCOME lève 15 millions d’euros pour défier Harvest et accélérer auprès des grands comptes",
-      "lien": "https://www.frenchweb.fr/wealthcome-leve-15-millions-deuros-pour-defier-harvest-et-accelerer-aupres-des-grands-comptes/463648",
-      "date": "2026-09-24",
-      "montant_texte": "15 millions d’euros",
-      "montant_eur_estime": 15000000,
       "pays_ok": true
     }
   ]
