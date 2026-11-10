@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-11-09T17:49:55+00:00",
+  "mis_a_jour": "2026-11-10T15:15:13+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 17
+      "levees": 20
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "Maddyness",
@@ -21,18 +21,85 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "ok",
-      "articles_lus": 10,
-      "articles_levees": 6
+      "etat": "erreur",
+      "detail": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 4
+      "articles_levees": 5
     }
   ],
   "levees": [
+    {
+      "id": "5D60E413-33E0-47DA-A2CD-25763F5625C4",
+      "date": "2026-11-10",
+      "entreprise": "triPica",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 12400000,
+      "stade": "Other",
+      "investisseurs": [
+        "TiLT Capital Partners"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/5D60E413-33E0-47DA-A2CD-25763F5625C4",
+      "vue_le": "2026-11-10",
+      "presse": []
+    },
+    {
+      "id": "F9B3B3D0-5A02-48EB-949B-449B6DC094B5",
+      "date": "2026-11-10",
+      "entreprise": "Light Frame",
+      "pays": "Switzerland",
+      "ville": "Lausanne",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 4556419,
+      "stade": "Seed",
+      "investisseurs": [
+        "Rogue Venture Partners",
+        "Altair Capital",
+        "New Stack Ventures",
+        "Studio Alpha",
+        "Sidekick Partners",
+        "Tenity",
+        "Chamaeleon",
+        "Fortino Ventures"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/F9B3B3D0-5A02-48EB-949B-449B6DC094B5",
+      "vue_le": "2026-11-10",
+      "presse": []
+    },
+    {
+      "id": "6811E6E9-D55B-492E-8D8F-C2D432FC56C9",
+      "date": "2026-11-09",
+      "entreprise": "Physicl",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 8934155,
+      "stade": "Seed",
+      "investisseurs": [
+        "US Venture Partners",
+        "Inovia Capital"
+      ],
+      "source": "finsmes.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/6811E6E9-D55B-492E-8D8F-C2D432FC56C9",
+      "vue_le": "2026-11-10",
+      "presse": []
+    },
     {
       "id": "238132FB-9A7E-4042-85BB-B59E9B8FBDFE",
       "date": "2026-11-02",
@@ -2107,6 +2174,24 @@
     }
   ],
   "articles": [
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Nvidia bet Hiverge quietly raises $19.4m backed by Plural",
+      "lien": "https://sifted.eu/articles/nvidia-bet-hiverge-plural-raise/",
+      "date": "2026-11-10",
+      "montant_texte": "$19.4m",
+      "montant_eur_estime": 17266000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "AI accounting startup Sumary raises $25m seed",
+      "lien": "https://sifted.eu/articles/sumary-seed-fundraise/",
+      "date": "2026-11-10",
+      "montant_texte": "$25m",
+      "montant_eur_estime": 22250000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "Palantir alumni-founded DefenceTech Onodrim hits unicorn status with €268.01 million raise",
