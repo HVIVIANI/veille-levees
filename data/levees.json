@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-10T15:15:13+00:00",
+  "mis_a_jour": "2026-11-10T15:48:50+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -61,7 +61,7 @@
       "secteurs": [
         "Fintech"
       ],
-      "montant_eur": 4556419,
+      "montant_eur": 4547887,
       "stade": "Seed",
       "investisseurs": [
         "Rogue Venture Partners",
