@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-10T15:48:50+00:00",
+  "mis_a_jour": "2026-11-11T14:43:59+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -2174,6 +2174,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "Sifted",
+      "titre": "Defence startup Mistt raises £5m to build the ‘next GPS’ for autonomous systems and AI",
+      "lien": "https://sifted.eu/articles/defence-mistt-fundraise-next-gps-data-autonomous-systems-world-models/",
+      "date": "2026-11-11",
+      "montant_texte": "£5m",
+      "montant_eur_estime": 5750000,
+      "pays_ok": false
+    },
     {
       "source": "Sifted",
       "titre": "Exclusive: Nvidia bet Hiverge quietly raises $19.4m backed by Plural",
