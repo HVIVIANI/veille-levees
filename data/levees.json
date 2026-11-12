@@ -1,23 +1,23 @@
 {
-  "mis_a_jour": "2026-11-11T15:38:35+00:00",
+  "mis_a_jour": "2026-11-12T15:37:25+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 20
+      "levees": 22
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 0
+      "articles_levees": 6
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 0
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
@@ -28,10 +28,87 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 5
+      "articles_levees": 6
     }
   ],
   "levees": [
+    {
+      "id": "8EC68FA5-70D2-4CA8-81A4-A8B143E06004",
+      "date": "2026-11-12",
+      "entreprise": "Orakl Oncology",
+      "pays": "France",
+      "ville": "Villejuif",
+      "secteurs": [
+        "Healthtech"
+      ],
+      "montant_eur": 30683151,
+      "stade": "Series A",
+      "investisseurs": [
+        "Norrsken VC",
+        "Singular"
+      ],
+      "source": "techfundingnews.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/8EC68FA5-70D2-4CA8-81A4-A8B143E06004",
+      "vue_le": "2026-11-12",
+      "presse": [
+        {
+          "source": "Sifted",
+          "titre": "Exclusive: Orakl Oncology raises $34m to test cancer drugs on ‘virtual patients’",
+          "lien": "https://sifted.eu/articles/exclusive-orakl-oncology-fundraise/"
+        }
+      ]
+    },
+    {
+      "id": "38405DFE-AA30-4DED-A57B-1B9BEBE1F21B",
+      "date": "2026-11-12",
+      "entreprise": "Inverto Earth",
+      "pays": "Switzerland",
+      "ville": "Bern",
+      "secteurs": [
+        "Cleantech"
+      ],
+      "montant_eur": 2165870,
+      "stade": "Other",
+      "investisseurs": [
+        "Innosuisse",
+        "Kickfund",
+        "Venture Kick",
+        "Techstars",
+        "Zürcher Kantonalbank",
+        "SICTIC angels",
+        "Bloom Foundation",
+        "Valery Foundation"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/38405DFE-AA30-4DED-A57B-1B9BEBE1F21B",
+      "vue_le": "2026-11-12",
+      "presse": []
+    },
+    {
+      "id": "8089A8AC-F149-4FAF-8515-964D432ED723",
+      "date": "2026-11-12",
+      "entreprise": "Gama",
+      "pays": "France",
+      "ville": "",
+      "secteurs": [
+        "Space"
+      ],
+      "montant_eur": 15000000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Planet A Ventures",
+        "Transition",
+        "Manta Ray",
+        "Draper Associates"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/8089A8AC-F149-4FAF-8515-964D432ED723",
+      "vue_le": "2026-11-12",
+      "presse": []
+    },
     {
       "id": "5D60E413-33E0-47DA-A2CD-25763F5625C4",
       "date": "2026-11-10",
@@ -2053,6 +2130,38 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-12",
+      "titre": "WELL lance son assistant IA sur WhatsApp et annonce une levée de 3,6 millions d’euros",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/breaking-news/well-lance-son-assistant-ia-sur-whatsapp-et-annonce-une-levee-de-3-6-millions-d-euros/311dda84-d953-4de4-8526-9db6d5b373e3?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "montant_texte": "3,6 millions d’euros",
+      "montant_eur_estime": 3600000
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "UFORCE lève 595 millions d’euros pour transformer les drones ukrainiens en industrie mondiale de défense",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/breaking-news/uforce-leve-595-millions-d-euros-pour-transformer-les-drones-ukrainiens-en-industrie-mondiale-de-defense/9a32bdec-97df-43ca-a926-2e9e7bcec1af?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "montant_texte": "595 millions d’euros",
+      "montant_eur_estime": 595000000
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "SE3 lève 25,5 millions d’euros auprès d’ACCEL pour développer l’intelligence des drones autonomes",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/breaking-news/se3-leve-25-5-millions-d-euros-aupres-d-accel-pour-developper-l-intelligence-des-drones-autonomes/5752afd9-4110-4993-a167-7e6fab2e23fd?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "montant_texte": "25,5 millions d’euros",
+      "montant_eur_estime": 25500000
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "AGILE ROBOTS lève 425 millions d’euros auprès de SOFTBANK et NVIDIA pour accélérer dans la Physical AI",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/breaking-news/agile-robots-leve-425-millions-d-euros-aupres-de-softbank-et-nvidia-pour-accelerer-dans-la-physical-ai/a6075547-dc13-4525-84de-ac51832f9f3b?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "montant_texte": "425 millions d’euros",
+      "montant_eur_estime": 425000000
+    },
+    {
       "date": "2026-11-09",
       "titre": "France’s Calogena secures €40 million EU grant to build its first commercial nuclear reactor",
       "source": "EU-Startups",
@@ -2174,6 +2283,96 @@
     }
   ],
   "articles": [
+    {
+      "source": "FrenchWeb",
+      "titre": "WELL lance son assistant IA sur WhatsApp et annonce une levée de 3,6 millions d’euros",
+      "lien": "https://www.frenchweb.fr/breaking-news/well-lance-son-assistant-ia-sur-whatsapp-et-annonce-une-levee-de-3-6-millions-d-euros/311dda84-d953-4de4-8526-9db6d5b373e3?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "date": "2026-11-12",
+      "montant_texte": "3,6 millions d’euros",
+      "montant_eur_estime": 3600000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "UFORCE lève 595 millions d’euros pour transformer les drones ukrainiens en industrie mondiale de défense",
+      "lien": "https://www.frenchweb.fr/breaking-news/uforce-leve-595-millions-d-euros-pour-transformer-les-drones-ukrainiens-en-industrie-mondiale-de-defense/9a32bdec-97df-43ca-a926-2e9e7bcec1af?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "date": "2026-11-12",
+      "montant_texte": "595 millions d’euros",
+      "montant_eur_estime": 595000000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "SE3 lève 25,5 millions d’euros auprès d’ACCEL pour développer l’intelligence des drones autonomes",
+      "lien": "https://www.frenchweb.fr/breaking-news/se3-leve-25-5-millions-d-euros-aupres-d-accel-pour-developper-l-intelligence-des-drones-autonomes/5752afd9-4110-4993-a167-7e6fab2e23fd?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "date": "2026-11-12",
+      "montant_texte": "25,5 millions d’euros",
+      "montant_eur_estime": 25500000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Pourquoi SINGULAR investit 25 millions de dollars dans une startup comptable de moins de deux ans",
+      "lien": "https://www.frenchweb.fr/pourquoi-singular-investit-25-millions-de-dollars-dans-une-startup-comptable-de-moins-de-deux-ans/900000037?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-12",
+      "montant_texte": "25 millions de dollars",
+      "montant_eur_estime": 22250000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "FRACTILE lève 649 millions d’euros : pourquoi les investisseurs valorisent à 6,3 milliards une puce d’IA encore non commercialisée",
+      "lien": "https://www.frenchweb.fr/fractile-leve-649-millions-d-euros-pourquoi-les-investisseurs-valorisent-a-6-3-milliards-une-puce-d-ia-encore-non-commercialisee/900000040?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-12",
+      "montant_texte": "649 millions d’euros",
+      "montant_eur_estime": 649000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Orakl Oncology raises $34m to test cancer drugs on ‘virtual patients’",
+      "lien": "https://sifted.eu/articles/exclusive-orakl-oncology-fundraise/",
+      "date": "2026-11-12",
+      "montant_texte": "$34m",
+      "montant_eur_estime": 30260000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Drone startup Uforce raises $700m backed by Valor Equity Partners, UK National Wealth Fund",
+      "lien": "https://sifted.eu/articles/drone-startup-uforce-fundraise-uk-national-wealth-fund-scoop/",
+      "date": "2026-11-12",
+      "montant_texte": "$700m",
+      "montant_eur_estime": 623000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "Agile Robots : le géant allemand de la robotique lève 450 millions d'euros",
+      "lien": "https://www.maddyness.com/2026/11/12/agile-robots-le-geant-allemand-de-la-robotique-leve-450-millions-deuros/",
+      "date": "2026-11-12",
+      "montant_texte": "450 millions d'euros",
+      "montant_eur_estime": 450000000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "AGILE ROBOTS lève 425 millions d’euros auprès de SOFTBANK et NVIDIA pour accélérer dans la Physical AI",
+      "lien": "https://www.frenchweb.fr/breaking-news/agile-robots-leve-425-millions-d-euros-aupres-de-softbank-et-nvidia-pour-accelerer-dans-la-physical-ai/a6075547-dc13-4525-84de-ac51832f9f3b?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
+      "date": "2026-11-12",
+      "montant_texte": "425 millions d’euros",
+      "montant_eur_estime": 425000000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Fractile confirms £540m raise first revealed by Sifted",
+      "lien": "https://sifted.eu/articles/fractile-confirms-540m-raise-first-revealed-by-sifted/",
+      "date": "2026-11-11",
+      "montant_texte": "£540m",
+      "montant_eur_estime": 621000000,
+      "pays_ok": false
+    },
     {
       "source": "Sifted",
       "titre": "Defence startup Mistt raises £5m to build the ‘next GPS’ for autonomous systems and AI",
