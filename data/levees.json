@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-12T16:19:37+00:00",
+  "mis_a_jour": "2026-11-13T14:55:37+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 22
+      "levees": 20
     },
     {
       "nom": "FrenchWeb",
@@ -28,7 +28,7 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 6
+      "articles_levees": 5
     }
   ],
   "levees": [
@@ -176,6 +176,32 @@
       "lien": "https://funding.tech.eu/deals/6811E6E9-D55B-492E-8D8F-C2D432FC56C9",
       "vue_le": "2026-11-10",
       "presse": []
+    },
+    {
+      "id": "FCA12B8D-52CD-4F62-85A4-156E33445B7D",
+      "date": "2026-11-09",
+      "entreprise": "Calogena",
+      "pays": "France",
+      "ville": "Aix-en-Provence",
+      "secteurs": [
+        "Energy"
+      ],
+      "montant_eur": 40000000,
+      "stade": "Grant",
+      "investisseurs": [
+        "European Commission’s Innovation Fund"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/FCA12B8D-52CD-4F62-85A4-156E33445B7D",
+      "vue_le": "2026-11-13",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "France’s Calogena secures €40 million EU grant to build its first commercial nuclear reactor",
+          "lien": "https://www.eu-startups.com/2026/11/frances-calogena-secures-e40-million-eu-grant-to-build-its-first-commercial-nuclear-reactor/"
+        }
+      ]
     },
     {
       "id": "238132FB-9A7E-4042-85BB-B59E9B8FBDFE",
@@ -1480,13 +1506,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/878DF480-A194-4BEB-88AA-D7A17BD4F276",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "GRANEET lève 7 millions d’euros pour faire de la facture électronique le point d’entrée de l’ERP de chantier",
-          "lien": "https://www.frenchweb.fr/graneet-leve-7-millions-deuros-pour-faire-de-la-facture-electronique-le-point-dentree-de-lerp-de-chantier/463674"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "E27CD29A-019A-44F1-BA12-7A3C5F7286CD",
@@ -2160,14 +2180,6 @@
       "lien": "https://www.frenchweb.fr/breaking-news/agile-robots-leve-425-millions-d-euros-aupres-de-softbank-et-nvidia-pour-accelerer-dans-la-physical-ai/a6075547-dc13-4525-84de-ac51832f9f3b?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
       "montant_texte": "425 millions d’euros",
       "montant_eur_estime": 425000000
-    },
-    {
-      "date": "2026-11-09",
-      "titre": "France’s Calogena secures €40 million EU grant to build its first commercial nuclear reactor",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/11/frances-calogena-secures-e40-million-eu-grant-to-build-its-first-commercial-nuclear-reactor/",
-      "montant_texte": "€40 million",
-      "montant_eur_estime": 40000000
     },
     {
       "date": "2026-11-06",
@@ -4136,15 +4148,6 @@
       "montant_texte": "2 millions d’euros",
       "montant_eur_estime": 2000000,
       "pays_ok": false
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "GRANEET lève 7 millions d’euros pour faire de la facture électronique le point d’entrée de l’ERP de chantier",
-      "lien": "https://www.frenchweb.fr/graneet-leve-7-millions-deuros-pour-faire-de-la-facture-electronique-le-point-dentree-de-lerp-de-chantier/463674",
-      "date": "2026-09-28",
-      "montant_texte": "7 millions d’euros",
-      "montant_eur_estime": 7000000,
-      "pays_ok": true
     }
   ]
 }
