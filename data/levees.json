@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-14T14:33:02+00:00",
+  "mis_a_jour": "2026-11-15T14:19:58+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 20
+      "levees": 19
     },
     {
       "nom": "FrenchWeb",
@@ -17,7 +17,7 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "EU-Startups",
@@ -1404,13 +1404,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/C8FD8AB4-D617-4ADB-B32D-7B7F2B784754",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "EDISON IA lève 1 million d’euros pour faire passer les PME de l’IA test à l’IA rentable",
-          "lien": "https://www.frenchweb.fr/edison-ia-leve-1-me-pour-faire-passer-les-pme-de-lia-test-a-lia-rentable/463728"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "08A741F0-C0B2-436A-B9BB-C487E0428CA0",
@@ -1475,13 +1469,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/29D26B19-83CF-4D62-9879-79B80DAE8529",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "MARBLE lève 6,5 millions d’euros pour rendre la conformité financière programmable",
-          "lien": "https://www.frenchweb.fr/marble-leve-65-millions-deuros-pour-rendre-la-conformite-financiere-programmable/463724"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "878DF480-A194-4BEB-88AA-D7A17BD4F276",
@@ -4121,33 +4109,6 @@
       "montant_texte": "15 millions d’euros",
       "montant_eur_estime": 15000000,
       "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "MARBLE lève 6,5 millions d’euros pour rendre la conformité financière programmable",
-      "lien": "https://www.frenchweb.fr/marble-leve-65-millions-deuros-pour-rendre-la-conformite-financiere-programmable/463724",
-      "date": "2026-09-30",
-      "montant_texte": "6,5 millions d’euros",
-      "montant_eur_estime": 6500000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "EDISON IA lève 1 million d’euros pour faire passer les PME de l’IA test à l’IA rentable",
-      "lien": "https://www.frenchweb.fr/edison-ia-leve-1-me-pour-faire-passer-les-pme-de-lia-test-a-lia-rentable/463728",
-      "date": "2026-09-30",
-      "montant_texte": "1 million d’euros",
-      "montant_eur_estime": 1000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "ANote Music lève 2 millions d’euros pour ouvrir les royalties musicales aux investisseurs européens",
-      "lien": "https://www.frenchweb.fr/anote-music-leve-2-millions-deuros-pour-ouvrir-les-royalties-musicales-aux-investisseurs-europeens/463732",
-      "date": "2026-09-30",
-      "montant_texte": "2 millions d’euros",
-      "montant_eur_estime": 2000000,
-      "pays_ok": false
     }
   ]
 }
