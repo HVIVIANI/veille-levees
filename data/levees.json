@@ -1,23 +1,23 @@
 {
-  "mis_a_jour": "2026-11-15T14:59:14+00:00",
+  "mis_a_jour": "2026-11-16T16:28:15+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 19
+      "levees": 18
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 6
+      "articles_levees": 7
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 0
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
@@ -2138,6 +2138,22 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-16",
+      "titre": "Sofinnova Partners lève 725 millions d’euros pour son fonds Crossover II",
+      "source": "Maddyness",
+      "lien": "https://www.maddyness.com/2026/11/16/sofinnova-partners-leve-725-millions-deuros-pour-son-fonds-crossover-ii/",
+      "montant_texte": "725 millions d’euros",
+      "montant_eur_estime": 725000000
+    },
+    {
+      "date": "2026-11-16",
+      "titre": "PLURAL lève 1 milliard d’euros pour la deeptech européenne et renforce son ancrage à Paris",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/plural-leve-1-milliard-d-euros-pour-la-deeptech-europeenne-et-renforce-son-ancrage-a-paris/900000046?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "montant_texte": "1 milliard d’euros",
+      "montant_eur_estime": 1000000000
+    },
+    {
       "date": "2026-11-12",
       "titre": "WELL lance son assistant IA sur WhatsApp et annonce une levée de 3,6 millions d’euros",
       "source": "FrenchWeb",
@@ -2272,17 +2288,45 @@
       "lien": "https://www.eu-startups.com/2026/10/nvidia-plans-minority-investments-in-four-french-startups-as-european-tech-commitment-nears-e9-billion/",
       "montant_texte": "€9 billion",
       "montant_eur_estime": 9000000000
-    },
-    {
-      "date": "2026-10-01",
-      "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/robotiser-le-geste-irreversible-lupin-dental-leve-15-millions-deuros-pour-ses-robots-dentaires/463722",
-      "montant_texte": "15 millions d’euros",
-      "montant_eur_estime": 15000000
     }
   ],
   "articles": [
+    {
+      "source": "Maddyness",
+      "titre": "Sofinnova Partners lève 725 millions d’euros pour son fonds Crossover II",
+      "lien": "https://www.maddyness.com/2026/11/16/sofinnova-partners-leve-725-millions-deuros-pour-son-fonds-crossover-ii/",
+      "date": "2026-11-16",
+      "montant_texte": "725 millions d’euros",
+      "montant_eur_estime": 725000000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Plural raises fresh €1bn fund to back ‘non-obvious companies’",
+      "lien": "https://sifted.eu/articles/plural-new-fund-e1bn/",
+      "date": "2026-11-16",
+      "montant_texte": "€1bn",
+      "montant_eur_estime": 1000000000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "PLURAL lève 1 milliard d’euros pour la deeptech européenne et renforce son ancrage à Paris",
+      "lien": "https://www.frenchweb.fr/plural-leve-1-milliard-d-euros-pour-la-deeptech-europeenne-et-renforce-son-ancrage-a-paris/900000046?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-16",
+      "montant_texte": "1 milliard d’euros",
+      "montant_eur_estime": 1000000000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Italian robotics startup Mosaico raises €7.5m to tackle AI’s data problem",
+      "lien": "https://sifted.eu/articles/robotics-software-ai-funding-round-mosaico/",
+      "date": "2026-11-16",
+      "montant_texte": "€7.5m",
+      "montant_eur_estime": 7500000,
+      "pays_ok": false
+    },
     {
       "source": "FrenchWeb",
       "titre": "WELL lance son assistant IA sur WhatsApp et annonce une levée de 3,6 millions d’euros",
@@ -4099,15 +4143,6 @@
       "date": "2026-10-06",
       "montant_texte": "35 millions d’euros",
       "montant_eur_estime": 35000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "Robotiser le geste irréversible : LUPIN DENTAL lève 15 millions d’euros pour ses robots dentaires",
-      "lien": "https://www.frenchweb.fr/robotiser-le-geste-irreversible-lupin-dental-leve-15-millions-deuros-pour-ses-robots-dentaires/463722",
-      "date": "2026-10-01",
-      "montant_texte": "15 millions d’euros",
-      "montant_eur_estime": 15000000,
       "pays_ok": true
     }
   ]
