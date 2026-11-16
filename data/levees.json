@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-16T16:28:15+00:00",
+  "mis_a_jour": "2026-11-16T17:29:46+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -21,8 +21,9 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "erreur",
-      "detail": "HTTPError: HTTP Error 403: Forbidden"
+      "etat": "ok",
+      "articles_lus": 10,
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
@@ -2154,6 +2155,14 @@
       "montant_eur_estime": 1000000000
     },
     {
+      "date": "2026-11-16",
+      "titre": "Beyond NVIDIA: German startup Daisytuner raises €6 million to make AI run efficiently on any chip",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/11/germanys-daisytuner-raises-e6-million-to-make-ai-models-run-faster-across-nvidia-amd-and-emerging-chips/",
+      "montant_texte": "€6 million",
+      "montant_eur_estime": 6000000
+    },
+    {
       "date": "2026-11-12",
       "titre": "WELL lance son assistant IA sur WhatsApp et annonce une levée de 3,6 millions d’euros",
       "source": "FrenchWeb",
@@ -2301,6 +2310,15 @@
       "pays_ok": true
     },
     {
+      "source": "EU-Startups",
+      "titre": "Plural raises €1 billion to back frontier founders “capable of building Europe’s first trillion-dollar company”",
+      "lien": "https://www.eu-startups.com/2026/11/plural-raises-e1-billion-to-back-frontier-founders-capable-of-building-europes-first-trillion-dollar-company/",
+      "date": "2026-11-16",
+      "montant_texte": "€1 billion",
+      "montant_eur_estime": 1000000000,
+      "pays_ok": false
+    },
+    {
       "source": "Sifted",
       "titre": "Plural raises fresh €1bn fund to back ‘non-obvious companies’",
       "lien": "https://sifted.eu/articles/plural-new-fund-e1bn/",
@@ -2319,12 +2337,66 @@
       "pays_ok": true
     },
     {
+      "source": "EU-Startups",
+      "titre": "Finland’s Intergrid announces €23.5 million to scale autonomous energy operations internationally",
+      "lien": "https://www.eu-startups.com/2026/11/finlands-intergrid-announces-e23-5-million-to-scale-autonomous-energy-operations-internationally/",
+      "date": "2026-11-16",
+      "montant_texte": "€23.5 million",
+      "montant_eur_estime": 23500000,
+      "pays_ok": false
+    },
+    {
       "source": "Sifted",
       "titre": "Exclusive: Italian robotics startup Mosaico raises €7.5m to tackle AI’s data problem",
       "lien": "https://sifted.eu/articles/robotics-software-ai-funding-round-mosaico/",
       "date": "2026-11-16",
       "montant_texte": "€7.5m",
       "montant_eur_estime": 7500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Europe’s first electric motorcycle unicorn: Profitable Barcelona-based Stark Future raises over €150 million",
+      "lien": "https://www.eu-startups.com/2026/11/europes-first-electric-motorcycle-unicorn-profitable-barcelona-based-stark-future-raises-over-e150-million/",
+      "date": "2026-11-16",
+      "montant_texte": "€150 million",
+      "montant_eur_estime": 150000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Beyond NVIDIA: German startup Daisytuner raises €6 million to make AI run efficiently on any chip",
+      "lien": "https://www.eu-startups.com/2026/11/germanys-daisytuner-raises-e6-million-to-make-ai-models-run-faster-across-nvidia-amd-and-emerging-chips/",
+      "date": "2026-11-16",
+      "montant_texte": "€6 million",
+      "montant_eur_estime": 6000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Barcelona-based Valeria raises €5.5 million to automate payroll and HR for high-turnover businesses",
+      "lien": "https://www.eu-startups.com/2026/11/barcelona-based-valeria-raises-e5-5-million-to-automate-payroll-and-hr-for-high-turnover-businesses/",
+      "date": "2026-11-16",
+      "montant_texte": "€5.5 million",
+      "montant_eur_estime": 5500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Alecto lands €18 million to scale its AI-powered law firm beyond property transactions",
+      "lien": "https://www.eu-startups.com/2026/11/alecto-lands-e18-million-to-scale-its-ai-powered-law-firm-beyond-property-transactions/",
+      "date": "2026-11-16",
+      "montant_texte": "€18 million",
+      "montant_eur_estime": 18000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Germany’s NeuralSat raises €2.9 million to build a high-speed data network in space",
+      "lien": "https://www.eu-startups.com/2026/11/germanys-neuralsat-raises-e2-9-million-to-build-a-high-speed-data-network-in-space/",
+      "date": "2026-11-13",
+      "montant_texte": "€2.9 million",
+      "montant_eur_estime": 2900000,
       "pays_ok": false
     },
     {
