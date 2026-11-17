@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-11-16T17:29:46+00:00",
+  "mis_a_jour": "2026-11-17T16:29:47+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 18
+      "levees": 21
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 7
+      "articles_levees": 10
     },
     {
       "nom": "Maddyness",
@@ -21,9 +21,8 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "ok",
-      "articles_lus": 10,
-      "articles_levees": 7
+      "etat": "erreur",
+      "detail": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "nom": "Sifted",
@@ -33,6 +32,91 @@
     }
   ],
   "levees": [
+    {
+      "id": "1FEFA14A-2027-4C92-A695-D7B4757A63E8",
+      "date": "2026-11-17",
+      "entreprise": "Remanence",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 27300027,
+      "stade": "Seed",
+      "investisseurs": [
+        "Olivier Pomel",
+        "Romain Niccoli",
+        "Global Founders Capital",
+        "EQT Ventures",
+        "Yellow",
+        "FirstMark",
+        "Emblem",
+        "Zero Prime",
+        "Drysdale Ventures",
+        "Victor Riparbelli",
+        "Steffen Tjerrild"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/1FEFA14A-2027-4C92-A695-D7B4757A63E8",
+      "vue_le": "2026-11-17",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "Trois anciens de H COMPANY lèvent 25,5 millions d’euros pour REMANENCE",
+          "lien": "https://www.frenchweb.fr/trois-anciens-de-h-company-levent-25-5-millions-d-euros-pour-remanence/900000050?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        }
+      ]
+    },
+    {
+      "id": "E8BF0AFF-99CD-442D-B051-FE66560CD070",
+      "date": "2026-11-17",
+      "entreprise": "Qluster",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Deeptech"
+      ],
+      "montant_eur": 4700000,
+      "stade": "Pre-Seed",
+      "investisseurs": [
+        "Quantum Launchpad",
+        "Bpifrance",
+        "Quantonation"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/E8BF0AFF-99CD-442D-B051-FE66560CD070",
+      "vue_le": "2026-11-17",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "QLUSTER lève 4,7 millions d’euros pour développer un accélérateur quantique photonique",
+          "lien": "https://www.frenchweb.fr/qluster-leve-4-7-millions-d-euros-pour-developper-un-accelerateur-quantique-photonique/900000048?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        }
+      ]
+    },
+    {
+      "id": "D447BA09-3820-4D9C-B350-A44B8441C168",
+      "date": "2026-11-17",
+      "entreprise": "Previsia",
+      "pays": "France",
+      "ville": "Toulouse",
+      "secteurs": [
+        "Fintech"
+      ],
+      "montant_eur": 3800000,
+      "stade": "Seed",
+      "investisseurs": [
+        "IRDI",
+        "ARIS"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/D447BA09-3820-4D9C-B350-A44B8441C168",
+      "vue_le": "2026-11-17",
+      "presse": []
+    },
     {
       "id": "8EC68FA5-70D2-4CA8-81A4-A8B143E06004",
       "date": "2026-11-12",
@@ -2139,6 +2223,22 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-17",
+      "titre": "IA : des anciens de H Company lancent leur startup avec une levée de fonds de 30 millions de dollars",
+      "source": "Maddyness",
+      "lien": "https://www.maddyness.com/2026/11/17/ia-des-anciens-de-h-company-lancent-leur-startup-avec-une-levee-de-fonds-de-30-millions-de-dollars/",
+      "montant_texte": "30 millions de dollars",
+      "montant_eur_estime": 26700000
+    },
+    {
+      "date": "2026-11-17",
+      "titre": "GENESIS AI lève 425 millions d’euros pour déployer ses robots en usine",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/genesis-ai-leve-425-millions-d-euros-pour-deployer-ses-robots-en-usine/900000051?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "montant_texte": "425 millions d’euros",
+      "montant_eur_estime": 425000000
+    },
+    {
       "date": "2026-11-16",
       "titre": "Sofinnova Partners lève 725 millions d’euros pour son fonds Crossover II",
       "source": "Maddyness",
@@ -2300,6 +2400,60 @@
     }
   ],
   "articles": [
+    {
+      "source": "FrenchWeb",
+      "titre": "Trois anciens de H COMPANY lèvent 25,5 millions d’euros pour REMANENCE",
+      "lien": "https://www.frenchweb.fr/trois-anciens-de-h-company-levent-25-5-millions-d-euros-pour-remanence/900000050?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-17",
+      "montant_texte": "25,5 millions d’euros",
+      "montant_eur_estime": 25500000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Robotics startup Genesis AI raises $500m backed by Nvidia",
+      "lien": "https://sifted.eu/articles/genesis-ai-raises-500m/",
+      "date": "2026-11-17",
+      "montant_texte": "$500m",
+      "montant_eur_estime": 445000000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "QLUSTER lève 4,7 millions d’euros pour développer un accélérateur quantique photonique",
+      "lien": "https://www.frenchweb.fr/qluster-leve-4-7-millions-d-euros-pour-developper-un-accelerateur-quantique-photonique/900000048?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-17",
+      "montant_texte": "4,7 millions d’euros",
+      "montant_eur_estime": 4700000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Isomorphic Labs raises $5bn backed by Sequoia and A16z",
+      "lien": "https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z/",
+      "date": "2026-11-17",
+      "montant_texte": "$5bn",
+      "montant_eur_estime": 4450000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Maddyness",
+      "titre": "IA : des anciens de H Company lancent leur startup avec une levée de fonds de 30 millions de dollars",
+      "lien": "https://www.maddyness.com/2026/11/17/ia-des-anciens-de-h-company-lancent-leur-startup-avec-une-levee-de-fonds-de-30-millions-de-dollars/",
+      "date": "2026-11-17",
+      "montant_texte": "30 millions de dollars",
+      "montant_eur_estime": 26700000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "GENESIS AI lève 425 millions d’euros pour déployer ses robots en usine",
+      "lien": "https://www.frenchweb.fr/genesis-ai-leve-425-millions-d-euros-pour-deployer-ses-robots-en-usine/900000051?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-17",
+      "montant_texte": "425 millions d’euros",
+      "montant_eur_estime": 425000000,
+      "pays_ok": true
+    },
     {
       "source": "Maddyness",
       "titre": "Sofinnova Partners lève 725 millions d’euros pour son fonds Crossover II",
