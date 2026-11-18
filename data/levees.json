@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-17T17:06:09+00:00",
+  "mis_a_jour": "2026-11-18T15:58:48+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 5
+      "articles_levees": 4
     }
   ],
   "levees": [
@@ -2223,6 +2223,14 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-18",
+      "titre": "MOUNTAIN : de la démonstration à l’usine, le vrai test de l’IA embarquée",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/mountain-de-la-demonstration-a-l-usine-le-vrai-test-de-l-ia-embarquee/900000053?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "montant_texte": "7,3 M€",
+      "montant_eur_estime": 7300000
+    },
+    {
       "date": "2026-11-17",
       "titre": "IA : des anciens de H Company lancent leur startup avec une levée de fonds de 30 millions de dollars",
       "source": "Maddyness",
@@ -2400,6 +2408,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "FrenchWeb",
+      "titre": "MOUNTAIN : de la démonstration à l’usine, le vrai test de l’IA embarquée",
+      "lien": "https://www.frenchweb.fr/mountain-de-la-demonstration-a-l-usine-le-vrai-test-de-l-ia-embarquee/900000053?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-18",
+      "montant_texte": "7,3 M€",
+      "montant_eur_estime": 7300000,
+      "pays_ok": true
+    },
     {
       "source": "FrenchWeb",
       "titre": "Trois anciens de H COMPANY lèvent 25,5 millions d’euros pour REMANENCE",
