@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-11-18T16:44:08+00:00",
+  "mis_a_jour": "2026-11-19T16:05:10+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 21
+      "levees": 23
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 10
+      "articles_levees": 7
     },
     {
       "nom": "Maddyness",
@@ -28,10 +28,91 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 4
+      "articles_levees": 3
     }
   ],
   "levees": [
+    {
+      "id": "F8F7AC34-AA82-423A-B97A-D0E1C70E1168",
+      "date": "2026-11-19",
+      "entreprise": "Stryx AI",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Space",
+        "Defence"
+      ],
+      "montant_eur": 7700000,
+      "stade": "Other",
+      "investisseurs": [
+        "Armand Thiberge",
+        "Impala"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/F8F7AC34-AA82-423A-B97A-D0E1C70E1168",
+      "vue_le": "2026-11-19",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "Anti-drones : comment STRYX AI compte rattraper les premiers fournisseurs des armées",
+          "lien": "https://www.frenchweb.fr/anti-drones-comment-stryx-ai-compte-rattraper-les-premiers-fournisseurs-des-armees/900000058?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        }
+      ]
+    },
+    {
+      "id": "A81BEA76-7C6F-4FB0-BF59-DF91072719B8",
+      "date": "2026-11-18",
+      "entreprise": "Smeetz",
+      "pays": "Switzerland",
+      "ville": "Lausanne",
+      "secteurs": [
+        "Consumer"
+      ],
+      "montant_eur": 5950449,
+      "stade": "Series A",
+      "investisseurs": [
+        "QBIT Capital"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/A81BEA76-7C6F-4FB0-BF59-DF91072719B8",
+      "vue_le": "2026-11-19",
+      "presse": []
+    },
+    {
+      "id": "FE1D4DB6-FF6B-4445-B748-094E71D3F7E6",
+      "date": "2026-11-18",
+      "entreprise": "Genesis AI",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Robotics"
+      ],
+      "montant_eur": 455871627,
+      "stade": "Series A",
+      "investisseurs": [
+        "Khosla Ventures",
+        "Eclipse",
+        "Premji Invest"
+      ],
+      "source": "webrazzi.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/FE1D4DB6-FF6B-4445-B748-094E71D3F7E6",
+      "vue_le": "2026-11-19",
+      "presse": [
+        {
+          "source": "Sifted",
+          "titre": "Robotics startup Genesis AI raises $500m backed by Nvidia",
+          "lien": "https://sifted.eu/articles/genesis-ai-raises-500m/"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "GENESIS AI lève 425 millions d’euros pour déployer ses robots en usine",
+          "lien": "https://www.frenchweb.fr/genesis-ai-leve-425-millions-d-euros-pour-deployer-ses-robots-en-usine/900000051?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        }
+      ]
+    },
     {
       "id": "1FEFA14A-2027-4C92-A695-D7B4757A63E8",
       "date": "2026-11-17",
@@ -2223,6 +2304,14 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-19",
+      "titre": "Défense : le fondateur de Brevo lève 7,7 millions d'euros avec la holding de Jacques Veyrat pour sa startup anti-drones",
+      "source": "Maddyness",
+      "lien": "https://www.maddyness.com/2026/11/19/stryx-ai/",
+      "montant_texte": "7,7 millions d'euros",
+      "montant_eur_estime": 7700000
+    },
+    {
       "date": "2026-11-18",
       "titre": "MOUNTAIN : de la démonstration à l’usine, le vrai test de l’IA embarquée",
       "source": "FrenchWeb",
@@ -2237,14 +2326,6 @@
       "lien": "https://www.maddyness.com/2026/11/17/ia-des-anciens-de-h-company-lancent-leur-startup-avec-une-levee-de-fonds-de-30-millions-de-dollars/",
       "montant_texte": "30 millions de dollars",
       "montant_eur_estime": 26700000
-    },
-    {
-      "date": "2026-11-17",
-      "titre": "GENESIS AI lève 425 millions d’euros pour déployer ses robots en usine",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/genesis-ai-leve-425-millions-d-euros-pour-deployer-ses-robots-en-usine/900000051?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
-      "montant_texte": "425 millions d’euros",
-      "montant_eur_estime": 425000000
     },
     {
       "date": "2026-11-16",
@@ -2408,6 +2489,24 @@
     }
   ],
   "articles": [
+    {
+      "source": "Maddyness",
+      "titre": "Défense : le fondateur de Brevo lève 7,7 millions d'euros avec la holding de Jacques Veyrat pour sa startup anti-drones",
+      "lien": "https://www.maddyness.com/2026/11/19/stryx-ai/",
+      "date": "2026-11-19",
+      "montant_texte": "7,7 millions d'euros",
+      "montant_eur_estime": 7700000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Anti-drones : comment STRYX AI compte rattraper les premiers fournisseurs des armées",
+      "lien": "https://www.frenchweb.fr/anti-drones-comment-stryx-ai-compte-rattraper-les-premiers-fournisseurs-des-armees/900000058?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-19",
+      "montant_texte": "7,7 M€",
+      "montant_eur_estime": 7700000,
+      "pays_ok": true
+    },
     {
       "source": "FrenchWeb",
       "titre": "MOUNTAIN : de la démonstration à l’usine, le vrai test de l’IA embarquée",
