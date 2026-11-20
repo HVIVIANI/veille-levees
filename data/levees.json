@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-11-19T16:49:51+00:00",
+  "mis_a_jour": "2026-11-20T15:46:14+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 23
+      "levees": 25
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 7
+      "articles_levees": 6
     },
     {
       "nom": "Maddyness",
@@ -28,7 +28,7 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 3
+      "articles_levees": 0
     }
   ],
   "levees": [
@@ -197,6 +197,67 @@
       "lien": "https://funding.tech.eu/deals/D447BA09-3820-4D9C-B350-A44B8441C168",
       "vue_le": "2026-11-17",
       "presse": []
+    },
+    {
+      "id": "9AFE24F6-A5B4-49C8-ADCE-490563C00ADF",
+      "date": "2026-11-17",
+      "entreprise": "MountAIn",
+      "pays": "France",
+      "ville": "Grenoble",
+      "secteurs": [
+        "AI"
+      ],
+      "montant_eur": 7300000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Crédit Agricole Alpes Développement (C2AD)",
+        "Bpifrance",
+        "360 Capital",
+        "Supernova Invest"
+      ],
+      "source": "finsmes.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/9AFE24F6-A5B4-49C8-ADCE-490563C00ADF",
+      "vue_le": "2026-11-20",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "MOUNTAIN : de la démonstration à l’usine, le vrai test de l’IA embarquée",
+          "lien": "https://www.frenchweb.fr/mountain-de-la-demonstration-a-l-usine-le-vrai-test-de-l-ia-embarquee/900000053?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        }
+      ]
+    },
+    {
+      "id": "C2C5724A-EDFA-4616-8F3D-BA462B1E2730",
+      "date": "2026-11-12",
+      "entreprise": "Well",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 3609783,
+      "stade": "Other",
+      "investisseurs": [
+        "RELICS VENTURES",
+        "Source Ventures",
+        "OPRTRS Club",
+        "199 Ventures",
+        "Speedinvest",
+        "Kima Ventures",
+        "Purple"
+      ],
+      "source": "frenchweb.fr",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/C2C5724A-EDFA-4616-8F3D-BA462B1E2730",
+      "vue_le": "2026-11-20",
+      "presse": [
+        {
+          "source": "FrenchWeb",
+          "titre": "WELL lance son assistant IA sur WhatsApp et annonce une levée de 3,6 millions d’euros",
+          "lien": "https://www.frenchweb.fr/breaking-news/well-lance-son-assistant-ia-sur-whatsapp-et-annonce-une-levee-de-3-6-millions-d-euros/311dda84-d953-4de4-8526-9db6d5b373e3?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news"
+        }
+      ]
     },
     {
       "id": "8EC68FA5-70D2-4CA8-81A4-A8B143E06004",
@@ -2312,14 +2373,6 @@
       "montant_eur_estime": 7700000
     },
     {
-      "date": "2026-11-18",
-      "titre": "MOUNTAIN : de la démonstration à l’usine, le vrai test de l’IA embarquée",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/mountain-de-la-demonstration-a-l-usine-le-vrai-test-de-l-ia-embarquee/900000053?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
-      "montant_texte": "7,3 M€",
-      "montant_eur_estime": 7300000
-    },
-    {
       "date": "2026-11-17",
       "titre": "IA : des anciens de H Company lancent leur startup avec une levée de fonds de 30 millions de dollars",
       "source": "Maddyness",
@@ -2350,14 +2403,6 @@
       "lien": "https://www.eu-startups.com/2026/11/germanys-daisytuner-raises-e6-million-to-make-ai-models-run-faster-across-nvidia-amd-and-emerging-chips/",
       "montant_texte": "€6 million",
       "montant_eur_estime": 6000000
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "WELL lance son assistant IA sur WhatsApp et annonce une levée de 3,6 millions d’euros",
-      "source": "FrenchWeb",
-      "lien": "https://www.frenchweb.fr/breaking-news/well-lance-son-assistant-ia-sur-whatsapp-et-annonce-une-levee-de-3-6-millions-d-euros/311dda84-d953-4de4-8526-9db6d5b373e3?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news",
-      "montant_texte": "3,6 millions d’euros",
-      "montant_eur_estime": 3600000
     },
     {
       "date": "2026-11-12",
