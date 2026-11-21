@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-20T16:25:01+00:00",
+  "mis_a_jour": "2026-11-21T14:56:36+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 25
+      "levees": 23
     },
     {
       "nom": "FrenchWeb",
@@ -1242,11 +1242,6 @@
           "source": "EU-Startups",
           "titre": "Profitable French scale-up Wiremind raises €35 million after 12 years of bootstrapping",
           "lien": "https://www.eu-startups.com/2026/10/profitable-french-scale-up-wiremind-raises-e35-million-after-12-years-of-bootstrapping/"
-        },
-        {
-          "source": "Maddyness",
-          "titre": "12 ans après sa création, Wiremind boucle un premier tour de table de 35 millions d’euros",
-          "lien": "https://www.maddyness.com/2026/10/06/12-ans-apres-sa-creation-wiremind-boucle-un-premier-tour-de-table-de-35-millions-deuros/"
         }
       ]
     },
@@ -1295,13 +1290,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/905FBA62-9D58-48AD-9C07-78747B4CF17F",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "Sifted",
-          "titre": "Voice AI startup Vocca raises $20m to automate patient phone calls",
-          "lien": "https://sifted.eu/articles/vocca-voice-ai-healthtech-series-a/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "6C4467E9-993A-4618-8C39-686B108B5121",
@@ -1352,13 +1341,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/2A37C073-40EC-445E-8DEC-A9BF501B5E05",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "Sifted",
-          "titre": "Spiko raises $90m in Series B backed by Index Ventures and Speedinvest",
-          "lien": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
@@ -1381,18 +1364,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B362916A-6473-4B61-BF6E-BF6B0AA46BC0",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "EU-Startups",
-          "titre": "Up to 27 times lower carbon footprint than beef – Edonia raises €15 million for their meat-alternative",
-          "lien": "https://www.eu-startups.com/2026/10/up-to-27-times-lower-carbon-footprint-than-beef-edonia-raises-e15-million-for-their-meat-alternative/"
-        },
-        {
-          "source": "Maddyness",
-          "titre": "Edonia lève 15 millions d’euros pour industrialiser son alternative à la viande à base de microalgues",
-          "lien": "https://www.maddyness.com/2026/10/06/edonia-leve-12-millions-deuros-pour-industrialiser-son-alternative-a-la-viande-a-base-de-microalgues/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "3F6E88B6-8D4B-4625-9765-C5C1AF1C82FC",
@@ -1422,11 +1394,6 @@
           "source": "FrenchWeb",
           "titre": "CLEAVR lève 8 millions d’euros pour automatiser l’encaissement des factures",
           "lien": "https://www.frenchweb.fr/cleavr-leve-8-millions-deuros-pour-automatiser-lencaissement-des-factures/463793"
-        },
-        {
-          "source": "Maddyness",
-          "titre": "Cleavr lève 8 millions d’euros pour venir à bout des retards de paiement",
-          "lien": "https://www.maddyness.com/2026/10/06/cleavr-leve-8-millions-deuros-pour-venir-a-bout-des-retards-de-paiement/"
         }
       ]
     },
@@ -4458,78 +4425,6 @@
       "date": "2026-10-07",
       "montant_texte": "8 millions d’euros",
       "montant_eur_estime": 8000000,
-      "pays_ok": true
-    },
-    {
-      "source": "Sifted",
-      "titre": "Voice AI startup Vocca raises $20m to automate patient phone calls",
-      "lien": "https://sifted.eu/articles/vocca-voice-ai-healthtech-series-a/",
-      "date": "2026-10-06",
-      "montant_texte": "$20m",
-      "montant_eur_estime": 17800000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Up to 27 times lower carbon footprint than beef – Edonia raises €15 million for their meat-alternative",
-      "lien": "https://www.eu-startups.com/2026/10/up-to-27-times-lower-carbon-footprint-than-beef-edonia-raises-e15-million-for-their-meat-alternative/",
-      "date": "2026-10-06",
-      "montant_texte": "€15 million",
-      "montant_eur_estime": 15000000,
-      "pays_ok": true
-    },
-    {
-      "source": "Sifted",
-      "titre": "Spiko raises $90m in Series B backed by Index Ventures and Speedinvest",
-      "lien": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/",
-      "date": "2026-10-06",
-      "montant_texte": "$90m",
-      "montant_eur_estime": 80100000,
-      "pays_ok": false
-    },
-    {
-      "source": "Sifted",
-      "titre": "Exclusive: Hadrian raises $40m as AI cyberattacks accelerate",
-      "lien": "https://sifted.eu/articles/hadrian-ai-funding-round-cyber-security/",
-      "date": "2026-10-06",
-      "montant_texte": "$40m",
-      "montant_eur_estime": 35600000,
-      "pays_ok": false
-    },
-    {
-      "source": "Maddyness",
-      "titre": "Edonia lève 15 millions d’euros pour industrialiser son alternative à la viande à base de microalgues",
-      "lien": "https://www.maddyness.com/2026/10/06/edonia-leve-12-millions-deuros-pour-industrialiser-son-alternative-a-la-viande-a-base-de-microalgues/",
-      "date": "2026-10-06",
-      "montant_texte": "15 millions d’euros",
-      "montant_eur_estime": 15000000,
-      "pays_ok": true
-    },
-    {
-      "source": "Maddyness",
-      "titre": "Cleavr lève 8 millions d’euros pour venir à bout des retards de paiement",
-      "lien": "https://www.maddyness.com/2026/10/06/cleavr-leve-8-millions-deuros-pour-venir-a-bout-des-retards-de-paiement/",
-      "date": "2026-10-06",
-      "montant_texte": "8 millions d’euros",
-      "montant_eur_estime": 8000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "British Business Bank backs multi-fund VC Fuel Ventures with €11 million investment",
-      "lien": "https://www.eu-startups.com/2026/10/british-business-bank-backs-multi-fund-vc-fuel-ventures-with-e11-million-investment/",
-      "date": "2026-10-06",
-      "montant_texte": "€11 million",
-      "montant_eur_estime": 11000000,
-      "pays_ok": false
-    },
-    {
-      "source": "Maddyness",
-      "titre": "12 ans après sa création, Wiremind boucle un premier tour de table de 35 millions d’euros",
-      "lien": "https://www.maddyness.com/2026/10/06/12-ans-apres-sa-creation-wiremind-boucle-un-premier-tour-de-table-de-35-millions-deuros/",
-      "date": "2026-10-06",
-      "montant_texte": "35 millions d’euros",
-      "montant_eur_estime": 35000000,
       "pays_ok": true
     }
   ]
