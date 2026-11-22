@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-21T15:39:10+00:00",
+  "mis_a_jour": "2026-11-22T14:55:05+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 23
+      "levees": 20
     },
     {
       "nom": "FrenchWeb",
@@ -21,8 +21,9 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "erreur",
-      "detail": "HTTPError: HTTP Error 403: Forbidden"
+      "etat": "ok",
+      "articles_lus": 10,
+      "articles_levees": 7
     },
     {
       "nom": "Sifted",
@@ -1121,13 +1122,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/952BF692-1C84-4E05-A316-8469C4D7631D",
       "vue_le": "2026-10-08",
-      "presse": [
-        {
-          "source": "EU-Startups",
-          "titre": "French startup VoltR secures €22 million to scale lithium battery remanufacturing in Europe",
-          "lien": "https://www.eu-startups.com/2026/10/french-startup-voltr-secures-e22-million-to-scale-lithium-battery-remanufacturing-in-europe/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "B07076E5-0604-4437-BA6C-39843D481BD0",
@@ -1150,13 +1145,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B07076E5-0604-4437-BA6C-39843D481BD0",
       "vue_le": "2026-10-08",
-      "presse": [
-        {
-          "source": "EU-Startups",
-          "titre": "France’s Rivercell emerges from stealth with €22 million for AI-powered drug discovery infrastructure",
-          "lien": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "2F015E4E-236C-406B-AACD-8DC28E0F8F7F",
@@ -1189,11 +1178,6 @@
           "source": "FrenchWeb",
           "titre": "Avec environ 8,9 millions d’euros, NETSEC veut changer l’économie de l’infogérance",
           "lien": "https://www.frenchweb.fr/avec-environ-89-millions-deuros-netsec-veut-changer-leconomie-de-linfogerance/463825"
-        },
-        {
-          "source": "EU-Startups",
-          "titre": "France- and Italy-based Netsec raises over €8.93 million to scale its AI-native solution for cybersecurity and IT",
-          "lien": "https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/"
         }
       ]
     },
@@ -1389,13 +1373,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/3F6E88B6-8D4B-4625-9765-C5C1AF1C82FC",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "CLEAVR lève 8 millions d’euros pour automatiser l’encaissement des factures",
-          "lien": "https://www.frenchweb.fr/cleavr-leve-8-millions-deuros-pour-automatiser-lencaissement-des-factures/463793"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "64703AE8-9807-49E0-AB85-DB07FB924FE8",
@@ -2333,6 +2311,14 @@
   "presse_seule": [
     {
       "date": "2026-11-19",
+      "titre": "Mistral blazes ahead with an additional €100 million to their Series D by T.Capital",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/11/mistral-balzes-ahead-with-an-additional-e100-million-to-their-series-d-by-t-capital/",
+      "montant_texte": "€100 million",
+      "montant_eur_estime": 100000000
+    },
+    {
+      "date": "2026-11-19",
       "titre": "Défense : le fondateur de Brevo lève 7,7 millions d'euros avec la holding de Jacques Veyrat pour sa startup anti-drones",
       "source": "Maddyness",
       "lien": "https://www.maddyness.com/2026/11/19/stryx-ai/",
@@ -2501,6 +2487,69 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "UK startup Clarity Sensors receives €2.2 million NIHR award to make advanced medical imaging more accessible",
+      "lien": "https://www.eu-startups.com/2026/11/uk-startup-clarity-sensors-receives-e2-2-million-nihr-award-to-make-advanced-medical-imaging-more-accessible/",
+      "date": "2026-11-20",
+      "montant_texte": "€2.2 million",
+      "montant_eur_estime": 2200000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Madrid-based Wilco secures €2.5 million to scale its AI patient follow-up platform across Europe",
+      "lien": "https://www.eu-startups.com/2026/11/madrid-based-wilco-secures-e2-5-million-to-scale-its-ai-patient-follow-up-platform-across-europe/",
+      "date": "2026-11-20",
+      "montant_texte": "€2.5 million",
+      "montant_eur_estime": 2500000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Gradyent lands €20 million EIB loan to expand digital twin technology across Europe’s heating networks",
+      "lien": "https://www.eu-startups.com/2026/11/dutch-startup-gradyent-lands-e20-million-eib-loan-to-expand-digital-twin-technology-across-europes-heating-networks/",
+      "date": "2026-11-20",
+      "montant_texte": "€20 million",
+      "montant_eur_estime": 20000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Following €1 billion funding round, Quantum Systems commits over €10 million to expand drone support in Ukraine",
+      "lien": "https://www.eu-startups.com/2026/11/following-e1-billion-funding-round-quantum-systems-commits-over-e10-million-to-expand-drone-support-in-ukraine/",
+      "date": "2026-11-20",
+      "montant_texte": "€1 billion",
+      "montant_eur_estime": 1000000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Archer raises €9.1 million to deploy AI recruiting agents for employers and job seekers",
+      "lien": "https://www.eu-startups.com/2026/11/london-based-archer-raises-e9-1-million-to-deploy-ai-recruiting-agents-for-employers-and-job-seekers/",
+      "date": "2026-11-20",
+      "montant_texte": "€9.1 million",
+      "montant_eur_estime": 9100000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Munich-based Vetaion raises €5.7 million to automate control cabinet manufacturing with AI and robotics",
+      "lien": "https://www.eu-startups.com/2026/11/munich-based-vetaion-raises-e5-7-million-to-automate-control-cabinet-manufacturing-with-ai-and-robotics/",
+      "date": "2026-11-19",
+      "montant_texte": "€5.7 million",
+      "montant_eur_estime": 5700000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Mistral blazes ahead with an additional €100 million to their Series D by T.Capital",
+      "lien": "https://www.eu-startups.com/2026/11/mistral-balzes-ahead-with-an-additional-e100-million-to-their-series-d-by-t-capital/",
+      "date": "2026-11-19",
+      "montant_texte": "€100 million",
+      "montant_eur_estime": 100000000,
+      "pays_ok": true
+    },
     {
       "source": "Maddyness",
       "titre": "Défense : le fondateur de Brevo lève 7,7 millions d'euros avec la holding de Jacques Veyrat pour sa startup anti-drones",
@@ -4353,78 +4402,6 @@
       "date": "2026-10-08",
       "montant_texte": "8,9 millions d’euros",
       "montant_eur_estime": 8900000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "UK-based InsurTech Konsileo raises €5.9 million to expand its team and integrate AI",
-      "lien": "https://www.eu-startups.com/2026/10/uk-based-insurtech-konsileo-raises-e5-9-million-to-expand-its-team-and-integrate-ai/",
-      "date": "2026-10-07",
-      "montant_texte": "€5.9 million",
-      "montant_eur_estime": 5900000,
-      "pays_ok": false
-    },
-    {
-      "source": "Sifted",
-      "titre": "Owkin alum raises $25m seed to build world model for human cells",
-      "lien": "https://sifted.eu/articles/rivercell-world-model-drug-discovery-seed-round/",
-      "date": "2026-10-07",
-      "montant_texte": "$25m",
-      "montant_eur_estime": 22250000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Neural chips for Parkinson’s and epilepsy draw €4.4 million for London startup MintNeuro",
-      "lien": "https://www.eu-startups.com/2026/10/neural-chips-for-parkinsons-and-epilepsy-draw-e4-4-million-for-london-startup-mintneuro/",
-      "date": "2026-10-07",
-      "montant_texte": "€4.4 million",
-      "montant_eur_estime": 4400000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "London’s Cori Clinical raises €3.8 million to accelerate clinical trials and reduce delays",
-      "lien": "https://www.eu-startups.com/2026/10/londons-cori-clinical-raises-e3-55-million-to-accelerate-clinical-trials-and-reduce-delays/",
-      "date": "2026-10-07",
-      "montant_texte": "€3.8 million",
-      "montant_eur_estime": 3800000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "French startup VoltR secures €22 million to scale lithium battery remanufacturing in Europe",
-      "lien": "https://www.eu-startups.com/2026/10/french-startup-voltr-secures-e22-million-to-scale-lithium-battery-remanufacturing-in-europe/",
-      "date": "2026-10-07",
-      "montant_texte": "€22 million",
-      "montant_eur_estime": 22000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "France’s Rivercell emerges from stealth with €22 million for AI-powered drug discovery infrastructure",
-      "lien": "https://www.eu-startups.com/2026/10/frances-rivercell-emerges-from-stealth-with-e22-million-for-ai-powered-drug-discovery-infrastructure/",
-      "date": "2026-10-07",
-      "montant_texte": "€22 million",
-      "montant_eur_estime": 22000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "France- and Italy-based Netsec raises over €8.93 million to scale its AI-native solution for cybersecurity and IT",
-      "lien": "https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/",
-      "date": "2026-10-07",
-      "montant_texte": "€8.93 million",
-      "montant_eur_estime": 8930000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "CLEAVR lève 8 millions d’euros pour automatiser l’encaissement des factures",
-      "lien": "https://www.frenchweb.fr/cleavr-leve-8-millions-deuros-pour-automatiser-lencaissement-des-factures/463793",
-      "date": "2026-10-07",
-      "montant_texte": "8 millions d’euros",
-      "montant_eur_estime": 8000000,
       "pays_ok": true
     }
   ]
