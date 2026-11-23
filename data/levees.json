@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-22T15:42:30+00:00",
+  "mis_a_jour": "2026-11-23T18:46:11+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -11,25 +11,25 @@
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 6
+      "articles_levees": 7
     },
     {
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 1
+      "articles_levees": 0
     },
     {
       "nom": "EU-Startups",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 7
+      "articles_levees": 6
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 0
+      "articles_levees": 1
     }
   ],
   "levees": [
@@ -1173,13 +1173,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/2F015E4E-236C-406B-AACD-8DC28E0F8F7F",
       "vue_le": "2026-10-08",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "Avec environ 8,9 millions d’euros, NETSEC veut changer l’économie de l’infogérance",
-          "lien": "https://www.frenchweb.fr/avec-environ-89-millions-deuros-netsec-veut-changer-leconomie-de-linfogerance/463825"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "996ACBA2-0D76-4A74-BF9B-FF07ADBE1A3C",
@@ -1295,13 +1289,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/6C4467E9-993A-4618-8C39-686B108B5121",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "VATES : pourquoi un éditeur rentable depuis dix ans lève 30 millions d’euros",
-          "lien": "https://www.frenchweb.fr/vates-pourquoi-un-editeur-rentable-depuis-dix-ans-leve-30-millions-deuros/463837"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "2A37C073-40EC-445E-8DEC-A9BF501B5E05",
@@ -2310,6 +2298,30 @@
   ],
   "presse_seule": [
     {
+      "date": "2026-11-23",
+      "titre": "Swiss startup coprod raises €5.45 million to solve “integration hell” in robotics and physical AI hardware",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/11/swiss-startup-coprod-raises-e5-45-million-to-solve-integration-hell-in-robotics-and-physical-ai-hardware/",
+      "montant_texte": "€5.45 million",
+      "montant_eur_estime": 5450000
+    },
+    {
+      "date": "2026-11-23",
+      "titre": "Paris-based HoloSolis raises over €15 million to advance €1 billion solar gigafactory in France",
+      "source": "EU-Startups",
+      "lien": "https://www.eu-startups.com/2026/11/paris-based-holosolis-raises-over-e15-million-to-advance-e1-billion-solar-gigafactory-in-france/",
+      "montant_texte": "€15 million",
+      "montant_eur_estime": 15000000
+    },
+    {
+      "date": "2026-11-23",
+      "titre": "Capital-risque : ce que les fonds se disputent, du premier chèque à la sortie",
+      "source": "FrenchWeb",
+      "lien": "https://www.frenchweb.fr/capital-risque-ce-que-les-fonds-se-disputent-du-premier-cheque-a-la-sortie/900000066?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "montant_texte": null,
+      "montant_eur_estime": null
+    },
+    {
       "date": "2026-11-19",
       "titre": "Mistral blazes ahead with an additional €100 million to their Series D by T.Capital",
       "source": "EU-Startups",
@@ -2487,6 +2499,78 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure",
+      "lien": "https://www.eu-startups.com/2026/11/uk-based-agon-raises-e63-98-million-at-e411-3-million-valuation-to-build-europes-sovereign-defence-ai-infrastructure/",
+      "date": "2026-11-23",
+      "montant_texte": "€63.98 million",
+      "montant_eur_estime": 63980000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Theseus Robotics secures €455k to put robots to work in supermarkets across Europe and US",
+      "lien": "https://www.eu-startups.com/2026/11/theseus-robotics-secures-e455k-to-put-robots-to-work-in-supermarkets-across-europe-and-us/",
+      "date": "2026-11-23",
+      "montant_texte": "€455k",
+      "montant_eur_estime": 455000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Swiss startup coprod raises €5.45 million to solve “integration hell” in robotics and physical AI hardware",
+      "lien": "https://www.eu-startups.com/2026/11/swiss-startup-coprod-raises-e5-45-million-to-solve-integration-hell-in-robotics-and-physical-ai-hardware/",
+      "date": "2026-11-23",
+      "montant_texte": "€5.45 million",
+      "montant_eur_estime": 5450000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Paris-based HoloSolis raises over €15 million to advance €1 billion solar gigafactory in France",
+      "lien": "https://www.eu-startups.com/2026/11/paris-based-holosolis-raises-over-e15-million-to-advance-e1-billion-solar-gigafactory-in-france/",
+      "date": "2026-11-23",
+      "montant_texte": "€15 million",
+      "montant_eur_estime": 15000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "London-based Acorda raises €2.15 million to help banks detect payment scams before money moves",
+      "lien": "https://www.eu-startups.com/2026/11/london-based-acorda-raises-e2-15-million-to-help-banks-detect-payment-scams-before-money-moves/",
+      "date": "2026-11-23",
+      "montant_texte": "€2.15 million",
+      "montant_eur_estime": 2150000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "German startup Playbook secures €8 million to help pharma companies deploy AI safely",
+      "lien": "https://www.eu-startups.com/2026/11/german-startup-playbook-secures-e8-million-to-help-pharma-companies-deploy-ai-safely/",
+      "date": "2026-11-23",
+      "montant_texte": "€8 million",
+      "montant_eur_estime": 8000000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "Defence startup Agon raises $70m backed by Northzone and Lakestar",
+      "lien": "https://sifted.eu/articles/agon-raise-northzone-lakestar-defence/",
+      "date": "2026-11-23",
+      "montant_texte": "$70m",
+      "montant_eur_estime": 62300000,
+      "pays_ok": false
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "Capital-risque : ce que les fonds se disputent, du premier chèque à la sortie",
+      "lien": "https://www.frenchweb.fr/capital-risque-ce-que-les-fonds-se-disputent-du-premier-cheque-a-la-sortie/900000066?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-23",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": true
+    },
     {
       "source": "EU-Startups",
       "titre": "UK startup Clarity Sensors receives €2.2 million NIHR award to make advanced medical imaging more accessible",
@@ -4312,96 +4396,6 @@
       "date": "2026-10-09",
       "montant_texte": "€4.29 million",
       "montant_eur_estime": 4290000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "VATES : pourquoi un éditeur rentable depuis dix ans lève 30 millions d’euros",
-      "lien": "https://www.frenchweb.fr/vates-pourquoi-un-editeur-rentable-depuis-dix-ans-leve-30-millions-deuros/463837",
-      "date": "2026-10-08",
-      "montant_texte": "30 millions d’euros",
-      "montant_eur_estime": 30000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Universal Quantum secures UK’s largest quantum Series A with €89 million to scale modular quantum computers",
-      "lien": "https://www.eu-startups.com/2026/10/universal-quantum-secures-uks-largest-quantum-series-a-with-e89-million-to-scale-modular-quantum-computers/",
-      "date": "2026-10-08",
-      "montant_texte": "€89 million",
-      "montant_eur_estime": 89000000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "London’s IMMIX secures €3.12 million to build FX infrastructure for stablecoin payments beyond the US dollar",
-      "lien": "https://www.eu-startups.com/2026/10/londons-immix-secures-e3-12-million-to-build-fx-infrastructure-for-stablecoin-payments-beyond-the-us-dollar/",
-      "date": "2026-10-08",
-      "montant_texte": "€3.12 million",
-      "montant_eur_estime": 3120000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Limassol-based NeoFleet Capital raises €3.5 million to finance taxi fleets across emerging markets",
-      "lien": "https://www.eu-startups.com/2026/10/limassol-based-neofleet-capital-raises-e3-5-million-to-finance-taxi-fleets-across-emerging-markets/",
-      "date": "2026-10-08",
-      "montant_texte": "€3.5 million",
-      "montant_eur_estime": 3500000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Leonardo DiCaprio (yes that Leo) announces investment in Swedish EnergyTech startup Elvy",
-      "lien": "https://www.eu-startups.com/2026/10/leonardo-dicaprio-yes-that-leo-announces-investment-in-swedish-energytech-startup-elvy/",
-      "date": "2026-10-08",
-      "montant_texte": null,
-      "montant_eur_estime": null,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "German female-founded startup Finches raises €2 million to bring AI early warnings to agricultural sourcing",
-      "lien": "https://www.eu-startups.com/2026/10/bavarias-female-founded-startup-finches-raises-e2-million-to-bring-ai-early-warnings-to-agricultural-procurement/",
-      "date": "2026-10-08",
-      "montant_texte": "€2 million",
-      "montant_eur_estime": 2000000,
-      "pays_ok": false
-    },
-    {
-      "source": "Sifted",
-      "titre": "Exclusive: Weight loss startup Yazen raises €50m led by Verdane",
-      "lien": "https://sifted.eu/articles/yazen-funding-round-verdane-series-b/",
-      "date": "2026-10-08",
-      "montant_texte": "€50m",
-      "montant_eur_estime": 50000000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Copenhagen’s TODAY raises €2.8 million to bring compliant AI agents to financial and insurance advisors",
-      "lien": "https://www.eu-startups.com/2026/10/copenhagens-today-raises-e2-8-million-to-bring-compliant-ai-agents-to-financial-and-insurance-advisors/",
-      "date": "2026-10-08",
-      "montant_texte": "€2.8 million",
-      "montant_eur_estime": 2800000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Building on Fund I’s success, PSV Tech closes Fund II at €56 million with 19 investments already made",
-      "lien": "https://www.eu-startups.com/2026/10/building-on-fund-is-success-psv-tech-announces-close-of-fund-ii-at-e56-million-with-19-investments-already-made/",
-      "date": "2026-10-08",
-      "montant_texte": "€56 million",
-      "montant_eur_estime": 56000000,
-      "pays_ok": false
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "Avec environ 8,9 millions d’euros, NETSEC veut changer l’économie de l’infogérance",
-      "lien": "https://www.frenchweb.fr/avec-environ-89-millions-deuros-netsec-veut-changer-leconomie-de-linfogerance/463825",
-      "date": "2026-10-08",
-      "montant_texte": "8,9 millions d’euros",
-      "montant_eur_estime": 8900000,
       "pays_ok": true
     }
   ]
