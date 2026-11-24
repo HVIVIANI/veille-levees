@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-23T19:30:15+00:00",
+  "mis_a_jour": "2026-11-24T18:21:14+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 20
+      "levees": 24
     },
     {
       "nom": "FrenchWeb",
@@ -33,6 +33,121 @@
     }
   ],
   "levees": [
+    {
+      "id": "27AEA0BE-2F34-4F65-A211-641FDF4D28E4",
+      "date": "2026-11-24",
+      "entreprise": "Bcomp",
+      "pays": "Switzerland",
+      "ville": "Fribourg",
+      "secteurs": [
+        "Cleantech"
+      ],
+      "montant_eur": 20000000,
+      "stade": "Debt",
+      "investisseurs": [
+        "European Investment Bank (EIB)"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/27AEA0BE-2F34-4F65-A211-641FDF4D28E4",
+      "vue_le": "2026-11-24",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Bcomp secures €20 million from EIB to scale flax fibre-based alternatives to carbon fibre, glass fibre and plastics",
+          "lien": "https://www.eu-startups.com/2026/11/bcomp-secures-e20-million-from-eib-to-scale-flax-fibre-based-alternatives-to-carbon-fibre-glass-fibre-and-plastics/"
+        }
+      ]
+    },
+    {
+      "id": "1C9A71DB-9B10-4ABC-B001-FECCBF7BC32D",
+      "date": "2026-11-23",
+      "entreprise": "coprod",
+      "pays": "Switzerland",
+      "ville": "Vaud",
+      "secteurs": [
+        "Robotics"
+      ],
+      "montant_eur": 5484962,
+      "stade": "Pre-Seed",
+      "investisseurs": [
+        "Thomas Wolf",
+        "the Dassault family",
+        "Pace Ventures",
+        "Tiny Supercomputer Investment Company",
+        "General Catalyst",
+        "Florent Perrichon",
+        "Kima Ventures",
+        "Founderful",
+        "Venturekick",
+        "Unruly Capital",
+        "Prototype Capital",
+        "SDAC"
+      ],
+      "source": "tech.eu",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/1C9A71DB-9B10-4ABC-B001-FECCBF7BC32D",
+      "vue_le": "2026-11-24",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Swiss startup coprod raises €5.45 million to solve “integration hell” in robotics and physical AI hardware",
+          "lien": "https://www.eu-startups.com/2026/11/swiss-startup-coprod-raises-e5-45-million-to-solve-integration-hell-in-robotics-and-physical-ai-hardware/"
+        }
+      ]
+    },
+    {
+      "id": "2D344605-3B1A-4E61-9334-BDC64F3F1F7A",
+      "date": "2026-11-23",
+      "entreprise": "Surelio",
+      "pays": "Switzerland",
+      "ville": "Lausanne",
+      "secteurs": [
+        "Cybersecurity"
+      ],
+      "montant_eur": 1088613,
+      "stade": "Other",
+      "investisseurs": [
+        "Geneva-based investment fund"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/2D344605-3B1A-4E61-9334-BDC64F3F1F7A",
+      "vue_le": "2026-11-24",
+      "presse": []
+    },
+    {
+      "id": "25F08AEF-A6B1-4123-9B24-C80FF59B1CDE",
+      "date": "2026-11-23",
+      "entreprise": "HoloSolis",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Energy"
+      ],
+      "montant_eur": 15000000,
+      "stade": "Series A",
+      "investisseurs": [
+        "Calès Technologies",
+        "StarCharge",
+        "Trina Solar",
+        "Crédit Agricole Group",
+        "Algebris Investments",
+        "Ecolab",
+        "Forming"
+      ],
+      "source": "eu-startups.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/25F08AEF-A6B1-4123-9B24-C80FF59B1CDE",
+      "vue_le": "2026-11-24",
+      "presse": [
+        {
+          "source": "EU-Startups",
+          "titre": "Paris-based HoloSolis raises over €15 million to advance €1 billion solar gigafactory in France",
+          "lien": "https://www.eu-startups.com/2026/11/paris-based-holosolis-raises-over-e15-million-to-advance-e1-billion-solar-gigafactory-in-france/"
+        }
+      ]
+    },
     {
       "id": "F8F7AC34-AA82-423A-B97A-D0E1C70E1168",
       "date": "2026-11-19",
@@ -1011,13 +1126,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B5C4E79B-8A8A-496B-B0EC-55679301BE39",
       "vue_le": "2026-10-10",
-      "presse": [
-        {
-          "source": "EU-Startups",
-          "titre": "Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US",
-          "lien": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "B0521467-54AF-4D2E-9FA0-C8F5D99B6091",
@@ -1037,13 +1146,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/B0521467-54AF-4D2E-9FA0-C8F5D99B6091",
       "vue_le": "2026-10-10",
-      "presse": [
-        {
-          "source": "EU-Startups",
-          "titre": "Bern-based Besso raises €4.29 million to scale its AI-powered trade regulation intelligence platform",
-          "lien": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "66FAD0F8-F8BC-48DD-84A4-35AA875CEFD0",
@@ -1068,13 +1171,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/66FAD0F8-F8BC-48DD-84A4-35AA875CEFD0",
       "vue_le": "2026-10-09",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "VERSO lève 5,4 millions d’euros : une nouvelle génération de plateformes d’études consommateurs émerge",
-          "lien": "https://www.frenchweb.fr/verso-leve-54-millions-deuros-une-nouvelle-generation-de-plateformes-detudes-consommateurs-emerge/463862"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "70F38D75-94F7-4AE5-9267-8C867B10803E",
@@ -2299,22 +2396,6 @@
   "presse_seule": [
     {
       "date": "2026-11-23",
-      "titre": "Swiss startup coprod raises €5.45 million to solve “integration hell” in robotics and physical AI hardware",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/11/swiss-startup-coprod-raises-e5-45-million-to-solve-integration-hell-in-robotics-and-physical-ai-hardware/",
-      "montant_texte": "€5.45 million",
-      "montant_eur_estime": 5450000
-    },
-    {
-      "date": "2026-11-23",
-      "titre": "Paris-based HoloSolis raises over €15 million to advance €1 billion solar gigafactory in France",
-      "source": "EU-Startups",
-      "lien": "https://www.eu-startups.com/2026/11/paris-based-holosolis-raises-over-e15-million-to-advance-e1-billion-solar-gigafactory-in-france/",
-      "montant_texte": "€15 million",
-      "montant_eur_estime": 15000000
-    },
-    {
-      "date": "2026-11-23",
       "titre": "Capital-risque : ce que les fonds se disputent, du premier chèque à la sortie",
       "source": "FrenchWeb",
       "lien": "https://www.frenchweb.fr/capital-risque-ce-que-les-fonds-se-disputent-du-premier-cheque-a-la-sortie/900000066?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
@@ -2499,6 +2580,42 @@
     }
   ],
   "articles": [
+    {
+      "source": "EU-Startups",
+      "titre": "Frankfurt-based CommerzVentures closes €50 million Fund IV, betting on early-stage FinTech and AI",
+      "lien": "https://www.eu-startups.com/2026/11/frankfurt-based-commerzventures-closes-e50-million-fund-iv-betting-on-early-stage-fintech-and-ai/",
+      "date": "2026-11-24",
+      "montant_texte": "€50 million",
+      "montant_eur_estime": 50000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Bcomp secures €20 million from EIB to scale flax fibre-based alternatives to carbon fibre, glass fibre and plastics",
+      "lien": "https://www.eu-startups.com/2026/11/bcomp-secures-e20-million-from-eib-to-scale-flax-fibre-based-alternatives-to-carbon-fibre-glass-fibre-and-plastics/",
+      "date": "2026-11-24",
+      "montant_texte": "€20 million",
+      "montant_eur_estime": 20000000,
+      "pays_ok": true
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Amsterdam’s Good Heat raises €2 million to replace industrial gas-fired steam boilers with heat batteries",
+      "lien": "https://www.eu-startups.com/2026/11/amsterdams-good-heat-raises-e2-million-to-replace-industrial-gas-fired-steam-boilers-with-heat-batteries/",
+      "date": "2026-11-24",
+      "montant_texte": "€2 million",
+      "montant_eur_estime": 2000000,
+      "pays_ok": false
+    },
+    {
+      "source": "EU-Startups",
+      "titre": "Adyen’s co-founder Pieter van der Does to retire as Co-CEO; Ingo Uytdehaage to become sole CEO",
+      "lien": "https://www.eu-startups.com/2026/11/adyens-co-founder-pieter-van-der-does-to-retire-as-co-ceo-ingo-uytdehaage-to-become-sole-ceo/",
+      "date": "2026-11-24",
+      "montant_texte": null,
+      "montant_eur_estime": null,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "UK-based Agon raises €63.98 million at €411.3 million valuation to build Europe’s sovereign defence AI infrastructure",
@@ -4343,60 +4460,6 @@
       "montant_texte": "€70m",
       "montant_eur_estime": 70000000,
       "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US",
-      "lien": "https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/",
-      "date": "2026-10-09",
-      "montant_texte": "€7.13 million",
-      "montant_eur_estime": 7130000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "VERSO lève 5,4 millions d’euros : une nouvelle génération de plateformes d’études consommateurs émerge",
-      "lien": "https://www.frenchweb.fr/verso-leve-54-millions-deuros-une-nouvelle-generation-de-plateformes-detudes-consommateurs-emerge/463862",
-      "date": "2026-10-09",
-      "montant_texte": "5,4 millions d’euros",
-      "montant_eur_estime": 5400000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Monte Carlo Capital raises €13 million for Fund II to invest in early-stage DeepTech, AI and SpaceTech",
-      "lien": "https://www.eu-startups.com/2026/10/monte-carlo-capital-raises-e13-million-for-fund-ii-to-invest-in-early-stage-deeptech-ai-and-spacetech/",
-      "date": "2026-10-09",
-      "montant_texte": "€13 million",
-      "montant_eur_estime": 13000000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "London’s Sava raises €32.08 million and partners with Ascensia to bring its glucose microsensor to Europe",
-      "lien": "https://www.eu-startups.com/2026/10/londons-sava-raises-e32-08-million-and-partners-with-ascensia-to-bring-its-glucose-microsensor-to-europe/",
-      "date": "2026-10-09",
-      "montant_texte": "€32.08 million",
-      "montant_eur_estime": 32080000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Ghent-based SpectaCell launches with €6 million to advance its cell analysis platform for immunotherapy development",
-      "lien": "https://www.eu-startups.com/2026/10/ghent-based-spectacell-launches-with-e6-million-to-advance-its-cell-analysis-platform-for-immunotherapy-development/",
-      "date": "2026-10-09",
-      "montant_texte": "€6 million",
-      "montant_eur_estime": 6000000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Bern-based Besso raises €4.29 million to scale its AI-powered trade regulation intelligence platform",
-      "lien": "https://www.eu-startups.com/2026/10/bern-based-besso-raises-e4-29-million-to-scale-its-ai-powered-trade-regulation-intelligence-platform/",
-      "date": "2026-10-09",
-      "montant_texte": "€4.29 million",
-      "montant_eur_estime": 4290000,
-      "pays_ok": true
     }
   ]
 }
