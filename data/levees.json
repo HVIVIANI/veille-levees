@@ -1,17 +1,17 @@
 {
-  "mis_a_jour": "2026-11-24T19:07:02+00:00",
+  "mis_a_jour": "2026-11-25T17:38:26+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 24
+      "levees": 25
     },
     {
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 7
+      "articles_levees": 4
     },
     {
       "nom": "Maddyness",
@@ -21,18 +21,37 @@
     },
     {
       "nom": "EU-Startups",
-      "etat": "ok",
-      "articles_lus": 10,
-      "articles_levees": 6
+      "etat": "erreur",
+      "detail": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 1
+      "articles_levees": 2
     }
   ],
   "levees": [
+    {
+      "id": "A1C9E6E8-95EE-4E36-AEFE-6D9137B8D234",
+      "date": "2026-11-25",
+      "entreprise": "Synature",
+      "pays": "Switzerland",
+      "ville": "Ecublens",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 5503577,
+      "stade": "Seed",
+      "investisseurs": [
+        "Anaïs Ventures"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/A1C9E6E8-95EE-4E36-AEFE-6D9137B8D234",
+      "vue_le": "2026-11-25",
+      "presse": []
+    },
     {
       "id": "27AEA0BE-2F34-4F65-A211-641FDF4D28E4",
       "date": "2026-11-24",
@@ -2580,6 +2599,15 @@
     }
   ],
   "articles": [
+    {
+      "source": "Sifted",
+      "titre": "PolyAI’s ex-machine learning chief raises $20m for new robotics startup",
+      "lien": "https://sifted.eu/articles/polyais-ex-machine-learning-chief-raises-20m-for-new-robotics-startup/",
+      "date": "2026-11-25",
+      "montant_texte": "$20m",
+      "montant_eur_estime": 17800000,
+      "pays_ok": false
+    },
     {
       "source": "EU-Startups",
       "titre": "Frankfurt-based CommerzVentures closes €50 million Fund IV, betting on early-stage FinTech and AI",
