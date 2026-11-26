@@ -1,11 +1,11 @@
 {
-  "mis_a_jour": "2026-11-25T18:12:33+00:00",
+  "mis_a_jour": "2026-11-26T17:20:41+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
       "nom": "Tech.eu",
       "etat": "ok",
-      "levees": 25
+      "levees": 27
     },
     {
       "nom": "FrenchWeb",
@@ -17,7 +17,7 @@
       "nom": "Maddyness",
       "etat": "ok",
       "articles_lus": 10,
-      "articles_levees": 0
+      "articles_levees": 1
     },
     {
       "nom": "EU-Startups",
@@ -28,10 +28,66 @@
       "nom": "Sifted",
       "etat": "ok",
       "articles_lus": 24,
-      "articles_levees": 2
+      "articles_levees": 4
     }
   ],
   "levees": [
+    {
+      "id": "5B8D0BDC-E1E6-4DA0-A759-E95AE5E44D2C",
+      "date": "2026-11-26",
+      "entreprise": "Nextesy",
+      "pays": "Switzerland",
+      "ville": "Zurich",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 9476082,
+      "stade": "Seed",
+      "investisseurs": [
+        "HIAG Beteiligung Holding AG",
+        "Herbert VC",
+        "Swisscom Ventures",
+        "Fifth Quarter Ventures",
+        "Look AI Ventures"
+      ],
+      "source": "startupticker.ch",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/5B8D0BDC-E1E6-4DA0-A759-E95AE5E44D2C",
+      "vue_le": "2026-11-26",
+      "presse": []
+    },
+    {
+      "id": "0D90CF32-1164-420F-942F-4CAA5CCBF4B4",
+      "date": "2026-11-26",
+      "entreprise": "Korben",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Robotics"
+      ],
+      "montant_eur": 10200000,
+      "stade": "Seed",
+      "investisseurs": [
+        "Bpifrance",
+        "Tiresias Angels"
+      ],
+      "source": "maddyness.com",
+      "confiance": "high",
+      "lien": "https://funding.tech.eu/deals/0D90CF32-1164-420F-942F-4CAA5CCBF4B4",
+      "vue_le": "2026-11-26",
+      "presse": [
+        {
+          "source": "Maddyness",
+          "titre": "Korben lève 10 millions d’euros pour devenir le «cerveau» européen de la robotique",
+          "lien": "https://www.maddyness.com/2026/11/26/korben-leve-10-millions-deuros-pour-devenir-le-cerveau-europeen-de-la-robotique/"
+        },
+        {
+          "source": "FrenchWeb",
+          "titre": "KORBEN lève 10,2 millions d’euros pour piloter des robots de service de différentes marques",
+          "lien": "https://www.frenchweb.fr/korben-leve-10-2-millions-d-euros-pour-piloter-des-robots-de-service-de-differentes-marques/900000072?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
+        }
+      ]
+    },
     {
       "id": "A1C9E6E8-95EE-4E36-AEFE-6D9137B8D234",
       "date": "2026-11-25",
@@ -2599,6 +2655,42 @@
     }
   ],
   "articles": [
+    {
+      "source": "Maddyness",
+      "titre": "Korben lève 10 millions d’euros pour devenir le «cerveau» européen de la robotique",
+      "lien": "https://www.maddyness.com/2026/11/26/korben-leve-10-millions-deuros-pour-devenir-le-cerveau-europeen-de-la-robotique/",
+      "date": "2026-11-26",
+      "montant_texte": "10 millions d’euros",
+      "montant_eur_estime": 10000000,
+      "pays_ok": true
+    },
+    {
+      "source": "FrenchWeb",
+      "titre": "KORBEN lève 10,2 millions d’euros pour piloter des robots de service de différentes marques",
+      "lien": "https://www.frenchweb.fr/korben-leve-10-2-millions-d-euros-pour-piloter-des-robots-de-service-de-differentes-marques/900000072?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
+      "date": "2026-11-26",
+      "montant_texte": "10,2 millions d’euros",
+      "montant_eur_estime": 10200000,
+      "pays_ok": true
+    },
+    {
+      "source": "Sifted",
+      "titre": "Exclusive: Starforge raises €6.6m to build nuclear fusion reactors at scale",
+      "lien": "https://sifted.eu/articles/exclusive-starforge-fundraise-nuclear-fusion-reactors/",
+      "date": "2026-11-26",
+      "montant_texte": "€6.6m",
+      "montant_eur_estime": 6600000,
+      "pays_ok": false
+    },
+    {
+      "source": "Sifted",
+      "titre": "ElevenLabs in talks to raise funding at $33bn valuation, reports say",
+      "lien": "https://sifted.eu/articles/elevenlabs-funding-round-raise-33-bn-latest/",
+      "date": "2026-11-26",
+      "montant_texte": "$33bn",
+      "montant_eur_estime": 29370000000,
+      "pays_ok": false
+    },
     {
       "source": "Sifted",
       "titre": "PolyAI’s ex-machine learning chief raises $20m for new robotics startup",
