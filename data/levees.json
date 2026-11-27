@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-26T17:54:19+00:00",
+  "mis_a_jour": "2026-11-27T16:59:36+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -11,7 +11,7 @@
       "nom": "FrenchWeb",
       "etat": "ok",
       "articles_lus": 30,
-      "articles_levees": 4
+      "articles_levees": 3
     },
     {
       "nom": "Maddyness",
@@ -106,6 +106,33 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/A1C9E6E8-95EE-4E36-AEFE-6D9137B8D234",
       "vue_le": "2026-11-25",
+      "presse": []
+    },
+    {
+      "id": "4F673829-9A35-4C23-93A4-67F252030981",
+      "date": "2026-11-24",
+      "entreprise": "VirtualBrain",
+      "pays": "France",
+      "ville": "Paris",
+      "secteurs": [
+        "Software"
+      ],
+      "montant_eur": 4000000,
+      "stade": "Other",
+      "investisseurs": [
+        "Odyssee Venture",
+        "OUVC",
+        "Sidney Lichtenstein",
+        "SIDE Capital",
+        "Altair Capital",
+        "Pragmatech Ventures",
+        "Sparking Capital",
+        "Ader Finance"
+      ],
+      "source": "startup.eu",
+      "confiance": "low",
+      "lien": "https://funding.tech.eu/deals/4F673829-9A35-4C23-93A4-67F252030981",
+      "vue_le": "2026-11-27",
       "presse": []
     },
     {
@@ -1171,11 +1198,6 @@
           "source": "FrenchWeb",
           "titre": "HYLIGHT lève 13 millions d’euros pour faire du dirigeable un outil de maintenance industrielle",
           "lien": "https://www.frenchweb.fr/hylight-leve-13-millions-deuros-pour-faire-du-dirigeable-un-outil-de-maintenance-industrielle/463913"
-        },
-        {
-          "source": "EU-Startups",
-          "titre": "HyLight raises €13 million for its autonomous airships inspecting Europe’s critical infrastructure",
-          "lien": "https://www.eu-startups.com/2026/10/hylight-raises-e13-million-for-its-autonomous-airships-inspecting-europes-critical-infrastructure/"
         }
       ]
     },
@@ -1387,13 +1409,7 @@
       "confiance": "low",
       "lien": "https://funding.tech.eu/deals/577C71C3-3FFF-4783-91B4-B08B57C1A5E8",
       "vue_le": "2026-10-07",
-      "presse": [
-        {
-          "source": "EU-Startups",
-          "titre": "Profitable French scale-up Wiremind raises €35 million after 12 years of bootstrapping",
-          "lien": "https://www.eu-startups.com/2026/10/profitable-french-scale-up-wiremind-raises-e35-million-after-12-years-of-bootstrapping/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "F52BB590-9CC7-47B1-AF0F-75E181B89B24",
@@ -4544,42 +4560,6 @@
       "montant_texte": "7 millions d’euros",
       "montant_eur_estime": 7000000,
       "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Profitable French scale-up Wiremind raises €35 million after 12 years of bootstrapping",
-      "lien": "https://www.eu-startups.com/2026/10/profitable-french-scale-up-wiremind-raises-e35-million-after-12-years-of-bootstrapping/",
-      "date": "2026-10-12",
-      "montant_texte": "€35 million",
-      "montant_eur_estime": 35000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "HyLight raises €13 million for its autonomous airships inspecting Europe’s critical infrastructure",
-      "lien": "https://www.eu-startups.com/2026/10/hylight-raises-e13-million-for-its-autonomous-airships-inspecting-europes-critical-infrastructure/",
-      "date": "2026-10-12",
-      "montant_texte": "€13 million",
-      "montant_eur_estime": 13000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Gaius Capital closes debut fund at €50 million, raises another €6 million via co-investment vehicle",
-      "lien": "https://www.eu-startups.com/2026/10/gaius-capital-closes-debut-fund-at-e50-million-raises-another-e6-million-via-co-investment-vehicle/",
-      "date": "2026-10-12",
-      "montant_texte": "€50 million",
-      "montant_eur_estime": 50000000,
-      "pays_ok": false
-    },
-    {
-      "source": "Sifted",
-      "titre": "Energy unicorn 1Komma5 raises €70m as IPO plans remain on ice",
-      "lien": "https://sifted.eu/articles/energy-unicorn-1komma5-raises-e70m-as-ipo-plans-remain-on-ice/",
-      "date": "2026-10-12",
-      "montant_texte": "€70m",
-      "montant_eur_estime": 70000000,
-      "pays_ok": false
     }
   ]
 }
