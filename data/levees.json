@@ -1,5 +1,5 @@
 {
-  "mis_a_jour": "2026-11-27T17:40:09+00:00",
+  "mis_a_jour": "2026-11-28T15:50:50+00:00",
   "attribution": "Données : Tech.eu Funding Explorer (CC BY 4.0), https://funding.tech.eu",
   "sources": [
     {
@@ -1089,13 +1089,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/4CE58F59-85A0-4526-AFBA-0A7C2B047B50",
       "vue_le": "2026-10-14",
-      "presse": [
-        {
-          "source": "Maddyness",
-          "titre": "Wavo lève 10 millions d’euros pour transformer le stock des PME en trésorerie",
-          "lien": "https://www.maddyness.com/2026/10/13/wavo-leve-10-millions-deuros-pour-transformer-le-stock-des-pme-en-tresorerie/"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "8C376DFD-9C7E-4FD0-AFC6-D5E915C21CF4",
@@ -1148,28 +1142,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/9E1FBD00-2571-4319-9DFF-FD22F8796AC9",
       "vue_le": "2026-10-14",
-      "presse": [
-        {
-          "source": "EU-Startups",
-          "titre": "Paris-based CarbonFarm raises €7 million to tackle methane emissions from rice farming",
-          "lien": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/"
-        },
-        {
-          "source": "Maddyness",
-          "titre": "CarbonFarm lève 7 millions d’euros pour réduire les émissions de méthane dans les rizières",
-          "lien": "https://www.maddyness.com/2026/10/13/carbonfarm-leve-7-millions-deuros-pour-reduire-les-emissions-de-methane-dans-les-rizieres/"
-        },
-        {
-          "source": "FrenchWeb",
-          "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
-          "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919"
-        },
-        {
-          "source": "FrenchWeb",
-          "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
-          "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "30E02002-6175-40A5-97B0-16B348157335",
@@ -1193,13 +1166,7 @@
       "confiance": "high",
       "lien": "https://funding.tech.eu/deals/30E02002-6175-40A5-97B0-16B348157335",
       "vue_le": "2026-10-13",
-      "presse": [
-        {
-          "source": "FrenchWeb",
-          "titre": "HYLIGHT lève 13 millions d’euros pour faire du dirigeable un outil de maintenance industrielle",
-          "lien": "https://www.frenchweb.fr/hylight-leve-13-millions-deuros-pour-faire-du-dirigeable-un-outil-de-maintenance-industrielle/463913"
-        }
-      ]
+      "presse": []
     },
     {
       "id": "B5C4E79B-8A8A-496B-B0EC-55679301BE39",
@@ -4461,105 +4428,6 @@
       "montant_texte": "€1 million",
       "montant_eur_estime": 1000000,
       "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Whiterock deploys €82 million to support SME growth across Northern Ireland",
-      "lien": "https://www.eu-startups.com/2026/10/whiterock-deploys-e82-million-to-support-sme-growth-across-northern-ireland/",
-      "date": "2026-10-13",
-      "montant_texte": "€82 million",
-      "montant_eur_estime": 82000000,
-      "pays_ok": false
-    },
-    {
-      "source": "Maddyness",
-      "titre": "Wavo lève 10 millions d’euros pour transformer le stock des PME en trésorerie",
-      "lien": "https://www.maddyness.com/2026/10/13/wavo-leve-10-millions-deuros-pour-transformer-le-stock-des-pme-en-tresorerie/",
-      "date": "2026-10-13",
-      "montant_texte": "10 millions d’euros",
-      "montant_eur_estime": 10000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Vienna-based reebuild raises €3 million to build the AI operating system for construction and real estate",
-      "lien": "https://www.eu-startups.com/2026/10/vienna-based-reebuild-raises-e3-million-to-build-the-ai-operating-system-for-construction-and-real-estate/",
-      "date": "2026-10-13",
-      "montant_texte": "€3 million",
-      "montant_eur_estime": 3000000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Undecimal Bio lands €16 million to develop targeted RNA medicines beyond the liver",
-      "lien": "https://www.eu-startups.com/2026/10/undecimal-bio-lands-e16-million-to-develop-targeted-rna-medicines-beyond-the-liver/",
-      "date": "2026-10-13",
-      "montant_texte": "€16 million",
-      "montant_eur_estime": 16000000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "Paris-based CarbonFarm raises €7 million to tackle methane emissions from rice farming",
-      "lien": "https://www.eu-startups.com/2026/10/paris-based-carbonfarm-raises-e7-million-to-tackle-methane-emissions-from-rice-farming/",
-      "date": "2026-10-13",
-      "montant_texte": "€7 million",
-      "montant_eur_estime": 7000000,
-      "pays_ok": true
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "One of Spain’s largest recent FinTech deals sees ID Finance secure €545 million to scale Plazo",
-      "lien": "https://www.eu-startups.com/2026/10/one-of-spains-largest-recent-fintech-deals-sees-id-finance-secure-e545-million-to-scale-plazo/",
-      "date": "2026-10-13",
-      "montant_texte": "€545 million",
-      "montant_eur_estime": 545000000,
-      "pays_ok": false
-    },
-    {
-      "source": "EU-Startups",
-      "titre": "London’s Obsero raises €1 million to help brands improve visibility in AI-powered search",
-      "lien": "https://www.eu-startups.com/2026/10/londons-obsero-raises-e1-million-to-help-brands-improve-visibility-in-ai-powered-search/",
-      "date": "2026-10-13",
-      "montant_texte": "€1 million",
-      "montant_eur_estime": 1000000,
-      "pays_ok": false
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "HYLIGHT lève 13 millions d’euros pour faire du dirigeable un outil de maintenance industrielle",
-      "lien": "https://www.frenchweb.fr/hylight-leve-13-millions-deuros-pour-faire-du-dirigeable-un-outil-de-maintenance-industrielle/463913",
-      "date": "2026-10-13",
-      "montant_texte": "13 millions d’euros",
-      "montant_eur_estime": 13000000,
-      "pays_ok": true
-    },
-    {
-      "source": "Maddyness",
-      "titre": "CarbonFarm lève 7 millions d’euros pour réduire les émissions de méthane dans les rizières",
-      "lien": "https://www.maddyness.com/2026/10/13/carbonfarm-leve-7-millions-deuros-pour-reduire-les-emissions-de-methane-dans-les-rizieres/",
-      "date": "2026-10-13",
-      "montant_texte": "7 millions d’euros",
-      "montant_eur_estime": 7000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
-      "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919",
-      "date": "2026-10-13",
-      "montant_texte": "7 millions d’euros",
-      "montant_eur_estime": 7000000,
-      "pays_ok": true
-    },
-    {
-      "source": "FrenchWeb",
-      "titre": "CARBONFARM lève 7 millions d’euros pour rendre la réduction du méthane des rizières mesurable et finançable",
-      "lien": "https://www.frenchweb.fr/carbonfarm-leve-7-millions-deuros-pour-rendre-la-reduction-du-methane-des-rizieres-mesurable-et-financable/463919?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article",
-      "date": "2026-10-13",
-      "montant_texte": "7 millions d’euros",
-      "montant_eur_estime": 7000000,
-      "pays_ok": true
     }
   ]
 }
